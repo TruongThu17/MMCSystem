@@ -22,6 +22,23 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Data.Models.Class", b =>
+                {
+                    b.Property<int>("ClassId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassId"), 1L, 1);
+
+                    b.Property<string>("ClassName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ClassId");
+
+                    b.ToTable("Classes");
+                });
+
             modelBuilder.Entity("Data.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -36,6 +53,9 @@ namespace Data.Migrations
 
                     b.Property<DateTime?>("BirthDay")
                         .HasColumnType("datetime2");
+
+                    b.Property<int?>("ClassId")
+                        .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -65,6 +85,12 @@ namespace Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("ParentFullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ParentPhone")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
@@ -92,6 +118,8 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ClassId");
+
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
@@ -107,15 +135,15 @@ namespace Data.Migrations
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5ca07b35-3f46-48ee-ba0d-ce0523d8e984",
+                            ConcurrencyStamp = "5e0236de-9c98-4685-8cb4-0e5ee55fa10e",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKNYvGGxuQXJbJs5WKs4aSe12TDl8RfQzVR30it6VgZY/OXctEcGKESCpq6/nZerAA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAsLtt7KCOzYH1OiyI89B/Onb4YeBNbcZUOHqDnEwRkgOR9xVFWeeJmTPVbNdnn7vw==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "4b9bcc18-95bd-4420-8ddd-55c66923f3cf",
+                            SecurityStamp = "5fa24d23-5971-42d5-818d-111fae3cf3b8",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "Admin"
@@ -153,21 +181,21 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "4af56bff-4d95-4edd-9504-3e1ce3dcf569",
+                            ConcurrencyStamp = "431a6a31-2c21-4c1f-a10f-78f715b71a71",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "b851ccb7-e9c5-4f53-b157-a193b4fa2a56",
+                            ConcurrencyStamp = "ad81fe2c-0fde-41fe-999c-96a47b4ebd35",
                             Name = "Manage",
                             NormalizedName = "MANAGE"
                         },
                         new
                         {
                             Id = new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
-                            ConcurrencyStamp = "785f5f85-f165-4e43-b6ab-6e61e9bf483a",
+                            ConcurrencyStamp = "4471443e-ea9f-4402-8178-e30a70ae61f1",
                             Name = "Cashier",
                             NormalizedName = "CASHIER"
                         });
@@ -276,6 +304,16 @@ namespace Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Data.Models.User", b =>
+                {
+                    b.HasOne("Data.Models.Class", "Class")
+                        .WithMany("Users")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("Class");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
@@ -325,6 +363,11 @@ namespace Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Data.Models.Class", b =>
+                {
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }
