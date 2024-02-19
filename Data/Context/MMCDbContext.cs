@@ -35,6 +35,8 @@ namespace Data.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new UserConfiguration());
+            builder.ApplyConfiguration(new ClassConfiguration());
+            builder.ApplyConfiguration(new HealthInformationConfiguration());
             builder.Entity<IdentityRole<Guid>>().HasData(
                new IdentityRole<Guid>() { Id = Guid.Parse("30A990C6-33C7-4884-9DCB-718CE356EB0D"), Name = "Admin", NormalizedName = "ADMIN" },
                new IdentityRole<Guid>() { Id = Guid.Parse("B8FD818F-63F1-49EE-BEC5-F7B66CAFBFCA"), Name = "Manage", NormalizedName = "MANAGE" },
@@ -62,6 +64,7 @@ namespace Data.Context
         #region
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Class> Classes { get; set; }
+        public virtual DbSet<HealthInformation> HealthInformationes { get; set; }
         #endregion
     }
 }
