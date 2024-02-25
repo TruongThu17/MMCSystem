@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    internal class Meals
+    public class Meals
     {
+        public int MealID { get; set; }
+        public DateTime Date { get; set; }
+        public int MealTypeId { get; set; }
+        public virtual MealType? MealType { get; set; }
+        public virtual ICollection<MealItems>? MealItems { get; set; }
     }
 }

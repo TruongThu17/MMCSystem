@@ -18,6 +18,6 @@ namespace Data.Models
         public string? ParentPhone { get; set; }
         public int? ClassId { get; set; }
         public virtual Class? Class { get; set; }
-        public virtual HealthInformation? HealthInformation { get; set; }
+        //public virtual HealthInformation? HealthInformation { get; set; }
     }
 }

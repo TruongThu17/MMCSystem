@@ -12,5 +12,7 @@ namespace Data.Models
         public int DishID { get; set; }
         public int? Quantity { get; set; }
         public string? Unit { get; set; }
+        public virtual Menu? Menu { get; set; }
+        public virtual Meals? Meals { get; set; }
     }
 }

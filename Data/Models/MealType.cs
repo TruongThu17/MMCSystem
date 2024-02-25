@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    internal class MealType
+    // lưu trữ loại bữa ăn như: ăn sáng, ăn trưa , ăn tối
+    public class MealType
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public virtual ICollection<Meals>? Meals { get; set; }
     }
 }

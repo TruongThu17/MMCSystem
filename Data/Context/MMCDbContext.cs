@@ -36,7 +36,12 @@ namespace Data.Context
         {
             builder.ApplyConfiguration(new UserConfiguration());
             builder.ApplyConfiguration(new ClassConfiguration());
-            builder.ApplyConfiguration(new HealthInformationConfiguration());
+            builder.ApplyConfiguration(new CategoryConfiguration());
+            builder.ApplyConfiguration(new MenuConfiguration());
+            builder.ApplyConfiguration(new MealTypeConfiguration());
+            builder.ApplyConfiguration(new MealsConfiguration());
+            builder.ApplyConfiguration(new MealItemsConfiguration());
+
             builder.Entity<IdentityRole<Guid>>().HasData(
                new IdentityRole<Guid>() { Id = Guid.Parse("30A990C6-33C7-4884-9DCB-718CE356EB0D"), Name = "Admin", NormalizedName = "ADMIN" },
                new IdentityRole<Guid>() { Id = Guid.Parse("B8FD818F-63F1-49EE-BEC5-F7B66CAFBFCA"), Name = "Manage", NormalizedName = "MANAGE" },
@@ -64,7 +69,11 @@ namespace Data.Context
         #region
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Class> Classes { get; set; }
-        public virtual DbSet<HealthInformation> HealthInformationes { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Menu> Menus { get; set; }
+        public virtual DbSet<MealType> MealTypes { get; set; }
+        public virtual DbSet<Meals> Meals { get; set; }
+        public virtual DbSet<MealItems> MealItems { get; set; }
         #endregion
     }
 }
