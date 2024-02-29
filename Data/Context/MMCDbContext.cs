@@ -41,6 +41,8 @@ namespace Data.Context
             builder.ApplyConfiguration(new MealTypeConfiguration());
             builder.ApplyConfiguration(new MealsConfiguration());
             builder.ApplyConfiguration(new MealItemsConfiguration());
+            builder.ApplyConfiguration(new AboutConfiguration());
+            builder.ApplyConfiguration(new BlogConfiguration());
 
             builder.Entity<IdentityRole<Guid>>().HasData(
                new IdentityRole<Guid>() { Id = Guid.Parse("30A990C6-33C7-4884-9DCB-718CE356EB0D"), Name = "Admin", NormalizedName = "ADMIN" },
@@ -74,6 +76,8 @@ namespace Data.Context
         public virtual DbSet<MealType> MealTypes { get; set; }
         public virtual DbSet<Meals> Meals { get; set; }
         public virtual DbSet<MealItems> MealItems { get; set; }
+        public virtual DbSet<About> Abouts { get; set; }
+        public virtual DbSet<Blog> Blogs { get; set; }
         #endregion
     }
 }

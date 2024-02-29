@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kentI9sKsrwdZvVIQfh0t7s9FxrO+o7Pl8NkG9cjyVw=",
+  "Hash": "5/ioLeaDA3Fu7XqTN39GPzTBNts7Qp4SaZIbvdYqKck=",
   "Source": "MMCClient",
   "BasePath": "_content/MMCClient",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\about.jpg"
     },
     {
-      "Identity": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\assets\\img\\bg.jpg",
+      "Identity": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\assets\\img\\background.jpg",
       "SourceId": "MMCClient",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\",
       "BasePath": "_content/MMCClient",
-      "RelativePath": "assets/img/bg.jpg",
+      "RelativePath": "assets/img/background.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\bg.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\background.jpg"
     },
     {
       "Identity": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\assets\\img\\intro.jpg",

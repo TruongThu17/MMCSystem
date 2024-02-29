@@ -1,42 +1,45 @@
-﻿@{
+﻿@model Home;
+@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    #limitedDescription {
+        max-width: 400px; /* Đặt giới hạn chiều rộng theo nhu cầu của bạn */
+        max-height: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+    }
+</style>
     <section class="page-section clearfix">
         <div class="container">
             <div class="intro">
-                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@Model.About.Img" alt="..." />
+
                 <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                     <h2 class="section-heading mb-4">
                         <span class="section-heading-upper">Quản lý xuất ăn bán trú</span>
                         <span class="section-heading-lower">MMC system</span>
                     </h2>
-                <p class="mb-3">Chào mừng bạn đến với trang web suất ăn bán trú dành cho trẻ em tiểu học - nơi chúng tôi chăm sóc và cung cấp bữa ăn chất lượng hàng ngày cho các em nhỏ. </p>
-                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Về chúng tôi!</a></div>
+                <div ></div>
+
+                <p class="mb-3" id="limitedDescription">@Model.About.Description</p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl btn-color" asp-controller="Home" asp-action="About">Về chúng tôi!</a></div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="page-section cta">
+    <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <div class="cta-inner bg-faded text-center rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">MMC mang lại những lợi ích</span>
-                            <span class="section-heading-lower">Dành cho bạn</span>
-                        </h2>
-                    <p class="mb-0">
-                        Hệ thống quản lý suất ăn bán trú cho trẻ em tiểu học - MMC system, không chỉ là một công cụ hiện đại mà còn mang lại nhiều lợi ích đáng kể cho người dùng. Tích hợp các tiện ích và chức năng tiên tiến, MMC system không chỉ giúp tối ưu hóa quy trình quản lý suất ăn mà còn tạo ra một môi trường an toàn và thuận tiện cho cả phụ huynh, giáo viên và nhân viên quản lý.
-
-                        Một trong những lợi ích quan trọng mà MMC system mang lại là sự minh bạch trong thông tin về chế độ dinh dưỡng. Phụ huynh có thể dễ dàng truy cập và theo dõi thực đơn hàng ngày, biết rõ về các thành phần chính và giá trị dinh dưỡng của từng bữa ăn. Điều này giúp tăng cường niềm tin và yên tâm của phụ huynh đối với chất lượng thực phẩm mà con em của họ đang tiêu thụ.
-
-                        MMC system cũng giúp giảm thiểu những sai sót trong quá trình đặt hàng và phục vụ. Tính tự động hóa của hệ thống giúp quản lý đơn đặt hàng một cách chính xác, từ việc đặt suất ăn đến theo dõi lịch trình phục vụ. Điều này không chỉ tiết kiệm thời gian mà còn giảm nguy cơ xuất hiện lỗi trong quá trình cung cấp thực phẩm cho trẻ em.
-
-                        Hơn nữa, MMC system còn tạo ra kênh giao tiếp hiệu quả giữa trường và phụ huynh. Thông tin về thực đơn, các chương trình dinh dưỡng và sự kiện liên quan được cập nhật đều đặn, giúp phụ huynh dễ dàng theo dõi và tham gia vào quá trình chăm sóc dinh dưỡng của trẻ em.
-
-                        Tóm lại, MMC system không chỉ là một công cụ quản lý thông tin mà còn là một đối tác đáng tin cậy, đồng hành cùng cộng đồng giáo dục và phụ huynh để xây dựng một môi trường ăn uống tích cực và hỗ trợ sự phát triển toàn diện của trẻ em tiểu học.
-                    </p>
+                <h1 class="text-center fw-bold mmc-color">Danh sách tin tức</h1>
+                    <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 my-2 card">
+                        <div>abc</div>
                     </div>
+                    </div>
+
                 </div>
             </div>
         </div>

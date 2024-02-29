@@ -1,6 +1,7 @@
 ﻿using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
 using MMCClient.Models;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace MMCClient.Controllers
@@ -10,17 +11,44 @@ namespace MMCClient.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly FirebaseStorage _firebaseStorage;
         private readonly IWebHostEnvironment _env;
+
+        private readonly HttpClient client;
         public HomeController(FirebaseStorage firebaseStorage, ILogger<HomeController> logger, IWebHostEnvironment env)
         {
             _firebaseStorage = firebaseStorage;
             _logger = logger;
             _env = env;
-        }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
+            client = new() { BaseAddress = new Uri("http://localhost:5000") };
+        }
+        public async Task<IActionResult> IndexAsync()
+        {
+            Home home = new Home();
+            var res = await client.GetAsync($"api/about");
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            Data.Models.About About = JsonConvert.DeserializeObject<Data.Models.About>(content);
+            home.About = About;
+            return View(home);
+        }
+        public async Task<IActionResult> AboutAsync()
+        {
+            var res = await client.GetAsync($"api/about");
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            Data.Models.About About = JsonConvert.DeserializeObject<Data.Models.About>(content);
+            return View(About);
+        }
         public IActionResult Privacy()
         {
             return View();

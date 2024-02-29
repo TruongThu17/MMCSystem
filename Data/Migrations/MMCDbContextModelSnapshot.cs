@@ -22,6 +22,52 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Data.Models.About", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("About", (string)null);
+                });
+
+            modelBuilder.Entity("Data.Models.Blog", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tilte")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Blog", (string)null);
+                });
+
             modelBuilder.Entity("Data.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -239,15 +285,15 @@ namespace Data.Migrations
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "be7f8913-118d-4e13-ac44-6a5ea9271a19",
+                            ConcurrencyStamp = "76f8a5dc-1ed6-4c0c-8915-4705814b4e2c",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKmsN1P3kANie6xMpgKrBmHPqiz3YEIeWbobdmVoygamJ5jgBcEDVqVuG090OMd24Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEH+y9Utzv3Myz2OKyupJelvP23eDxUE4UekDGhdgJ/+feem8V6WqS6zicMuhPjFPBg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "2faf8547-0a2c-459e-89c2-7001b7ca1ca0",
+                            SecurityStamp = "cb660d3c-3abe-453f-afb0-1baf525fdef7",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "Admin"
@@ -285,21 +331,21 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "d2c9c204-7c48-46a6-99e3-3718444f47ea",
+                            ConcurrencyStamp = "4df7dfe1-ae6e-4676-8f6e-d6c7ad509b94",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "af0a3676-7041-4eef-b654-459b521f0549",
+                            ConcurrencyStamp = "4152cf9c-21ba-4b6c-92ab-b2db6494837c",
                             Name = "Manage",
                             NormalizedName = "MANAGE"
                         },
                         new
                         {
                             Id = new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
-                            ConcurrencyStamp = "352bec23-e3ff-466c-a8ae-915ae933c0e6",
+                            ConcurrencyStamp = "ac8d7758-cd05-41ee-af2c-066f043cb3c6",
                             Name = "Cashier",
                             NormalizedName = "CASHIER"
                         });
