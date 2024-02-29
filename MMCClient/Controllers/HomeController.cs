@@ -34,6 +34,17 @@ namespace MMCClient.Controllers
 
             Data.Models.About About = JsonConvert.DeserializeObject<Data.Models.About>(content);
             home.About = About;
+
+            var resblog = await client.GetAsync($"api/blog");
+            var contentblog = await resblog.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            List<Data.Models.Blog> blogs = JsonConvert.DeserializeObject<List<Data.Models.Blog>>(contentblog);
+            home.Blogs = blogs;
             return View(home);
         }
         public async Task<IActionResult> AboutAsync()
@@ -47,6 +58,9 @@ namespace MMCClient.Controllers
             }
 
             Data.Models.About About = JsonConvert.DeserializeObject<Data.Models.About>(content);
+
+
+
             return View(About);
         }
         public IActionResult Privacy()

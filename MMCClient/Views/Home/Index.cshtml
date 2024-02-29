@@ -1,6 +1,7 @@
 ﻿@model Home;
 @{
     ViewData["Title"] = "Home Page";
+    int count = 0;
 }
 <style>
     #limitedDescription {
@@ -10,6 +11,7 @@
         text-overflow: ellipsis;
         /* white-space: nowrap; */
     }
+
 </style>
     <section class="page-section clearfix">
         <div class="container">
@@ -30,17 +32,31 @@
         </div>
     </section>
     <section class="page-section">
-        <div class="container">
+            <h1 class=" mmc-color text-center site-heading-upper">Danh sách tin tức</h1>
             <div class="row">
-                <div class="col-xl-9 mx-auto">
-                <h1 class="text-center fw-bold mmc-color">Danh sách tin tức</h1>
-                    <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 my-2 card">
-                        <div>abc</div>
-                    </div>
-                    </div>
+                    @foreach (Data.Models.Blog item in Model.Blogs)
+                    {
+                        if (count < 4)
+                        {
+                            <div class="col-lg-3 col-md-6 col-sm-12 m-2 rounded border shadow p-0 card-item">
+                                <img class="img-fluid rounded" src="@item.Img" alt="..." style="width: 100%;" />
+                                <div class="card-body p-2">
+                                    <div class="mmc-color fs-4 my-2">@item.Tilte</div>
+                            <div class="text-muted small my-2">@item.Date.ToString("dd/MM/yyyy HH:mm")</div>
+                            <div class="truncate-text my-2">@item.Description</div>
+                            <a class="btn button-login my-2" style="color: #ef7714;" href="store.html">Đọc thêm</a>
+                                </div>
+                            </div>
 
-                </div>
+                            count++;
+                        }
+                        else
+                        {
+                            break; // Dừng vòng lặp khi đã hiển thị 4 bài
+                        }
+                    }
             </div>
-        </div>
-    </section>
+    <div class="d-flex justify-content-center my-3">
+        <a class="btn btn-login" style="color: white; background-color: #ef7714;" asp-controller="Blog" asp-action="Index">Xem tất cả</a>
+    </div>
+</section>

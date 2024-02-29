@@ -12646,3 +12646,21 @@ p {
 .address strong {
     font-size: 1.2rem;
 }
+.truncate-text {
+    max-height: 3.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .card-item:hover {
+        transform: scale(1.05);
+    }
+.read-more-button {
+    display: block;
+    margin-top: 10px;
+}
