@@ -29,24 +29,24 @@
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-uppercase fw-bold d-lg-none" asp-controller="Home" asp-action="Index" >MMC System</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="px-lg-4"><a class="nav-link " asp-controller="Home" asp-action="Index">Trang chủ</a></li>
                     <li class=" px-lg-4"><a class="nav-link " asp-controller="Home" asp-action="About">Về chúng tôi</a></li>
                     <li class=" px-lg-4"><a class="nav-link " asp-controller="Blog" asp-action="Index">Tin tức</a></li>
-
-                    
                 </ul>
-                <div class="px-lg-4"><a class="btn button-login" style="color: #ef7714;" href="store.html">Đăng Ký</a></div>
-                <div class="px-lg-4"><a class="btn button-login" style="color: #ef7714;" href="store.html">Đăng Nhập</a></div>
+                <div class="px-lg-4"><a class="btn button-login" style="color: #ef7714;" asp-controller="Authen" asp-action="Registrator">Đăng Ký</a></div>
+                <div class="px-lg-4"><a class="btn button-login" style="color: #ef7714;" asp-controller="Authen" asp-action="Index">Đăng Nhập</a></div>
             </div>
            
 
         </div>
     </nav>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="">
             @RenderBody()
         </main>
     </div>

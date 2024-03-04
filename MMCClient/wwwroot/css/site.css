@@ -12664,3 +12664,7 @@ p {
     display: block;
     margin-top: 10px;
 }
+
+.custom-card {
+    max-width: 300px; /* Điều chỉnh giá trị tối đa của chiều rộng theo nhu cầu của bạn */
+}

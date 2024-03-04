@@ -1,0 +1,21 @@
+﻿.mmc-color {
+    color: #ef7714;
+}
+.button-mmc {
+    background-color: #ef7714;
+    border: 2px solid #ef7714; /* Màu cam cho đường viền */
+    color: #fff; /* Màu chữ */
+    border-radius: 30px;
+    padding: 10px 20px; /* Kích thước đệm của nút */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định cho các liên kết */
+    display: block; /* Hiển thị là phần tử block để nút chiếm toàn bộ chiều ngang của thẻ div */
+    width: 340px; /* Chiều dài 100px */
+    text-align: center; /* Canh giữa văn bản trong nút */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm chữ */
+    margin: 0 auto; /* Canh lề tự động để giữa nút trong trang */
+}
+
+    .button-mmc:hover {
+        background-color: #ff8c00;
+    }

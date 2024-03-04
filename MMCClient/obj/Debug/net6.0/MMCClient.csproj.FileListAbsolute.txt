@@ -97,3 +97,4 @@ D:\PRN231\Project\MMCSytem\MMCClient\bin\Debug\net6.0\Repository.dll
 D:\PRN231\Project\MMCSytem\MMCClient\bin\Debug\net6.0\Data.pdb
 D:\PRN231\Project\MMCSytem\MMCClient\bin\Debug\net6.0\Repository.pdb
 D:\PRN231\Project\MMCSytem\MMCClient\bin\Debug\net6.0\DataAccess.pdb
+D:\PRN231\Project\MMCSytem\MMCClient\bin\Debug\net6.0\PagedList.dll

@@ -38,7 +38,7 @@ namespace MMCClient.Controllers
             var resblog = await client.GetAsync($"api/blog");
             var contentblog = await resblog.Content.ReadAsStringAsync();
 
-            if (!res.IsSuccessStatusCode)
+            if (!resblog.IsSuccessStatusCode)
             {
                 return BadRequest();
             }
