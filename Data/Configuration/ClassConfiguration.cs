@@ -16,6 +16,7 @@ namespace Data.Configuration
             builder.ToTable(nameof(Class));
             builder.HasKey(x => x.ClassId);
             builder.Property(x => x.ClassName).IsRequired();
+            builder.HasOne(x => x.Education).WithMany(x => x.Classes).HasForeignKey(x => x.EducationId).OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

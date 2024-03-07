@@ -29,6 +29,7 @@ builder.Services.AddSingleton<FirebaseStorage>(
         }
     )
 );
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,6 +39,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
+app.UseSession();
 
 app.UseRouting();
 

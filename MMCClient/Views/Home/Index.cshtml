@@ -16,7 +16,7 @@
     <section class="page-section clearfix">
         <div class="container">
             <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@Model.About.Img" alt="..." />
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@Model.About?.Img" alt="..." />
 
                 <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                     <h2 class="section-heading mb-4">
@@ -25,7 +25,7 @@
                     </h2>
                 <div ></div>
 
-                <p class="mb-3" id="limitedDescription">@Model.About.Description</p>
+                <p class="mb-3" id="limitedDescription">@Model.About?.Description</p>
                 <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl btn-color" asp-controller="Home" asp-action="About">Về chúng tôi!</a></div>
                 </div>
             </div>
@@ -34,6 +34,7 @@
     <section class="page-section">
             <h1 class=" mmc-color text-center site-heading-upper">Danh sách tin tức</h1>
             <div class="row">
+                
                     @foreach (Data.Models.Blog item in Model.Blogs)
                     {
                         if (count < 4)

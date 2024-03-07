@@ -10,5 +10,6 @@ namespace Data.ViewModel
     {
         public string username { get; set; }
         public string password { get; set; }
-    }
+		public string? message { get; set; }
+	}
 }

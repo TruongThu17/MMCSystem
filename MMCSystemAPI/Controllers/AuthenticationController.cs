@@ -47,12 +47,11 @@ namespace MMCSystemAPI.Controllers
                 }
 
                 var Bear = GetToken(authClaims);
+                ResponseModel respone = new ResponseModel();
+                respone.Bear = new JwtSecurityTokenHandler().WriteToken(Bear);
+                respone.Expiration = Bear.ValidTo;
 
-                return Ok(new
-                {
-                    Bear = new JwtSecurityTokenHandler().WriteToken(Bear),
-                    expiration = Bear.ValidTo
-                });
+				return Ok(respone);
             }
 
             return Unauthorized();
