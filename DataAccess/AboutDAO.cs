@@ -28,5 +28,38 @@ namespace DataAccess
             }
             return c;
         }
+        public static void UpdateAbout(About a)
+        {
+
+            try
+            {
+                using (var context = new MMCDbContext())
+                {
+                    context.Entry<About>(a).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    context.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+            }
+        }
+        public static void CreateAbout(About a)
+        {
+            try
+            {
+                using (var context = new MMCDbContext())
+                {
+                    context.Abouts.Add(a);
+                    context.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }

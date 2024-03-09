@@ -13,6 +13,9 @@ namespace MMCSystemAPI.Config
                 config.CreateMap<User, StudentProfileDTO>();
                 config.CreateMap<StudentProfileDTO, User>();
 
+
+                config.CreateMap<About, AboutDTO>();
+                config.CreateMap<AboutDTO, About>();
             });
 
             return mapperConfig.CreateMapper();

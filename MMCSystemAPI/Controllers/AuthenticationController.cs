@@ -47,6 +47,7 @@ namespace MMCSystemAPI.Controllers
                 }
 
                 var Bear = GetToken(authClaims);
+
                 ResponseModel respone = new ResponseModel();
                 respone.Bear = new JwtSecurityTokenHandler().WriteToken(Bear);
                 respone.Expiration = Bear.ValidTo;
@@ -55,6 +56,23 @@ namespace MMCSystemAPI.Controllers
             }
 
             return Unauthorized();
+        }
+        private JwtSecurityToken GetToken(List<Claim> authClaims)
+        {
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
+
+            // Đặt múi giờ cho thời gian hết hạn là UTC
+            var expirationTimeUtc = DateTime.UtcNow.AddHours(3000);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JWT:ValidIssuer"],
+                audience: _configuration["JWT:ValidAudience"],
+                expires: DateTime.SpecifyKind(expirationTimeUtc, DateTimeKind.Utc),
+                claims: authClaims,
+                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
+            );
+
+            return token;
         }
 
         [HttpPost]
@@ -112,19 +130,7 @@ namespace MMCSystemAPI.Controllers
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
-        private JwtSecurityToken GetToken(List<Claim> authClaims)
-        {
-            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
 
-            var token = new JwtSecurityToken(
-                issuer: _configuration["JWT:ValidIssuer"],
-                audience: _configuration["JWT:ValidAudience"],
-                expires: DateTime.Now.AddHours(3),
-                claims: authClaims,
-                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
-                );
 
-            return token;
-        }
     }
 }

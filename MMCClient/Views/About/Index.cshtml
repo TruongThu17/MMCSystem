@@ -1,0 +1,32 @@
+﻿@model Data.Models.About;
+@{
+    Layout = "_LayoutSuperAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Giới thiệu về MMC</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                        <div>
+                            <label for="description">Giới thiệu về MMC:</label>
+                            <p class="mb-3">@Model.Description</p>
+                        </div>
+                        <div>
+                            <img class="intro-img img-fluid mb-3 rounded" src="@Model.Img" alt="..."  />
+
+                        </div>
+                        <div>
+                            <a class="btn btn-primary btn-xl btn-color" asp-controller="About" asp-action="Edit">Chỉnh sửa</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

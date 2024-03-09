@@ -79,7 +79,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 1,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4491),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(329),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 1"
@@ -87,7 +87,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 2,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4501),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(340),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 2"
@@ -95,7 +95,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 3,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4503),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(342),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 3"
@@ -103,7 +103,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 4,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4503),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(343),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 4"
@@ -111,7 +111,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 5,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4504),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(344),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 5"
@@ -119,7 +119,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 6,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4505),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(346),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 6"
@@ -127,7 +127,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 7,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4506),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(347),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 7"
@@ -135,7 +135,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 8,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4507),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(348),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 8"
@@ -143,7 +143,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 9,
-                            Date = new DateTime(2024, 3, 8, 1, 6, 5, 365, DateTimeKind.Local).AddTicks(4507),
+                            Date = new DateTime(2024, 3, 9, 20, 42, 18, 439, DateTimeKind.Local).AddTicks(349),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 9"
@@ -389,32 +389,32 @@ namespace Data.Migrations
                         {
                             Id = new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ca9f0e43-c614-40fa-bab9-63e992975684",
+                            ConcurrencyStamp = "82445c97-9203-4909-b268-d89f958db0eb",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFT91GlW9FRde8uHBWTEOYmIsVkLmjD5pmh1bbRZXL/Vj3nr7hOVU1xvM6Y1jAd0MQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEH7S0vDijnGkp5CxbcC2ogrIDOxdyMuLyen+CV67674aTnN3GLAbraIyye8AOecIaA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "1099ed38-95fd-4e9d-aa3b-87c75e2b5260",
+                            SecurityStamp = "3a9272d7-8351-40ff-90e0-77c5c07f8a41",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "SuperAdmin"
                         },
                         new
                         {
-                            Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
+                            Id = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c4f8ac36-1561-45a0-a7a9-5a49bd341add",
+                            ConcurrencyStamp = "d753e68c-da59-4ac6-9c3b-88f2c5655670",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAENPoOIha5TdJj5C799nZaLPnTV4o+yZr0MGKxJnrbg9cR4Oelb1xiBXGJSRcWDrnhw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAyXFxWqD9Hc1jfkXYI5dsFQJIRRxCHzxqos0jkV5CXqvyuleZDr/U+drIQ1FmIwBA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "3c4ce554-ba09-42e5-90e1-d8c209bde5ea",
+                            SecurityStamp = "f7800bd1-29f6-49e5-bbe5-53c453cbc171",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "Admin"
@@ -452,28 +452,28 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("6335deda-9f1c-43d4-908f-58073ff07896"),
-                            ConcurrencyStamp = "f327318d-3452-4e9e-ae53-90bdbe0f04e1",
+                            ConcurrencyStamp = "7b04661a-7056-41dd-9682-747c58f8fc18",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "28685835-19aa-4d7c-ad2f-c3b8dc7e9246",
+                            ConcurrencyStamp = "8e98f4cb-74a8-4e07-bb9b-51b8a7fea726",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "a6077daf-e79d-4fc2-a3cc-f8ffab377689",
+                            ConcurrencyStamp = "4753b31c-2825-4bdf-a5ad-91668b945b02",
                             Name = "Staff",
                             NormalizedName = "STAFF"
                         },
                         new
                         {
                             Id = new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
-                            ConcurrencyStamp = "d2ea9149-4f82-4dce-a5e8-fe482e0433d0",
+                            ConcurrencyStamp = "5fac00ea-8b23-4cee-b872-575d60a2bd15",
                             Name = "Parent",
                             NormalizedName = "PARENT"
                         });
@@ -561,6 +561,18 @@ namespace Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
+                            RoleId = new Guid("6335deda-9f1c-43d4-908f-58073ff07896")
+                        },
+                        new
+                        {
+                            UserId = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
+                            RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>

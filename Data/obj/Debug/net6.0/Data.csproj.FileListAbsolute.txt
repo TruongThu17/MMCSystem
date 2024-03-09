@@ -68,3 +68,5 @@ D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\refint\Data.dll
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.pdb
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\ref\Data.dll
+D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.IO.Pipelines.dll

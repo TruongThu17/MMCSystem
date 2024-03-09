@@ -50,10 +50,10 @@ namespace MMCClient.Controllers
 						HttpContext.Session.Set("Role", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userRole)));
 					}
 					HttpContext.Session.Set("Username", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(login.username)));
-
-					// redirect to home foreach user
-					// Switch case based on user role
-					switch (userRole)
+                    HttpContext.Session.SetString("Token", responseObject.Bear);
+                    // redirect to home foreach user
+                    // Switch case based on user role
+                    switch (userRole)
 					{
 						case "SuperAdmin":
 							return RedirectToAction("Index", "SuperAdminHome");

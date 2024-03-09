@@ -6441,6 +6441,10 @@
       "PackagePath": "staticwebassets\\assets\\vendors\\x-editable\\bootstrap-editable.min.js"
     },
     {
+      "Id": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\css\\css.css",
+      "PackagePath": "staticwebassets\\css\\css.css"
+    },
+    {
       "Id": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

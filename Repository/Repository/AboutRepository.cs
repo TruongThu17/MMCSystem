@@ -11,6 +11,9 @@ namespace Repository.Repository
 {
     public class AboutRepository : IAboutRepository
     {
+        public void CreateAbout(About a)=> AboutDAO.CreateAbout(a);
         public About FindAbout() => AboutDAO.FindAbout();
+
+        public void UpdateAbout(About a) => AboutDAO.UpdateAbout(a);
     }
 }

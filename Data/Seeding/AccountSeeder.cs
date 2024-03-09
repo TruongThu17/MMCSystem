@@ -44,7 +44,7 @@ namespace Data.Seeding
                 },
                 new User()
                 {
-                    Id = Guid.Parse("30A990C6-33C7-4884-9DCB-718CE356EB0D"),
+                    Id = Guid.Parse("55D0CC53-0678-4604-B3FC-68BCA03A3D44"),
                     UserName = "Admin",
                     NormalizedUserName = "ADMIN",
                     Email = "admin@gmail.com",
@@ -58,6 +58,10 @@ namespace Data.Seeding
                     AccessFailedCount = 0,
                     Status = true,
                 });
+            modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(
+               new IdentityUserRole<Guid> { UserId = Guid.Parse("9D9D014C-AF65-447A-A8C0-6475358BFFF9"), RoleId = Guid.Parse("6335DEDA-9F1C-43D4-908F-58073FF07896") },
+               new IdentityUserRole<Guid> { UserId = Guid.Parse("55D0CC53-0678-4604-B3FC-68BCA03A3D44"), RoleId = Guid.Parse("30A990C6-33C7-4884-9DCB-718CE356EB0D") }
+           );
         }
     }
 }

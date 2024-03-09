@@ -76,3 +76,5 @@ D:\PRN231\Project\MMCSytem\Repository\bin\Debug\net6.0\DataAccess.pdb
 D:\PRN231\Project\MMCSytem\Repository\bin\Debug\net6.0\Data.pdb
 D:\PRN231\Project\MMCSytem\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
 D:\PRN231\Project\MMCSytem\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+D:\PRN231\Project\MMCSytem\Repository\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\PRN231\Project\MMCSytem\Repository\bin\Debug\net6.0\System.IO.Pipelines.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p2HTurxfXIS/YC6y/n/C/9O5vAzqUPFU8TuJFn99Eck=",
+  "Hash": "wTnjD2hXnwoDfSl1jdMKAhSshvK1Z4yBBgVAPN3sS3E=",
   "Source": "MMCClient",
   "BasePath": "_content/MMCClient",
   "Mode": "Default",
@@ -30624,6 +30624,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\vendors\\x-editable\\bootstrap-editable.min.js"
+    },
+    {
+      "Identity": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\css\\css.css",
+      "SourceId": "MMCClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\",
+      "BasePath": "_content/MMCClient",
+      "RelativePath": "css/css.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\css.css"
     },
     {
       "Identity": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\css\\login.css",

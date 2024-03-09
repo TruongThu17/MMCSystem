@@ -1,0 +1,15 @@
+﻿.btn-color {
+    background-color: #ef7714;
+}
+.button-login {
+    background-color: white;
+    width: 110px;
+    color: #ef7714;
+    border: 1px solid #ef7714;
+    transition: background-color 0.3s ease;
+}
+
+    .button-login:hover {
+        background-color: #ffd966;
+        color: black;
+    }

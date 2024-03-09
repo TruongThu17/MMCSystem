@@ -10,5 +10,7 @@ namespace Repository.Interface
     public interface IAboutRepository
     {
         About FindAbout();
+         void UpdateAbout(About a);
+         void CreateAbout(About a);
     }
 }

@@ -1,0 +1,38 @@
+﻿@model Data.DTO.AboutDTO;
+@{
+    Layout = "_LayoutSuperAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Giới thiệu về MMC</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <input type="text" asp-for="@Model.ID" id="ID" name="ID" hidden />
+                        <div>
+                            <label for="description" style="font-weight: bold;">Giới thiệu</label>
+
+                            <textarea class="form-control my-3" id="description" name="Description" asp-for="@Model.Description" style="height: 200px;" rows="2" required></textarea>
+
+                        </div>
+                        <div>
+                            <label for="image" style="font-weight: bold;">Chọn ảnh (jpg, jpeg, png, gif):</label>
+                            <input class="form-control my-3" type="file" id="ImgFile" name="ImgFile" asp-for="@Model.ImgFile" accept=".jpg, .jpeg, .png, .gif" style="width:600px; height:auto" required />
+                            @* <img class="intro-img img-fluid mb-3 rounded" style="width:600px; height:auto" src="@Model.Img" alt="..." /> *@
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

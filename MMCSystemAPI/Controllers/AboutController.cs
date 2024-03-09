@@ -1,12 +1,17 @@
 ﻿using AutoMapper;
+using Data.DTO;
 using Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Interface;
 using Repository.Repository;
+using System.Data;
+using System.Security.Claims;
 
 namespace MMCSystemAPI.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class AboutController : ControllerBase
@@ -25,11 +30,21 @@ namespace MMCSystemAPI.Controllers
             About a = repository.FindAbout();
             return Ok(a);
         }
-
-        // POST api/<AboutController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpGet("aboutDTO")]
+        public ActionResult GetAboutDTO()
         {
+            About a = repository.FindAbout();
+            AboutDTO aDTO = _mapper.Map<AboutDTO>(a);
+            return Ok(aDTO);
+        }
+        [Authorize(Roles = "SuperAdmin")]
+        [HttpPut]
+        public ActionResult Put([FromBody] About about)
+        {
+            var a = repository.FindAbout();
+            if (a == null) repository.CreateAbout(about);
+            else repository.UpdateAbout(about);
+            return Ok(about);
         }
 
     }

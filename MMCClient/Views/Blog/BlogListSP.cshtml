@@ -1,0 +1,65 @@
+﻿@model IEnumerable< Data.Models.Blog>;
+@{
+    Layout = "_LayoutSuperAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Danh sách tin tức</h4>
+                        <p class="card-subtitle card-subtitle-dash">Bạn đang có ... tin tức</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button">
+                            <i class="mdi mdi-account-plus"></i>Tạo mới
+                        </button>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <table class="table select-table">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Img)</th>
+                                <th>@Html.DisplayNameFor(model => model.Tilte)</th>
+                                <th>@Html.DisplayNameFor(model => model.Date)</th>
+                                <th></th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            @foreach (Data.Models.Blog item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex ">
+                                            <img src="@item.Img" alt="">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex ">
+
+                                            <div>
+                                                @item.Tilte
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex ">
+
+                                            <div>
+                                                @item.Date
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
