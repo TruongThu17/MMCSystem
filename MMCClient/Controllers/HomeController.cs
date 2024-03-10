@@ -35,7 +35,7 @@ namespace MMCClient.Controllers
             Data.Models.About About = JsonConvert.DeserializeObject<Data.Models.About>(content);
             home.About = About;
 
-            var resblog = await client.GetAsync($"api/blog");
+            var resblog = await client.GetAsync($"api/blog/Top4");
             var contentblog = await resblog.Content.ReadAsStringAsync();
 
             if (!resblog.IsSuccessStatusCode)

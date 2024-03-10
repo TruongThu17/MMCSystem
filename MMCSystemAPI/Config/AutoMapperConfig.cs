@@ -16,6 +16,9 @@ namespace MMCSystemAPI.Config
 
                 config.CreateMap<About, AboutDTO>();
                 config.CreateMap<AboutDTO, About>();
+
+                config.CreateMap<Blog, BlogDTO>();
+                config.CreateMap<BlogDTO, Blog>();
             });
 
             return mapperConfig.CreateMapper();

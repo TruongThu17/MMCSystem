@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\dashboard\\weather-card.jpg"
     },
     {
+      "Id": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\assets\\images\\faces\\default.png",
+      "PackagePath": "staticwebassets\\assets\\images\\faces\\default.png"
+    },
+    {
       "Id": "D:\\PRN231\\Project\\MMCSytem\\MMCClient\\wwwroot\\assets\\images\\faces\\face1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\faces\\face1.jpg"
     },

@@ -1,5 +1,7 @@
 ﻿using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
+using MMCClient.Models;
+using Newtonsoft.Json;
 
 namespace MMCClient.Controllers
 {
@@ -18,9 +20,20 @@ namespace MMCClient.Controllers
 
 			client = new() { BaseAddress = new Uri("http://localhost:5000") };
 		}
-		public IActionResult Index()
+		public async Task<IActionResult> IndexAsync()
 		{
-			return View();
+			HomeSP home = new HomeSP();
+            var resblog = await client.GetAsync($"api/blog/Top4");
+            var contentblog = await resblog.Content.ReadAsStringAsync();
+
+            if (!resblog.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            List<Data.Models.Blog> blogs = JsonConvert.DeserializeObject<List<Data.Models.Blog>>(contentblog);
+            home.Blogs = blogs;
+            return View(home);
 		}
 	}
 }
