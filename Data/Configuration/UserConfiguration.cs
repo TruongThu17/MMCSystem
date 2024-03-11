@@ -23,6 +23,7 @@ namespace Data.Configuration
             builder.Property(x => x.Status).IsRequired();
             builder.Property(x => x.ClassId).IsRequired(false);
             builder.HasOne(x => x.Class).WithMany(x => x.Users).HasForeignKey(x => x.ClassId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x => x.Education).WithMany(x => x.Users).HasForeignKey(x => x.EducationId).OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

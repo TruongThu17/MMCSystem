@@ -25,5 +25,6 @@ namespace Data.DTO
         public bool Status { get; set; }
         public string? ParentFullName { get; set; }
         public string? ParentPhone { get; set; }
+        public int? EducationId { get; set; }
     }
 }

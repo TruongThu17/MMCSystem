@@ -1,6 +1,5 @@
 ﻿using Data.DTO;
 using Data.Models;
-using Data.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -102,7 +101,8 @@ namespace MMCSystemAPI.Controllers
                 BirthDay = model.BirthDay,
                 ParentFullName = model.ParentFullName,
                 ParentPhone = model.ParentPhone,
-                Phone = model.Phone
+                Phone = model.Phone,
+                EducationId = model.EducationId
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)

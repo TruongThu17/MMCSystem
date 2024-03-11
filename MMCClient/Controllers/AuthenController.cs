@@ -1,12 +1,18 @@
-﻿using Data.ViewModel;
+﻿using Data.DTO;
+using Data.Models;
+using DataAccess;
 using Firebase.Storage;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MMCClient.Models;
 using Newtonsoft.Json;
 using System.Data;
 using System.IdentityModel.Tokens.Jwt;
+using System.Net.Http.Headers;
+using System.Reflection.Metadata;
 using System.Security.Claims;
 using System.Text;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace MMCClient.Controllers
 {
@@ -43,8 +49,7 @@ namespace MMCClient.Controllers
 				{
 					var userPrincipal = new ClaimsPrincipal(new ClaimsIdentity(jsonToken.Claims));
 					var roles = userPrincipal.FindAll(ClaimTypes.Role).Select(claim => claim.Value).ToList();
-
-					var userRole = jsonToken.Claims.FirstOrDefault()?.Value;
+					var userRole = roles.FirstOrDefault();
 					if(userRole!=null && (userRole.Equals("SuperAdmin") || userRole.Equals("Admin") || userRole.Equals("Staff") || userRole.Equals("Parents")))
 					{
 						HttpContext.Session.Set("Role", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userRole)));
@@ -59,7 +64,7 @@ namespace MMCClient.Controllers
 							return RedirectToAction("Index", "SuperAdminHome");
 
 						case "Admin":
-							return RedirectToAction("AdminHome", "Home");
+							return RedirectToAction("Index", "AdminHome");
 
 						case "Staff":
 							return RedirectToAction("StaffHome", "Home");
@@ -81,7 +86,61 @@ namespace MMCClient.Controllers
 				return RedirectToAction(nameof(Index), login);
 			}
 		}
+        public async Task<ActionResult> Logout()
+        {
+            HttpContext.Session.Remove("Token");
+            HttpContext.Session.Remove("Username");
+            HttpContext.Session.Remove("Role");
+            return RedirectToAction(nameof(Index));
+        }
 
+        public IActionResult Registrator()
+		{
+			RegistratorVM registratorVM = new RegistratorVM();
+			return View("Registrator", registratorVM);
+		}
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<ActionResult> Registrator([Bind("Username,Password,FullName,Email,Phone,Address,BirthDay,EducationName")] RegistratorVM register)
+		{
+			// create education
+			EducationDTO educationDTO = new EducationDTO()
+			{
+				Id =0,
+				Name = register.EducationName
+			};
+			var body = new StringContent(JsonConvert.SerializeObject(educationDTO), Encoding.UTF8, "application/json");
 
+			var response = await client.PostAsync($"api/Education", body);
+
+            if (response.IsSuccessStatusCode)
+			{
+                var content= await response.Content.ReadAsStringAsync();
+                educationDTO = JsonConvert.DeserializeObject<EducationDTO>(content);
+                RegisterModel user = new RegisterModel
+				{
+					Username = register.Username,
+					Email = register.Email,
+					Password = register.Password,
+					Status = true,
+					FullName = register.FullName,
+					Address = register.Address,
+					BirthDay = register.BirthDay,
+					ParentFullName = "",
+					ParentPhone = "",
+					Phone = register.Phone,
+					EducationId = educationDTO.Id
+				};
+				var bodyu = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
+				var responseu = await client.PostAsync($"api/Authentication/register", bodyu);
+
+				if (responseu.IsSuccessStatusCode)
+				{
+					return RedirectToAction(nameof(Index));
+				}
+			}
+
+			return View("Registrator", register);
+		}
 	}
 }

@@ -17,6 +17,9 @@ namespace Data.Models
         public string? ParentFullName { get; set; }
         public string? ParentPhone { get; set; }
         public int? ClassId { get; set; }
+        public int? EducationId { get; set; }
+        public string? Img { get; set; }
+        public virtual Education? Education { get; set; }
         public virtual Class? Class { get; set; }
     }
 }
