@@ -67,10 +67,10 @@ namespace MMCClient.Controllers
 							return RedirectToAction("Index", "AdminHome");
 
 						case "Staff":
-							return RedirectToAction("StaffHome", "Home");
+							return RedirectToAction("Index", "StaffHome");
 
 						case "Parents":
-							return RedirectToAction("ParentsHome", "Home");
+							return RedirectToAction("Index", "ParentsHome");
 
 						default:
 							// Handle other roles or scenarios

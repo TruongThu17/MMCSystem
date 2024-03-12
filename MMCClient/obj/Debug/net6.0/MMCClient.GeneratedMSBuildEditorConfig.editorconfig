@@ -82,16 +82,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GdWxsTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_LayoutSuperAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTdXBlckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_NavbarA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJBLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_NavBarSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXJTUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SettingsA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXR0aW5nc0EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SettingsSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXR0aW5nc1NQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SidebarA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyQS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SidebarSP.cshtml]
