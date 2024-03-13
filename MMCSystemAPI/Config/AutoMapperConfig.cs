@@ -25,7 +25,13 @@ namespace MMCSystemAPI.Config
 
 				config.CreateMap<Education, EducationDTO>();
 				config.CreateMap<EducationDTO, Education>();
-			});
+
+                config.CreateMap<ClassType, ClassTypeDTO>();
+                config.CreateMap<ClassTypeDTO, ClassType>();
+
+                config.CreateMap<Class, ClassDTO>();
+                config.CreateMap<ClassDTO, Class>();
+            });
 
             return mapperConfig.CreateMapper();
         }

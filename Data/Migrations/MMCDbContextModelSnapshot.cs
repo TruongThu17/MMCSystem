@@ -79,7 +79,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 1,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8080),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3861),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 1"
@@ -87,7 +87,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 2,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8089),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3873),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 2"
@@ -95,7 +95,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 3,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8090),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3875),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 3"
@@ -103,7 +103,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 4,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8091),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3876),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 4"
@@ -111,7 +111,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 5,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8091),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3877),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 5"
@@ -119,7 +119,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 6,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8092),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3879),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 6"
@@ -127,7 +127,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 7,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8093),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3880),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 7"
@@ -135,7 +135,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 8,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8094),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3881),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 8"
@@ -143,28 +143,11 @@ namespace Data.Migrations
                         new
                         {
                             ID = 9,
-                            Date = new DateTime(2024, 3, 11, 22, 48, 19, 505, DateTimeKind.Local).AddTicks(8094),
+                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3882),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 9"
                         });
-                });
-
-            modelBuilder.Entity("Data.Models.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("Data.Models.Class", b =>
@@ -179,14 +162,170 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ClassTypeId")
+                        .HasColumnType("int");
+
                     b.Property<int>("EducationId")
                         .HasColumnType("int");
 
                     b.HasKey("ClassId");
 
+                    b.HasIndex("ClassTypeId");
+
                     b.HasIndex("EducationId");
 
                     b.ToTable("Class", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ClassId = 1,
+                            ClassName = "Lớp 1a",
+                            ClassTypeId = 1,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 2,
+                            ClassName = "Lớp 1b",
+                            ClassTypeId = 1,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 3,
+                            ClassName = "Lớp 1c",
+                            ClassTypeId = 1,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 4,
+                            ClassName = "Lớp 2a",
+                            ClassTypeId = 2,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 5,
+                            ClassName = "Lớp 2b",
+                            ClassTypeId = 2,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 6,
+                            ClassName = "Lớp 2c",
+                            ClassTypeId = 2,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 7,
+                            ClassName = "Lớp 3a",
+                            ClassTypeId = 3,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 8,
+                            ClassName = "Lớp 3b",
+                            ClassTypeId = 3,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 9,
+                            ClassName = "Lớp 3c",
+                            ClassTypeId = 3,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 10,
+                            ClassName = "Lớp 4a",
+                            ClassTypeId = 4,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 11,
+                            ClassName = "Lớp 4b",
+                            ClassTypeId = 4,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 12,
+                            ClassName = "Lớp 4c",
+                            ClassTypeId = 4,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 13,
+                            ClassName = "Lớp 5a",
+                            ClassTypeId = 5,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 14,
+                            ClassName = "Lớp 5b",
+                            ClassTypeId = 5,
+                            EducationId = 1
+                        },
+                        new
+                        {
+                            ClassId = 15,
+                            ClassName = "Lớp 5c",
+                            ClassTypeId = 5,
+                            EducationId = 1
+                        });
+                });
+
+            modelBuilder.Entity("Data.Models.ClassType", b =>
+                {
+                    b.Property<int>("ClassTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassTypeId"), 1L, 1);
+
+                    b.Property<string>("ClassTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ClassTypeId");
+
+                    b.ToTable("ClassType", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ClassTypeId = 1,
+                            ClassTypeName = "Lớp 1"
+                        },
+                        new
+                        {
+                            ClassTypeId = 2,
+                            ClassTypeName = "Lớp 2"
+                        },
+                        new
+                        {
+                            ClassTypeId = 3,
+                            ClassTypeName = "Lớp 3"
+                        },
+                        new
+                        {
+                            ClassTypeId = 4,
+                            ClassTypeName = "Lớp 4"
+                        },
+                        new
+                        {
+                            ClassTypeId = 5,
+                            ClassTypeName = "Lớp 5"
+                        });
                 });
 
             modelBuilder.Entity("Data.Models.Education", b =>
@@ -204,48 +343,60 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Education", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Trường Tiểu học Đống Đa"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Trường Tiểu học Nguyễn Du"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Trường Tiểu học Phan Chu Trinh"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Trường Tiểu học Trần Hưng Đạo "
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Trường Tiểu học Lê Lợi"
+                        });
                 });
 
-            modelBuilder.Entity("Data.Models.MealItems", b =>
+            modelBuilder.Entity("Data.Models.MealPlan", b =>
                 {
-                    b.Property<int>("DishID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MealID")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Unit")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("DishID");
-
-                    b.HasIndex("MealID");
-
-                    b.ToTable("MealItems", (string)null);
-                });
-
-            modelBuilder.Entity("Data.Models.Meals", b =>
-                {
-                    b.Property<int>("MealID")
+                    b.Property<int>("MealPlanID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MealID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MealPlanID"), 1L, 1);
 
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("ClassTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MealPlanName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MealTypeId")
                         .HasColumnType("int");
 
-                    b.HasKey("MealID");
+                    b.HasKey("MealPlanID");
 
                     b.HasIndex("MealTypeId");
 
-                    b.ToTable("Meals", (string)null);
+                    b.ToTable("MealPlan", (string)null);
                 });
 
             modelBuilder.Entity("Data.Models.MealType", b =>
@@ -263,34 +414,23 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("MealType", (string)null);
-                });
 
-            modelBuilder.Entity("Data.Models.Menu", b =>
-                {
-                    b.Property<int>("DishID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DishID"), 1L, 1);
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DishName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NutritionInformation")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("DishID");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("Menu", (string)null);
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Bữa sáng"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Bữa trưa"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Bữa chiều"
+                        });
                 });
 
             modelBuilder.Entity("Data.Models.User", b =>
@@ -397,15 +537,15 @@ namespace Data.Migrations
                         {
                             Id = new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "45004df9-1db2-4af5-9778-11394201771d",
+                            ConcurrencyStamp = "d2288a82-909e-4e78-98c8-d48e92654f3d",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIWg30ES46YRzxkVVDvugelvcCjkr1wsX42k2TFrhT7fbcSoYA6DC3byoVKQqeovyQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDvV3TNu7P/mxgX7Oi2ONAiVpmhmMpSg/hx02dOKeVnTdHe8aHG5FWBLJoCVKDosWQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "9c2c2354-3ba7-4ac8-8adb-bcabf812887f",
+                            SecurityStamp = "70093915-fc43-48cb-ab41-d223ad8b00fc",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "SuperAdmin"
@@ -414,18 +554,91 @@ namespace Data.Migrations
                         {
                             Id = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a0952d9a-9bb4-4237-9224-9d9bede7fb55",
-                            Email = "admin@gmail.com",
+                            ConcurrencyStamp = "0d6b89f4-0d6e-4aa9-aff2-1ed3c1db2fb3",
+                            EducationId = 1,
+                            Email = "DongDa@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@GMAIL.COM",
-                            NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFKSAa7xJ1Y2Cvkx8Ikclwgmj47zBDamiSxbtM+172Voew7zUIcvpbBDEACySsp/nQ==",
+                            NormalizedEmail = "DONGDA@GMAIL.COM",
+                            NormalizedUserName = "DONGDA",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJyAvWeiNqZ8ST+ksoCBa5j06zw16UozHICVJwcUMBps03XjmXs/eDd/H6TbPQSfsg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "24ceddd2-ced7-4b9f-a9fc-e41a625c901b",
+                            SecurityStamp = "f2a2e251-4aab-40a4-a116-9d42b77e9df6",
                             Status = true,
                             TwoFactorEnabled = true,
-                            UserName = "Admin"
+                            UserName = "DongDa"
+                        },
+                        new
+                        {
+                            Id = new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "08512db1-db30-4fee-9534-2d28e9a12c49",
+                            EducationId = 2,
+                            Email = "NguyenDu@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "NGUYENDU@GMAIL.COM",
+                            NormalizedUserName = "NGUYENDU",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPKi4qhfRgyUu3L68XuEYddPaX4qvOqAS7z5iumlfhcXgM8bl8E9sjh63AP3CuJ3aQ==",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "15083606-2f71-4498-901f-996faeb89f46",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "NguyenDu"
+                        },
+                        new
+                        {
+                            Id = new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "1cbab019-07de-4660-8c80-ccf9175a09c2",
+                            EducationId = 3,
+                            Email = "PhanChuTrinh@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "PHANCHUTRINH@GMAIL.COM",
+                            NormalizedUserName = "PHANCHUTRINH",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPQLcXyEAeOFV3GmSDmB+CD3gLBsw0m58/9/hXAYS8MuNOv0qqpLzh52OiNmIIFNyw==",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "7f29baad-3ee1-4347-88d0-114b50fe1e74",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "PhanChuTrinh"
+                        },
+                        new
+                        {
+                            Id = new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "bb47ae8e-b503-4c7b-a80f-4519a8a334ca",
+                            EducationId = 4,
+                            Email = "TranHungDao@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "TRANHUNGDAO@GMAIL.COM",
+                            NormalizedUserName = "TRANHUNGDAO",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDb1RwhpWPcEDTvdiX4hjx/ziLdnvB+Vvk1M7BhOVmp0bKfozM38/qKMasTKdfXuFQ==",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "4be6be88-1bcf-4803-a331-f6cc923f70a7",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "TranHungDao"
+                        },
+                        new
+                        {
+                            Id = new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "9e8ea727-fba2-4bd5-9ea1-e8871a37bc4a",
+                            EducationId = 5,
+                            Email = "LeLoi@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "LELOI@GMAIL.COM",
+                            NormalizedUserName = "LELOI",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO+b8ZsFrXoJxyptnjb4qW1HtUL2Y7KN23BI2s+M4YIzI1YhhRDK0PQDxE1IkKlkhw==",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "6fc3792f-2c11-4a90-b68e-8bfe3853c20c",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "LeLoi"
                         });
                 });
 
@@ -460,28 +673,28 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("6335deda-9f1c-43d4-908f-58073ff07896"),
-                            ConcurrencyStamp = "7b4e1e47-0c9d-4241-962a-3a963027fb5f",
+                            ConcurrencyStamp = "41f3494b-2212-487f-9878-8e807f427754",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "6023a42b-f00b-4fd7-89ac-87114b6dc492",
+                            ConcurrencyStamp = "f8c3e2b8-2c9e-49ba-8f28-7164a70d9afe",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "fc60626a-a5cf-41d4-b2b7-a4ce0ab302eb",
+                            ConcurrencyStamp = "022a2647-67c4-4f12-a6de-8f9c87d08918",
                             Name = "Staff",
                             NormalizedName = "STAFF"
                         },
                         new
                         {
                             Id = new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
-                            ConcurrencyStamp = "e6c928a2-a757-4770-8945-f58f11c22ff7",
+                            ConcurrencyStamp = "aceffd70-50e4-44df-ad2b-c1ca4f7ea638",
                             Name = "Parent",
                             NormalizedName = "PARENT"
                         });
@@ -580,6 +793,26 @@ namespace Data.Migrations
                         {
                             UserId = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                             RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        },
+                        new
+                        {
+                            UserId = new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"),
+                            RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        },
+                        new
+                        {
+                            UserId = new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"),
+                            RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        },
+                        new
+                        {
+                            UserId = new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"),
+                            RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        },
+                        new
+                        {
+                            UserId = new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"),
+                            RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
                         });
                 });
 
@@ -604,54 +837,40 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Data.Models.Class", b =>
                 {
+                    b.HasOne("Data.Models.ClassType", "ClassType")
+                        .WithMany("Classes")
+                        .HasForeignKey("ClassTypeId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.HasOne("Data.Models.Education", "Education")
                         .WithMany("Classes")
                         .HasForeignKey("EducationId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
+                    b.Navigation("ClassType");
+
                     b.Navigation("Education");
                 });
 
-            modelBuilder.Entity("Data.Models.MealItems", b =>
+            modelBuilder.Entity("Data.Models.MealPlan", b =>
                 {
-                    b.HasOne("Data.Models.Menu", "Menu")
-                        .WithMany("MealItems")
-                        .HasForeignKey("DishID")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("Data.Models.Meals", "Meals")
-                        .WithMany("MealItems")
-                        .HasForeignKey("MealID")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Meals");
-
-                    b.Navigation("Menu");
-                });
-
-            modelBuilder.Entity("Data.Models.Meals", b =>
-                {
-                    b.HasOne("Data.Models.MealType", "MealType")
-                        .WithMany("Meals")
+                    b.HasOne("Data.Models.ClassType", "ClassType")
+                        .WithMany("MealPlans")
                         .HasForeignKey("MealTypeId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.Navigation("MealType");
-                });
-
-            modelBuilder.Entity("Data.Models.Menu", b =>
-                {
-                    b.HasOne("Data.Models.Category", "Category")
-                        .WithMany("Menus")
-                        .HasForeignKey("CategoryId")
+                    b.HasOne("Data.Models.MealType", "MealType")
+                        .WithMany("MealPlans")
+                        .HasForeignKey("MealTypeId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.Navigation("Category");
+                    b.Navigation("ClassType");
+
+                    b.Navigation("MealType");
                 });
 
             modelBuilder.Entity("Data.Models.User", b =>
@@ -722,14 +941,16 @@ namespace Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Data.Models.Category", b =>
-                {
-                    b.Navigation("Menus");
-                });
-
             modelBuilder.Entity("Data.Models.Class", b =>
                 {
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("Data.Models.ClassType", b =>
+                {
+                    b.Navigation("Classes");
+
+                    b.Navigation("MealPlans");
                 });
 
             modelBuilder.Entity("Data.Models.Education", b =>
@@ -739,19 +960,9 @@ namespace Data.Migrations
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Data.Models.Meals", b =>
-                {
-                    b.Navigation("MealItems");
-                });
-
             modelBuilder.Entity("Data.Models.MealType", b =>
                 {
-                    b.Navigation("Meals");
-                });
-
-            modelBuilder.Entity("Data.Models.Menu", b =>
-                {
-                    b.Navigation("MealItems");
+                    b.Navigation("MealPlans");
                 });
 #pragma warning restore 612, 618
         }

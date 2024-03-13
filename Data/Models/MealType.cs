@@ -11,6 +11,6 @@ namespace Data.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Meals>? Meals { get; set; }
+        public virtual ICollection<MealPlan>? MealPlans { get; set; }
     }
 }

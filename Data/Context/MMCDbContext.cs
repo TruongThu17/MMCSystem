@@ -38,28 +38,29 @@ namespace Data.Context
         {
             builder.ApplyConfiguration(new UserConfiguration());
             builder.ApplyConfiguration(new ClassConfiguration());
-            builder.ApplyConfiguration(new CategoryConfiguration());
-            builder.ApplyConfiguration(new MenuConfiguration());
+            builder.ApplyConfiguration(new ClassTypeConfiguration());
             builder.ApplyConfiguration(new MealTypeConfiguration());
-            builder.ApplyConfiguration(new MealsConfiguration());
-            builder.ApplyConfiguration(new MealItemsConfiguration());
+            builder.ApplyConfiguration(new MealPlanConfiguration());
             builder.ApplyConfiguration(new AboutConfiguration());
             builder.ApplyConfiguration(new BlogConfiguration());
             builder.ApplyConfiguration(new EducationConfiguration());
 
+            new EducationSeeder(builder).Seed();
+            new ClassTypeSeeder(builder).Seed();
+            new ClassSeeder(builder).Seed();
             new AccountSeeder(builder).Seed();
             new AboutSeeder(builder).Seed();
             new BlogSeeder(builder).Seed();
+            new MealTypeSeeder(builder).Seed();
+
             base.OnModelCreating(builder);
         }
         #region
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Class> Classes { get; set; }
-        public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Menu> Menus { get; set; }
+        public virtual DbSet<ClassType> ClassTypes { get; set; }
         public virtual DbSet<MealType> MealTypes { get; set; }
-        public virtual DbSet<Meals> Meals { get; set; }
-        public virtual DbSet<MealItems> MealItems { get; set; }
+        public virtual DbSet<MealPlan> MealPlans { get; set; }
         public virtual DbSet<About> Abouts { get; set; }
         public virtual DbSet<Blog> Blogs { get; set; }
         public virtual DbSet<Education> Educations { get; set; }
