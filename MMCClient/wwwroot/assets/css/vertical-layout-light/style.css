@@ -30973,4 +30973,16 @@ div.tagsinput span.tag a {
     display: none;
   }
 }
-/*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}

@@ -38,34 +38,34 @@ namespace MMCSystemAPI.Controllers
             return Ok(cDTO);
         }
 
-        //[HttpGet("{id}")]
-        //public ActionResult Get(int id)
-        //{
-        //    if (id == null) return BadRequest();
-        //    Blog blog = repository.FindBlogById(id);
-        //    if (blog == null) return NotFound();
-        //    return Ok(blog);
-        //}
-        //[HttpGet("blogDTO/{id}")]
-        //public ActionResult GetBlogDTO(int id)
-        //{
-        //    if (id == null) return BadRequest();
-        //    Blog blog = repository.FindBlogById(id);
-        //    if (blog == null) return NotFound();
-        //    BlogDTO bDTO = _mapper.Map<BlogDTO>(blog);
-        //    return Ok(bDTO);
-        //}
-        //[HttpPost]
-        //[Authorize(Roles = "SuperAdmin")]
-        //public ActionResult Post([FromBody] Blog blog)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        repository.CreateBlog(blog);
-        //        return Created(Request.GetDisplayUrl(), blog);
-        //    }
-        //    return BadRequest(ModelState);
-        //}
+        [HttpGet("{id}")]
+        public ActionResult Get(int id)
+        {
+            if (id == null) return BadRequest();
+            Class c = repository.FindClassById(id);
+            if (c == null) return NotFound();
+            ClassDTO cDTO = _mapper.Map<ClassDTO>(c);
+            return Ok(cDTO);
+        }
+        [HttpPost]
+        public async Task<ActionResult> PostAsync([FromBody] ClassDTO classDTO)
+        {
+            if (ModelState.IsValid)
+            {
+                var usernameClaim = User.FindFirst(ClaimTypes.Name);
+                var user = await _userManager.FindByNameAsync(usernameClaim.Value);
+                Class c = new Class()
+                {
+                    ClassName = classDTO.ClassName,
+                    ClassTypeId =(int)classDTO.ClassTypeId,
+                    EducationId = (int)user.EducationId
+                };
+                repository.CreateClass(c);
+                classDTO.ClassId = c.ClassId;
+                return Created(Request.GetDisplayUrl(), classDTO);
+            }
+            return BadRequest(ModelState);
+        }
         //// PUT api/<MedicalFacility>/5
         //[HttpPut("{id}")]
         //[Authorize(Roles = "SuperAdmin")]

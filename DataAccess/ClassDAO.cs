@@ -46,6 +46,8 @@ namespace DataAccess
                 using (var context = new MMCDbContext())
                 {
                     p = context.Classes.SingleOrDefault(x => x.ClassId == id);
+                    p.Education = context.Educations.SingleOrDefault(x=>x.Id == p.EducationId);
+                    p.ClassType = context.ClassTypes.SingleOrDefault(x=>x.ClassTypeId == p.ClassTypeId);
                 }
             }
             catch (Exception e)

@@ -14,6 +14,7 @@ namespace Data.DTO
         public int ClassId { get; set; }
         [DisplayName("Tên lớp")]
         public string ClassName { get; set; }
+        public int? ClassTypeId { get; set; }
         public virtual EducationDTO? Education { get; set; }
         public virtual ClassTypeDTO? ClassType { get; set; }
     }

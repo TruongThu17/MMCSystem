@@ -3,6 +3,7 @@ using Data.Models;
 using DataAccess;
 using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MMCClient.Models;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -51,6 +52,43 @@ namespace MMCClient.Controllers
             page.CountPage = totalPageCount;
 
             return View(page);
+        }
+        public async Task<IActionResult> CreateAsync()
+        {
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var res = await client.GetAsync("api/ClassType");
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+            List<ClassTypeDTO> ClassDTOs = JsonConvert.DeserializeObject<List<ClassTypeDTO>>(content);
+            ClassDTO c = new ClassDTO();
+            var classTypeSelectList = new SelectList(ClassDTOs, "ClassTypeId", "ClassTypeName");
+            ViewBag.ClassTypeSelectList = classTypeSelectList;
+            return View(c);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Create([Bind("ClassName,ClassTypeId")] ClassDTO classDTO)
+        {
+
+            var body = new StringContent(JsonConvert.SerializeObject(classDTO), Encoding.UTF8, "application/json");
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await client.PostAsync($"api/Class", body);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return StatusCode(500);
+            }
         }
     }
 }
