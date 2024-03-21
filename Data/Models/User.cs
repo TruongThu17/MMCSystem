@@ -11,14 +11,13 @@ namespace Data.Models
     {
         public string? FullName { get; set; }
         public DateTime? BirthDay { get; set; }
-        public string? Phone { get; set; }
         public string? Address { get; set; }
         public bool Status { get; set; }
         public string? ParentFullName { get; set; }
-        public string? ParentPhone { get; set; }
         public int? ClassId { get; set; }
-        public int? EducationId { get; set; }
         public string? Img { get; set; }
+        public string? StudentCode { get; set; }
+        public int? EducationId { get; set; }
         public virtual Education? Education { get; set; }
         public virtual Class? Class { get; set; }
     }

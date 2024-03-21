@@ -5,61 +5,69 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class UpdateDataUser : Migration
+    public partial class Update_UserInfor : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropColumn(
+                name: "ParentPhone",
+                table: "AspNetUsers");
+
+            migrationBuilder.DropColumn(
+                name: "Phone",
+                table: "AspNetUsers");
+
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",
                 keyColumn: "Id",
                 keyValue: new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
                 column: "ConcurrencyStamp",
-                value: "f8c3e2b8-2c9e-49ba-8f28-7164a70d9afe");
+                value: "b69e14d1-d9ae-4036-8d92-8681e3dc5dbc");
 
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",
                 keyColumn: "Id",
                 keyValue: new Guid("6335deda-9f1c-43d4-908f-58073ff07896"),
                 column: "ConcurrencyStamp",
-                value: "41f3494b-2212-487f-9878-8e807f427754");
+                value: "0f243720-dcd4-4991-bc33-2c3416ffc6ad");
 
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",
                 keyColumn: "Id",
                 keyValue: new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                column: "ConcurrencyStamp",
-                value: "022a2647-67c4-4f12-a6de-8f9c87d08918");
+                columns: new[] { "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[] { "0315709c-254f-4133-a7d6-92fe1edfd8fc", "Student", "STUDENT" });
 
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",
                 keyColumn: "Id",
                 keyValue: new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
                 column: "ConcurrencyStamp",
-                value: "aceffd70-50e4-44df-ad2b-c1ca4f7ea638");
+                value: "9bf4ff8d-c473-4c51-b552-c9fbe021f304");
 
             migrationBuilder.UpdateData(
                 table: "AspNetUsers",
                 keyColumn: "Id",
                 keyValue: new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                 columns: new[] { "ConcurrencyStamp", "EducationId", "Email", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "SecurityStamp", "UserName" },
-                values: new object[] { "0d6b89f4-0d6e-4aa9-aff2-1ed3c1db2fb3", 1, "DongDa@gmail.com", "DONGDA@GMAIL.COM", "DONGDA", "AQAAAAEAACcQAAAAEJyAvWeiNqZ8ST+ksoCBa5j06zw16UozHICVJwcUMBps03XjmXs/eDd/H6TbPQSfsg==", "f2a2e251-4aab-40a4-a116-9d42b77e9df6", "DongDa" });
+                values: new object[] { "3e78ca86-d0cc-4b83-bdf2-a4bea4f74c1d", 1, "DongDa@gmail.com", "DONGDA@GMAIL.COM", "DONGDA", "AQAAAAEAACcQAAAAEFV+hP7uwByIiVC2++6JEnPT9WdTJM/Soc4S/z8enhFlGNizO1+PVRFc84Y7TPUozg==", "98b2c418-f079-4174-a58d-91ede0c0e805", "DongDa" });
 
             migrationBuilder.UpdateData(
                 table: "AspNetUsers",
                 keyColumn: "Id",
                 keyValue: new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
                 columns: new[] { "ConcurrencyStamp", "PasswordHash", "SecurityStamp" },
-                values: new object[] { "d2288a82-909e-4e78-98c8-d48e92654f3d", "AQAAAAEAACcQAAAAEDvV3TNu7P/mxgX7Oi2ONAiVpmhmMpSg/hx02dOKeVnTdHe8aHG5FWBLJoCVKDosWQ==", "70093915-fc43-48cb-ab41-d223ad8b00fc" });
+                values: new object[] { "8184dab5-79d9-4011-9887-3177c2d521ea", "AQAAAAEAACcQAAAAEEq78tcbAUyZh/VEvvuyZ6fdJzoKLX8DAjI3/qCFnKaWM9JkmWDzCtz25Q1xG7ksNQ==", "a037f76e-a498-480f-8414-ba971f11c62c" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "Address", "BirthDay", "ClassId", "ConcurrencyStamp", "EducationId", "Email", "EmailConfirmed", "FullName", "Img", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "ParentFullName", "ParentPhone", "PasswordHash", "Phone", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "Address", "BirthDay", "ClassId", "ConcurrencyStamp", "EducationId", "Email", "EmailConfirmed", "FullName", "Img", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "ParentFullName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"), 0, null, null, null, "9e8ea727-fba2-4bd5-9ea1-e8871a37bc4a", 5, "LeLoi@gmail.com", true, null, null, false, null, "LELOI@GMAIL.COM", "LELOI", null, null, "AQAAAAEAACcQAAAAEO+b8ZsFrXoJxyptnjb4qW1HtUL2Y7KN23BI2s+M4YIzI1YhhRDK0PQDxE1IkKlkhw==", null, null, true, "6fc3792f-2c11-4a90-b68e-8bfe3853c20c", true, true, "LeLoi" },
-                    { new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"), 0, null, null, null, "08512db1-db30-4fee-9534-2d28e9a12c49", 2, "NguyenDu@gmail.com", true, null, null, false, null, "NGUYENDU@GMAIL.COM", "NGUYENDU", null, null, "AQAAAAEAACcQAAAAEPKi4qhfRgyUu3L68XuEYddPaX4qvOqAS7z5iumlfhcXgM8bl8E9sjh63AP3CuJ3aQ==", null, null, true, "15083606-2f71-4498-901f-996faeb89f46", true, true, "NguyenDu" },
-                    { new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"), 0, null, null, null, "1cbab019-07de-4660-8c80-ccf9175a09c2", 3, "PhanChuTrinh@gmail.com", true, null, null, false, null, "PHANCHUTRINH@GMAIL.COM", "PHANCHUTRINH", null, null, "AQAAAAEAACcQAAAAEPQLcXyEAeOFV3GmSDmB+CD3gLBsw0m58/9/hXAYS8MuNOv0qqpLzh52OiNmIIFNyw==", null, null, true, "7f29baad-3ee1-4347-88d0-114b50fe1e74", true, true, "PhanChuTrinh" },
-                    { new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"), 0, null, null, null, "bb47ae8e-b503-4c7b-a80f-4519a8a334ca", 4, "TranHungDao@gmail.com", true, null, null, false, null, "TRANHUNGDAO@GMAIL.COM", "TRANHUNGDAO", null, null, "AQAAAAEAACcQAAAAEDb1RwhpWPcEDTvdiX4hjx/ziLdnvB+Vvk1M7BhOVmp0bKfozM38/qKMasTKdfXuFQ==", null, null, true, "4be6be88-1bcf-4803-a331-f6cc923f70a7", true, true, "TranHungDao" }
+                    { new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"), 0, null, null, null, "7cbc46cc-6134-441f-bbe5-eba646fe1010", 5, "LeLoi@gmail.com", true, null, null, false, null, "LELOI@GMAIL.COM", "LELOI", null, "AQAAAAEAACcQAAAAENx2tF5ZskwSuTv/fZTaZ+hGR3YmFH9LzPd4TqAYiLmM4JxDnxqGAYnCqGBfNSHkJw==", null, true, "4f98f0c1-977c-4cc8-ae4a-c528926e8d5c", true, true, "LeLoi" },
+                    { new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"), 0, null, null, null, "dfe527cb-d307-4475-8ee1-5ad547a95526", 2, "NguyenDu@gmail.com", true, null, null, false, null, "NGUYENDU@GMAIL.COM", "NGUYENDU", null, "AQAAAAEAACcQAAAAEPhA22Q+Wug4svvPa/zce/lBaxAUEGNl8VFcVJcNBoH2+dG3VdrJ8l16k7xe0NEkGQ==", null, true, "eaaf093c-bbf7-458c-9415-0140d2e896a9", true, true, "NguyenDu" },
+                    { new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"), 0, null, null, null, "5c831722-24a4-4ccc-a8c4-932954a3cb86", 3, "PhanChuTrinh@gmail.com", true, null, null, false, null, "PHANCHUTRINH@GMAIL.COM", "PHANCHUTRINH", null, "AQAAAAEAACcQAAAAEFwULWfdC1016pHCZu03isHXj2h5/JFFpWKU9d00pG2vlJquthrau8+/E7pXfD3W3w==", null, true, "63e94dac-50de-44cf-b497-b4efe9d44ae8", true, true, "PhanChuTrinh" },
+                    { new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"), 0, null, null, null, "14c6219a-395c-4ae6-89cb-1ea855e253e1", 4, "TranHungDao@gmail.com", true, null, null, false, null, "TRANHUNGDAO@GMAIL.COM", "TRANHUNGDAO", null, "AQAAAAEAACcQAAAAEM0KJPJW1phpdWNUMxw9qGO/uHeC0vgcKxhHcN17wesXoRaWWbJo6kLXTFRTbbBMuA==", null, true, "4684a342-3ab2-4166-a481-287f282d36f8", true, true, "TranHungDao" }
                 });
 
             migrationBuilder.UpdateData(
@@ -67,63 +75,63 @@ namespace Data.Migrations
                 keyColumn: "ID",
                 keyValue: 1,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3861));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(786));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 2,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3873));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(799));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 3,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3875));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(801));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 4,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3876));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(802));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 5,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3877));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(804));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 6,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3879));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(805));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 7,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3880));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(806));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 8,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3881));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(808));
 
             migrationBuilder.UpdateData(
                 table: "Blog",
                 keyColumn: "ID",
                 keyValue: 9,
                 column: "Date",
-                value: new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3882));
+                value: new DateTime(2024, 3, 21, 17, 10, 26, 674, DateTimeKind.Local).AddTicks(809));
 
             migrationBuilder.InsertData(
                 table: "Class",
@@ -157,6 +165,11 @@ namespace Data.Migrations
                     { new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"), new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9") },
                     { new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"), new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e") }
                 });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "Address", "BirthDay", "ClassId", "ConcurrencyStamp", "EducationId", "Email", "EmailConfirmed", "FullName", "Img", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "ParentFullName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName" },
+                values: new object[] { new Guid("7c85649c-2d04-4846-a5f2-212ea550291b"), 0, null, new DateTime(2018, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "ff630956-52ce-4029-b613-57e407a2b150", 1, "Lamnt@gmail.com", true, "Nguyễn Thành Lâm", null, false, null, "LAMNT@GMAIL.COM", "LAMNT", "Nguyễn Văn A", "AQAAAAEAACcQAAAAEF6K7B8THeZZ1okNxOOY9pnlX4nua547WwwZ8vVFOychI4AGJLSDjMbbsxrTgLUNNA==", "0912345678", true, "68124207-5ffa-4fcd-b3b3-3d451231fa92", true, true, "Lamnt" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -182,9 +195,9 @@ namespace Data.Migrations
                 keyValues: new object[] { new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"), new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e") });
 
             migrationBuilder.DeleteData(
-                table: "Class",
-                keyColumn: "ClassId",
-                keyValue: 1);
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: new Guid("7c85649c-2d04-4846-a5f2-212ea550291b"));
 
             migrationBuilder.DeleteData(
                 table: "Class",
@@ -276,6 +289,23 @@ namespace Data.Migrations
                 keyColumn: "Id",
                 keyValue: new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"));
 
+            migrationBuilder.DeleteData(
+                table: "Class",
+                keyColumn: "ClassId",
+                keyValue: 1);
+
+            migrationBuilder.AddColumn<string>(
+                name: "ParentPhone",
+                table: "AspNetUsers",
+                type: "nvarchar(max)",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "Phone",
+                table: "AspNetUsers",
+                type: "nvarchar(max)",
+                nullable: true);
+
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",
                 keyColumn: "Id",
@@ -294,8 +324,8 @@ namespace Data.Migrations
                 table: "AspNetRoles",
                 keyColumn: "Id",
                 keyValue: new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                column: "ConcurrencyStamp",
-                value: "78df5252-3cf4-4e4d-969e-1c8def2c2762");
+                columns: new[] { "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[] { "78df5252-3cf4-4e4d-969e-1c8def2c2762", "Staff", "STAFF" });
 
             migrationBuilder.UpdateData(
                 table: "AspNetRoles",

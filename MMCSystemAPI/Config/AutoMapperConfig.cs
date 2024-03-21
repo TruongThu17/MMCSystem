@@ -16,6 +16,9 @@ namespace MMCSystemAPI.Config
                 config.CreateMap<User, AccountAdminDTO>();
                 config.CreateMap<AccountAdminDTO, User>();
 
+                config.CreateMap<User, AccountStudentDTO>();
+                config.CreateMap<AccountStudentDTO, User>();
+
 
                 config.CreateMap<About, AboutDTO>();
                 config.CreateMap<AboutDTO, About>();
@@ -31,6 +34,12 @@ namespace MMCSystemAPI.Config
 
                 config.CreateMap<Class, ClassDTO>();
                 config.CreateMap<ClassDTO, Class>();
+
+                config.CreateMap<MealType, MealTypeDTO>();
+                config.CreateMap<MealTypeDTO, MealType>();
+
+                config.CreateMap<Dish, DishDTO>();
+                config.CreateMap<DishDTO, Dish>();
             });
 
             return mapperConfig.CreateMapper();

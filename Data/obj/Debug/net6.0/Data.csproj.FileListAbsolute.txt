@@ -1,3 +1,8 @@
+D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Data.exe
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Data.deps.json
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Data.runtimeconfig.json
@@ -6,6 +11,7 @@ D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Data.pdb
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Humanizer.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -41,6 +47,7 @@ D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Configuration.Configurat
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.IO.Pipelines.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -57,16 +64,9 @@ D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
-D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
-D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
-D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
-D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.csproj.CopyComplete
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.dll
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\refint\Data.dll
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.pdb
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 D:\PRN231\Project\MMCSytem\Data\obj\Debug\net6.0\ref\Data.dll
-D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
-D:\PRN231\Project\MMCSytem\Data\bin\Debug\net6.0\System.IO.Pipelines.dll

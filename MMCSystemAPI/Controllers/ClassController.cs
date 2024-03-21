@@ -66,6 +66,20 @@ namespace MMCSystemAPI.Controllers
             }
             return BadRequest(ModelState);
         }
+
+        [HttpGet("search/{search}")]
+        public async Task<ActionResult<IEnumerable<Class>>> SearchAsync(string search)
+        {
+            var usernameClaim = User.FindFirst(ClaimTypes.Name);
+
+            var user = await _userManager.FindByNameAsync(usernameClaim.Value);
+            IEnumerable<Class> c = repository.GetClasses((int)user.EducationId).Where(b =>
+                                        b.ClassName.ToLower().Contains(search.ToLower()) ||
+                                        b.ClassType.ClassTypeName.ToLower().Contains(search.ToLower())
+                                    ).ToList();
+            IEnumerable<ClassDTO> cDTO = _mapper.Map<IEnumerable<ClassDTO>>(c);
+            return Ok(cDTO);
+        }
         //// PUT api/<MedicalFacility>/5
         //[HttpPut("{id}")]
         //[Authorize(Roles = "SuperAdmin")]

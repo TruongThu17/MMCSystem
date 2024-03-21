@@ -20,6 +20,7 @@ namespace MMCSystemAPI.Controllers
         private readonly IConfiguration _configuration;
         private IUserRepository repository = new UserRepository();
         private IEducationRepository eduRepository = new EducationRepository();
+        private IClassRepository classRepository = new ClassRepository();
         private IMapper _mapper;
 
         public UserController(IMapper mapper, UserManager<User> userManager, RoleManager<IdentityRole<Guid>> roleManager, IConfiguration configuration)
@@ -71,15 +72,43 @@ namespace MMCSystemAPI.Controllers
                 usersQuery = usersQuery.Where(u => (u.FullName != null && u.FullName.ToLower().Contains(search.ToLower()))
                                                     || (u.Email != null && u.Email.ToLower().Contains(search.ToLower()))
                                                     || (u.Address != null && u.Address.ToLower().Contains(search.ToLower()))
-                                                    || (u.Phone != null && u.Phone.Contains(search))
                                                     ).ToList();
             }
 
             var users = usersQuery;
 
             IEnumerable<AccountAdminDTO> c = _mapper.Map<IEnumerable<AccountAdminDTO>>(users);
-
+            foreach (var item in c)
+            {
+                if (item.EducationId != null)
+                    item.EducationName = eduRepository.FindEducationById((int)item.EducationId).Name;
+            }
             return Ok(c);
+        }
+        [HttpGet("listAccountStudent/{search?}")]
+        public async Task<ActionResult<IEnumerable<AccountStudentDTO>>> GetStudentAccount(string? search)
+        {
+            var studentRoleName = "Student";
+            var users = await _userManager.GetUsersInRoleAsync(studentRoleName);
+
+            IEnumerable<AccountStudentDTO> StudentList = _mapper.Map<IEnumerable<AccountStudentDTO>>(users);
+            foreach (var item in StudentList)
+            {
+                if (item.EducationId != null)
+                    item.EducationName = eduRepository.FindEducationById((int)item.EducationId).Name;
+                if(item.ClassId != null)
+                {
+                    item.ClassName = classRepository.FindClassById((int) item.ClassId).ClassName;
+                }
+            }
+            if(search != null)
+            {
+                StudentList = StudentList.Where(u => (u.FullName != null && u.FullName.ToLower().Contains(search.ToLower()))
+                                                    || (u.Email != null && u.Email.ToLower().Contains(search.ToLower()))
+                                                    || (u.Address != null && u.Address.ToLower().Contains(search.ToLower()))
+                                                    ).ToList();
+            }
+            return Ok(StudentList);
         }
 
 

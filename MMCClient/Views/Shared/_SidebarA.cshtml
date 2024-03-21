@@ -15,7 +15,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+            <a class="nav-link" asp-action="StudentList" asp-controller="Account">
                 <i class="menu-icon fa-solid fa-users"></i>
                 <span class="menu-title">Danh sách học sinh</span>
                 <i class="menu-arrow"></i>
@@ -23,17 +23,16 @@
         </li>
         <li class="nav-item nav-category">Quản lý thực đơn</li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+            <a class="nav-link" asp-action="Index" asp-controller="Dish">
                 <i class="menu-icon mdi mdi-layers-outline"></i>
                 <span class="menu-title">Các món ăn</span>
                 <i class="menu-arrow"></i>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
-               aria-controls="form-elements">
+            <a class="nav-link" asp-action="Index" asp-controller="MealType">
                 <i class="menu-icon mdi mdi-card-text-outline"></i>
-                <span class="menu-title">Các loại món ăn</span>
+                <span class="menu-title">Các loại bữa ăn</span>
                 <i class="menu-arrow"></i>
             </a>
         </li>

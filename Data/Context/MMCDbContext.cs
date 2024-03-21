@@ -44,6 +44,7 @@ namespace Data.Context
             builder.ApplyConfiguration(new AboutConfiguration());
             builder.ApplyConfiguration(new BlogConfiguration());
             builder.ApplyConfiguration(new EducationConfiguration());
+            builder.ApplyConfiguration(new DishConfiguration());
 
             new EducationSeeder(builder).Seed();
             new ClassTypeSeeder(builder).Seed();
@@ -52,7 +53,7 @@ namespace Data.Context
             new AboutSeeder(builder).Seed();
             new BlogSeeder(builder).Seed();
             new MealTypeSeeder(builder).Seed();
-
+            new DishSeeder(builder).Seed();
             base.OnModelCreating(builder);
         }
         #region
@@ -64,6 +65,7 @@ namespace Data.Context
         public virtual DbSet<About> Abouts { get; set; }
         public virtual DbSet<Blog> Blogs { get; set; }
         public virtual DbSet<Education> Educations { get; set; }
+        public virtual DbSet<Dish> Dishs { get; set; }
         #endregion
     }
 }

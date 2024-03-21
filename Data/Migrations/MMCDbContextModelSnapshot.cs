@@ -79,7 +79,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 1,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3861),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9075),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 1"
@@ -87,7 +87,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 2,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3873),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9087),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 2"
@@ -95,7 +95,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 3,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3875),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9088),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 3"
@@ -103,7 +103,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 4,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3876),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9090),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 4"
@@ -111,7 +111,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 5,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3877),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9091),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 5"
@@ -119,7 +119,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 6,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3879),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9092),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 6"
@@ -127,7 +127,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 7,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3880),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9093),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 7"
@@ -135,7 +135,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 8,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3881),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9094),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 8"
@@ -143,7 +143,7 @@ namespace Data.Migrations
                         new
                         {
                             ID = 9,
-                            Date = new DateTime(2024, 3, 13, 21, 55, 20, 467, DateTimeKind.Local).AddTicks(3882),
+                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9095),
                             Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
                             Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
                             Tilte = "Blog 9"
@@ -328,6 +328,392 @@ namespace Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Data.Models.Dish", b =>
+                {
+                    b.Property<int>("DishId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DishId"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DishName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("EducationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MealTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nutrition")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DishId");
+
+                    b.HasIndex("EducationId");
+
+                    b.HasIndex("MealTypeId");
+
+                    b.ToTable("Dish", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            DishId = 1,
+                            Description = "Bánh mì với xúc xích và sốt cà chua",
+                            DishName = "Bánh mì xúc xích",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 300, Protein: 12g, Chất béo: 8g, Carbohydrate: 35g"
+                        },
+                        new
+                        {
+                            DishId = 2,
+                            Description = "Cháo gà với gà và gạo nấu mềm",
+                            DishName = "Cháo gà",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 200, Protein: 10g, Chất béo: 5g, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 3,
+                            Description = "Bánh bao nhân thịt xay và trứng cút",
+                            DishName = "Bánh bao 2 trứng",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 250, Protein: 8g, Chất béo: 6g, Carbohydrate: 30g"
+                        },
+                        new
+                        {
+                            DishId = 4,
+                            Description = "Bánh bao nhân phô mai mềm mịn",
+                            DishName = "Bánh bao phô mai",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 280, Protein: 7g, Chất béo: 12g, Carbohydrate: 35g"
+                        },
+                        new
+                        {
+                            DishId = 5,
+                            Description = "Bánh bao nhân xá xíu thơm ngon",
+                            DishName = "Bánh bao xá xíu",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 300, Protein: 10g, Chất béo: 15g, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 6,
+                            Description = "Cháo gạo nấu mềm với thịt băm nhỏ",
+                            DishName = "Cháo thịt băm",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 220, Protein: 12g, Chất béo: 8g, Carbohydrate: 30g"
+                        },
+                        new
+                        {
+                            DishId = 7,
+                            Description = "Cháo gạo nấu mềm, giàu chất dinh dưỡng",
+                            DishName = "Cháo dinh dưỡng",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 180, Protein: 6g, Chất béo: 5g, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 8,
+                            Description = "Bánh mì pate, trứng, xúc xích",
+                            DishName = "Bánh mì pate",
+                            EducationId = 1,
+                            MealTypeId = 1,
+                            Nutrition = "Calo: 300, Protein: 12g, Chất béo: 8g, Carbohydrate: 35g"
+                        },
+                        new
+                        {
+                            DishId = 9,
+                            Description = "Thịt băm xào với rau cải tươi ngon",
+                            DishName = "Thịt Băm Xào Rau Cải",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 300, Protein: 20g, Chất béo: 15g, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 10,
+                            Description = "Thịt xắt lát kèm sốt cà chua",
+                            DishName = "Thịt Xốt Cà Chua",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 350, Protein: 25g, Chất béo: 18g, Carbohydrate: 20g"
+                        },
+                        new
+                        {
+                            DishId = 11,
+                            Description = "Thịt heo rang cháy cạnh",
+                            DishName = "Thịt Rang",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 400, Protein: 30g, Chất béo: 25g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 12,
+                            Description = "Gà chiên giòn với muối và tiêu",
+                            DishName = "Gà Rang Muối",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 380, Protein: 28g, Chất béo: 20g, Carbohydrate: 15g"
+                        },
+                        new
+                        {
+                            DishId = 13,
+                            Description = "Cá kho tộ kho với sốt nước mắm",
+                            DishName = "Cá Kho Tộ",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 350, Protein: 25g, Chất béo: 15g, Carbohydrate: 20g"
+                        },
+                        new
+                        {
+                            DishId = 14,
+                            Description = "Thịt kho dừa nấu chín mềm",
+                            DishName = "Thịt Kho Dừa",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 300, Protein: 20g, Chất béo: 15g, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 15,
+                            Description = "Thịt kho với trứng cút nấu chín",
+                            DishName = "Thịt Kho Trứng",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 280, Protein: 18g, Chất béo: 12g, Carbohydrate: 20g"
+                        },
+                        new
+                        {
+                            DishId = 16,
+                            Description = "Trứng gà chiên giòn",
+                            DishName = "Trứng Chiên",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 180, Protein: 10g, Chất béo: 12g, Carbohydrate: 5g"
+                        },
+                        new
+                        {
+                            DishId = 17,
+                            Description = "Trứng gà luộc vừa chín",
+                            DishName = "Trứng Luộc",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 70, Protein: 6g, Chất béo: 5g, Carbohydrate: 1g"
+                        },
+                        new
+                        {
+                            DishId = 18,
+                            Description = "Xúc xích chiên giòn",
+                            DishName = "Xúc Xích Chiên",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 250, Protein: 8g, Chất béo: 20g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 19,
+                            Description = "Thịt băm xào với rau củ tươi ngon",
+                            DishName = "Thịt Băm Xào Rau Củ",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 250, Protein: 15g, Chất béo: 10g, Carbohydrate: 20g"
+                        },
+                        new
+                        {
+                            DishId = 20,
+                            Description = "Cá chiên xù giòn rụm",
+                            DishName = "Cá Chiên Xù",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 200, Protein: 15g, Chất béo: 12g, Carbohydrate: 5g"
+                        },
+                        new
+                        {
+                            DishId = 21,
+                            Description = "Cá hấp nhẹ nhàng với gia vị tự nhiên",
+                            DishName = "Cá Hấp",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 150, Protein: 20g, Chất béo: 5g, Carbohydrate: 2g"
+                        },
+                        new
+                        {
+                            DishId = 22,
+                            Description = "Thịt bò xào với rau cải tươi ngon",
+                            DishName = "Thịt Bò Xào Rau Cải",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 280, Protein: 25g, Chất béo: 15g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 23,
+                            Description = "Thịt bò xào với rau rút tươi ngon",
+                            DishName = "Thịt Bò Xào Rau Rút",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 270, Protein: 23g, Chất béo: 14g, Carbohydrate: 12g"
+                        },
+                        new
+                        {
+                            DishId = 24,
+                            Description = "Gà chiên giòn ngoài, mềm trong",
+                            DishName = "Gà Chiên Giòn",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 280, Protein: 20g, Chất béo: 18g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 25,
+                            Description = "Thịt gà xào cùng ớt sừng và gia vị",
+                            DishName = "Gà Xào Ớt Sừng",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 300, Protein: 22g, Chất béo: 15g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 26,
+                            Description = "Thịt gà xào cùng hành và các loại gia vị",
+                            DishName = "Gà Xào Hành",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 290, Protein: 24g, Chất béo: 16g, Carbohydrate: 8g"
+                        },
+                        new
+                        {
+                            DishId = 27,
+                            Description = "Thịt gà xào cùng gừng và các loại gia vị",
+                            DishName = "Gà Xào Gừng",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 280, Protein: 23g, Chất béo: 15g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 28,
+                            Description = "Cải bắp xào với tỏi và dầu ăn",
+                            DishName = "Cải Bắp Xào",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 70, Protein: 4g, Chất béo: 3g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 29,
+                            Description = "Rau muống xào với tỏi và dầu ăn",
+                            DishName = "Rau Muống Xào",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 60, Protein: 3g, Chất béo: 2g, Carbohydrate: 8g"
+                        },
+                        new
+                        {
+                            DishId = 30,
+                            Description = "Rau lang luộc với nước mắm pha",
+                            DishName = "Rau Lang Luộc",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 40, Protein: 2g, Chất béo: 1g, Carbohydrate: 6g"
+                        },
+                        new
+                        {
+                            DishId = 31,
+                            Description = "Canh cải bắp nấu với thịt heo và nước dừa",
+                            DishName = "Canh Cải Bắp",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 80, Protein: 5g, Chất béo: 4g, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 32,
+                            Description = "Canh rau cải nấu với tôm và hành",
+                            DishName = "Canh Rau Cải",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 70, Protein: 4g, Chất béo: 3g, Carbohydrate: 8g"
+                        },
+                        new
+                        {
+                            DishId = 33,
+                            Description = "Canh đậu hủ nấu với nấm và hành",
+                            DishName = "Canh Đậu Hủ",
+                            EducationId = 1,
+                            MealTypeId = 2,
+                            Nutrition = "Calo: 60, Protein: 5g, Chất béo: 2g, Carbohydrate: 6g"
+                        },
+                        new
+                        {
+                            DishId = 34,
+                            Description = "Xoài chín ngọt, 50g",
+                            DishName = "Xoài",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 110, Carbohydrate: 30g"
+                        },
+                        new
+                        {
+                            DishId = 35,
+                            Description = "Dưa hấu tươi mát, 50g",
+                            DishName = "Dưa Hấu",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 95, Carbohydrate: 25g"
+                        },
+                        new
+                        {
+                            DishId = 36,
+                            Description = "Chuối chín mọng, 50g",
+                            DishName = "Chuối",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 140, Carbohydrate: 38g"
+                        },
+                        new
+                        {
+                            DishId = 37,
+                            Description = "Cam chín mọng, 50g",
+                            DishName = "Cam",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 60, Carbohydrate: 15g"
+                        },
+                        new
+                        {
+                            DishId = 38,
+                            Description = "Nho tươi mát, 50g",
+                            DishName = "Nho",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 40, Carbohydrate: 10g"
+                        },
+                        new
+                        {
+                            DishId = 39,
+                            Description = "Lê chín mềm, 50g",
+                            DishName = "Lê",
+                            EducationId = 1,
+                            MealTypeId = 3,
+                            Nutrition = "Calo: 30, Carbohydrate: 8g"
+                        });
+                });
+
             modelBuilder.Entity("Data.Models.Education", b =>
                 {
                     b.Property<int>("Id")
@@ -407,11 +793,16 @@ namespace Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int?>("EducationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("EducationId");
 
                     b.ToTable("MealType", (string)null);
 
@@ -419,17 +810,20 @@ namespace Data.Migrations
                         new
                         {
                             Id = 1,
+                            EducationId = 1,
                             Name = "Bữa sáng"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Bữa trưa"
+                            EducationId = 1,
+                            Name = "Bữa trưa, tối"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Bữa chiều"
+                            EducationId = 1,
+                            Name = "Tráng miệng"
                         });
                 });
 
@@ -488,13 +882,7 @@ namespace Data.Migrations
                     b.Property<string>("ParentFullName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ParentPhone")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
@@ -508,6 +896,9 @@ namespace Data.Migrations
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
+
+                    b.Property<string>("StudentCode")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -537,15 +928,15 @@ namespace Data.Migrations
                         {
                             Id = new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d2288a82-909e-4e78-98c8-d48e92654f3d",
+                            ConcurrencyStamp = "5488908b-13b2-40f6-89ae-fc5fa918453a",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDvV3TNu7P/mxgX7Oi2ONAiVpmhmMpSg/hx02dOKeVnTdHe8aHG5FWBLJoCVKDosWQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEC+zTi1mAlDvks0P7eqtpwWG5lWD89pXDQOj2gWzWnco2Dk1oIamraPnC4Q9RdpUfA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "70093915-fc43-48cb-ab41-d223ad8b00fc",
+                            SecurityStamp = "c0c1a8a3-8ff7-4cae-a9f2-44eaf8860c8d",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "SuperAdmin"
@@ -554,16 +945,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0d6b89f4-0d6e-4aa9-aff2-1ed3c1db2fb3",
+                            ConcurrencyStamp = "03de8476-0540-4796-b9c4-b0374a567f68",
                             EducationId = 1,
                             Email = "DongDa@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "DONGDA@GMAIL.COM",
                             NormalizedUserName = "DONGDA",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJyAvWeiNqZ8ST+ksoCBa5j06zw16UozHICVJwcUMBps03XjmXs/eDd/H6TbPQSfsg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOWcyEBdR0DbFIEHk4VMm/+kJXtJrFgaEVjLsWsMiy5/jdzABdc3AbXIq3lBv2kcXQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "f2a2e251-4aab-40a4-a116-9d42b77e9df6",
+                            SecurityStamp = "de90c26d-6b63-4d6c-9754-967728a64532",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "DongDa"
@@ -572,16 +963,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "08512db1-db30-4fee-9534-2d28e9a12c49",
+                            ConcurrencyStamp = "1f664ced-42e6-4a5d-9270-fd168ec5c414",
                             EducationId = 2,
                             Email = "NguyenDu@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "NGUYENDU@GMAIL.COM",
                             NormalizedUserName = "NGUYENDU",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPKi4qhfRgyUu3L68XuEYddPaX4qvOqAS7z5iumlfhcXgM8bl8E9sjh63AP3CuJ3aQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEENJ3BG4vq3bMpIGlHlYLaTRYPcS5O4yA8qEWlU9QVWI1xAZd/MW2XVL2Zt6DYAecw==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "15083606-2f71-4498-901f-996faeb89f46",
+                            SecurityStamp = "56f9e797-8077-49f1-8c9b-70bacf40a0a7",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "NguyenDu"
@@ -590,16 +981,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1cbab019-07de-4660-8c80-ccf9175a09c2",
+                            ConcurrencyStamp = "e81a6619-b8d0-4cdd-834f-984f6666f374",
                             EducationId = 3,
                             Email = "PhanChuTrinh@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "PHANCHUTRINH@GMAIL.COM",
                             NormalizedUserName = "PHANCHUTRINH",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPQLcXyEAeOFV3GmSDmB+CD3gLBsw0m58/9/hXAYS8MuNOv0qqpLzh52OiNmIIFNyw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAjlUuQSA/HOpOB8Lg8ZEWO2FRY5TaLwUeOt1NwxKlDh4sKGtAtxvIcco0wQa4qtXw==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "7f29baad-3ee1-4347-88d0-114b50fe1e74",
+                            SecurityStamp = "4e019189-2d95-4f79-813c-a5f7a4a69d55",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "PhanChuTrinh"
@@ -608,16 +999,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bb47ae8e-b503-4c7b-a80f-4519a8a334ca",
+                            ConcurrencyStamp = "17e6fd2a-83d6-466b-821d-77b21a9dd2d6",
                             EducationId = 4,
                             Email = "TranHungDao@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "TRANHUNGDAO@GMAIL.COM",
                             NormalizedUserName = "TRANHUNGDAO",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDb1RwhpWPcEDTvdiX4hjx/ziLdnvB+Vvk1M7BhOVmp0bKfozM38/qKMasTKdfXuFQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEC0izS9qb4OBq4ZiCWuAAtSD45p6y7elbjRWBUc+ltQZUkYBos0zXqt0MYocDUDKnQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "4be6be88-1bcf-4803-a331-f6cc923f70a7",
+                            SecurityStamp = "caf07b3b-4f17-49f4-904c-dc8d480db169",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "TranHungDao"
@@ -626,19 +1017,67 @@ namespace Data.Migrations
                         {
                             Id = new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9e8ea727-fba2-4bd5-9ea1-e8871a37bc4a",
+                            ConcurrencyStamp = "8f7820ff-27a0-46e3-8100-2b28e5a8944d",
                             EducationId = 5,
                             Email = "LeLoi@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "LELOI@GMAIL.COM",
                             NormalizedUserName = "LELOI",
-                            PasswordHash = "AQAAAAEAACcQAAAAEO+b8ZsFrXoJxyptnjb4qW1HtUL2Y7KN23BI2s+M4YIzI1YhhRDK0PQDxE1IkKlkhw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEG8ayzycewQy4xgZDB3R8to6gna2yLioA/BNtZCRZiqlOJNnVp2WYug+dwckGLf2bg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "6fc3792f-2c11-4a90-b68e-8bfe3853c20c",
+                            SecurityStamp = "c10c96c1-545c-41e7-b11a-2082b6882ba2",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "LeLoi"
+                        },
+                        new
+                        {
+                            Id = new Guid("7c85649c-2d04-4846-a5f2-212ea550291b"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "ff8a6d18-1768-4e3a-bbf2-6a4c17aba5d9",
+                            EducationId = 1,
+                            Email = "Lamnt@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Nguyễn Thành Lâm",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "LAMNT@GMAIL.COM",
+                            NormalizedUserName = "LAMNT",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHciQsAgvsUH0yD1QFY+zqsIAN+gBdd/1vRit2jWSv/KRckgZBtnkV7QSM9VfqYDFQ==",
+                            PhoneNumber = "0912345678",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "27e17922-d2d8-4e1f-ab8e-bdc532faceaa",
+                            Status = true,
+                            StudentCode = "DongDa10001",
+                            TwoFactorEnabled = true,
+                            UserName = "LamntDongDa10001"
+                        },
+                        new
+                        {
+                            Id = new Guid("0ee3e5a7-89ed-4bd2-8729-c66311b30033"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "e95bf500-b0d0-46fb-94e8-00778015d88b",
+                            EducationId = 1,
+                            Email = "Ductv@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Trần Văn Đức",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "DUCTV@GMAIL.COM",
+                            NormalizedUserName = "DUCTV",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPDlnfwIlsbvySBSpxCT3oUJ3nu5+6Li1op3+re1UGenRFUhf92ZW0cc26DLzPNPTA==",
+                            PhoneNumber = "0912345679",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "39a56082-084a-4574-a757-27497c58a037",
+                            Status = true,
+                            StudentCode = "DongDa10002",
+                            TwoFactorEnabled = true,
+                            UserName = "DuctvDongDa10002"
                         });
                 });
 
@@ -673,30 +1112,23 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("6335deda-9f1c-43d4-908f-58073ff07896"),
-                            ConcurrencyStamp = "41f3494b-2212-487f-9878-8e807f427754",
+                            ConcurrencyStamp = "a9e36a2e-8c00-4115-9278-37f6e4a21add",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "f8c3e2b8-2c9e-49ba-8f28-7164a70d9afe",
+                            ConcurrencyStamp = "4e0bef16-a068-450b-a638-db7ce22082b1",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "022a2647-67c4-4f12-a6de-8f9c87d08918",
-                            Name = "Staff",
-                            NormalizedName = "STAFF"
-                        },
-                        new
-                        {
-                            Id = new Guid("fe0e9c2d-6abd-4f73-a635-63fc58ec700e"),
-                            ConcurrencyStamp = "aceffd70-50e4-44df-ad2b-c1ca4f7ea638",
-                            Name = "Parent",
-                            NormalizedName = "PARENT"
+                            ConcurrencyStamp = "23d157fd-3df7-4702-873d-58e35ce812ab",
+                            Name = "Student",
+                            NormalizedName = "STUDENT"
                         });
                 });
 
@@ -813,6 +1245,16 @@ namespace Data.Migrations
                         {
                             UserId = new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"),
                             RoleId = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d")
+                        },
+                        new
+                        {
+                            UserId = new Guid("7c85649c-2d04-4846-a5f2-212ea550291b"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
+                        },
+                        new
+                        {
+                            UserId = new Guid("0ee3e5a7-89ed-4bd2-8729-c66311b30033"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
                         });
                 });
 
@@ -854,6 +1296,24 @@ namespace Data.Migrations
                     b.Navigation("Education");
                 });
 
+            modelBuilder.Entity("Data.Models.Dish", b =>
+                {
+                    b.HasOne("Data.Models.Education", "Education")
+                        .WithMany("Dishs")
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Data.Models.MealType", "MealType")
+                        .WithMany("Dishs")
+                        .HasForeignKey("MealTypeId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Education");
+
+                    b.Navigation("MealType");
+                });
+
             modelBuilder.Entity("Data.Models.MealPlan", b =>
                 {
                     b.HasOne("Data.Models.ClassType", "ClassType")
@@ -871,6 +1331,16 @@ namespace Data.Migrations
                     b.Navigation("ClassType");
 
                     b.Navigation("MealType");
+                });
+
+            modelBuilder.Entity("Data.Models.MealType", b =>
+                {
+                    b.HasOne("Data.Models.Education", "Education")
+                        .WithMany("MealTypes")
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("Education");
                 });
 
             modelBuilder.Entity("Data.Models.User", b =>
@@ -957,11 +1427,17 @@ namespace Data.Migrations
                 {
                     b.Navigation("Classes");
 
+                    b.Navigation("Dishs");
+
+                    b.Navigation("MealTypes");
+
                     b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Data.Models.MealType", b =>
                 {
+                    b.Navigation("Dishs");
+
                     b.Navigation("MealPlans");
                 });
 #pragma warning restore 612, 618

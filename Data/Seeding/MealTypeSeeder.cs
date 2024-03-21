@@ -22,17 +22,20 @@ namespace Data.Seeding
                 new MealType()
                 {
                     Id = 1,
-                    Name = "Bữa sáng"
+                    Name = "Bữa sáng",
+                    EducationId = 1,
                 },
                 new MealType()
                 {
                     Id = 2,
-                    Name = "Bữa trưa"
+                    Name = "Bữa trưa, tối",
+                    EducationId = 1,
                 },
                 new MealType()
                 {
                     Id = 3,
-                    Name = "Bữa chiều"
+                    Name = "Tráng miệng",
+                    EducationId = 1,
                 }
             );
         }

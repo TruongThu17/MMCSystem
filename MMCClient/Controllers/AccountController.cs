@@ -63,8 +63,36 @@ namespace MMCClient.Controllers
             page.PageNumber = validPageNumber;
             page.CountPage = totalPageCount;
             page.CountItem = list.Count;
-
+            page.searchString = search;
             return View("AdminList", page);
+        }
+        public async Task<IActionResult> StudentList(int? pageNumber, string? search)
+        {
+
+            PageSz<AccountStudentDTO> page = new PageSz<AccountStudentDTO>();
+            List<AccountStudentDTO> list = new List<AccountStudentDTO>();
+            var res = await client.GetAsync("api/User/listAccountStudent/"+ search);
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            list = JsonConvert.DeserializeObject<List<AccountStudentDTO>>(content);
+
+
+            page.PageSize = 8;
+            int validPageNumber = pageNumber.HasValue && pageNumber > 0 ? pageNumber.Value : 1;
+            int totalPageCount = (int)Math.Ceiling((double)list.Count / page.PageSize);
+            List<AccountStudentDTO> paginated = list.Skip((validPageNumber - 1) * page.PageSize).Take(page.PageSize).ToList();
+
+            page.list = paginated;
+            page.PageNumber = validPageNumber;
+            page.CountPage = totalPageCount;
+            page.CountItem = list.Count;
+            page.searchString = search;
+            return View("StudentList", page);
         }
         public async Task<IActionResult> EditAdmin(string username)
         {

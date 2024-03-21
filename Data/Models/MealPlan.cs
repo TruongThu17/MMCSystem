@@ -14,7 +14,7 @@ namespace Data.Models
         public int ClassTypeId { get; set; }
         public int MealTypeId { get; set; }
         public virtual MealType? MealType { get; set; }
-
+        public virtual ICollection<MealPlan>? MealPlans { get; set; }
         public virtual ClassType? ClassType { get; set; }
 
     }

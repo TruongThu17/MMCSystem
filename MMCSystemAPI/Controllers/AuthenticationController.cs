@@ -100,8 +100,6 @@ namespace MMCSystemAPI.Controllers
                 Address = model.Address,
                 BirthDay = model.BirthDay,
                 ParentFullName = model.ParentFullName,
-                ParentPhone = model.ParentPhone,
-                Phone = model.Phone,
                 EducationId = model.EducationId
             };
             var result = await _userManager.CreateAsync(user, model.Password);
