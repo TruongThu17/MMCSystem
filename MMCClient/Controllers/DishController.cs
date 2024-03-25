@@ -1,6 +1,7 @@
 ﻿using Data.DTO;
 using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MMCClient.Models;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -55,6 +56,113 @@ namespace MMCClient.Controllers
             page.CountPage = totalPageCount;
             page.searchString = search;
             return View(page);
+        }
+        public async Task<IActionResult> CreateAsync()
+        {
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var res = await client.GetAsync("api/MealType");
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+            List<MealTypeDTO> MealTypeDTOs = JsonConvert.DeserializeObject<List<MealTypeDTO>>(content);
+            DishDTO c = new DishDTO();
+            var MealTypeSelectList = new SelectList(MealTypeDTOs, "Id", "Name");
+            ViewBag.MealTypeSelectList = MealTypeSelectList;
+            return View(c);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Create([Bind("DishName,Description,Nutrition,MealTypeId")] DishDTO DishDTO)
+        {
+
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var body = new StringContent(JsonConvert.SerializeObject(DishDTO), Encoding.UTF8, "application/json");
+            var response = await client.PostAsync($"api/Dish", body);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return StatusCode(500);
+            }
+        }
+        public async Task<IActionResult> EditAsync(int id)
+        {
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var res = await client.GetAsync("api/MealType");
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+            List<MealTypeDTO> MealTypeDTOs = JsonConvert.DeserializeObject<List<MealTypeDTO>>(content);
+            var MealTypeSelectList = new SelectList(MealTypeDTOs, "Id", "Name");
+            ViewBag.MealTypeSelectList = MealTypeSelectList;
+
+
+            var resd = await client.GetAsync("api/Dish/find/" + id);
+            var contentd = await resd.Content.ReadAsStringAsync();
+
+            if (!resd.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+            DishDTO c = JsonConvert.DeserializeObject<DishDTO>(contentd);
+            return View(c);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Edit([Bind("DishId,DishName,Description,Nutrition,MealTypeId")] DishDTO DishDTO)
+        {
+
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var body = new StringContent(JsonConvert.SerializeObject(DishDTO), Encoding.UTF8, "application/json");
+            var response = await client.PutAsync($"api/Dish/"+ DishDTO.DishId, body);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return StatusCode(500);
+            }
         }
     }
 }

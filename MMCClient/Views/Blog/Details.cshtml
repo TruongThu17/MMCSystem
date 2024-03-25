@@ -1,0 +1,20 @@
+﻿@model Data.DTO.BlogDTO;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="page-section">
+    <div class="d-flex align-items-center">
+        <i class="fa-solid fa-arrow-left mr-2 mt-3 mmc-color"></i>
+        <a asp-controller="Blog" asp-action="Index" class="mmc-color mt-3 mx-2" style="font-size:20px; text-decoration: none;">Danh sách tin tức</a>
+    </div>
+
+    
+
+    <h1 class=" mmc-color site-heading-upper">@Model.Tilte</h1>
+    <div class="text-muted small ">@Model.Date</div>
+    <p class="mb-3">@Model.Description</p>
+    <div style="text-align: center;">
+        <img class="" style="width:800px; display: inline-block; margin: 0 auto;" src="@Model.Img" alt="..." />
+    </div>
+</section>

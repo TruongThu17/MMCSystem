@@ -30,8 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Account/CreateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Account/EditAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Account/EditStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0U3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Account/StudentList.cshtml]
@@ -58,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Blog/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,6 +88,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Class/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Dish/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Dish/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Dish/Index.cshtml]
@@ -90,8 +114,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Ingredient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Ingredient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Ingredient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/MealPlan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFBsYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/MealPlan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFBsYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/MealPlan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFBsYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/MealType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/MealType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/MealType/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/Error.cshtml]
@@ -118,14 +186,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXJTUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SettingsA.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXR0aW5nc0EuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SettingsSP.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXR0aW5nc1NQLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/Shared/_SidebarA.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyQS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -140,6 +200,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/SuperAdminHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pbkhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN231/Project/MMCSytem/MMCClient/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN231/Project/MMCSytem/MMCClient/Views/_ViewImports.cshtml]

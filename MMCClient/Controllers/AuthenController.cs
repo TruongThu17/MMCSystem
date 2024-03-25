@@ -50,7 +50,7 @@ namespace MMCClient.Controllers
 					var userPrincipal = new ClaimsPrincipal(new ClaimsIdentity(jsonToken.Claims));
 					var roles = userPrincipal.FindAll(ClaimTypes.Role).Select(claim => claim.Value).ToList();
 					var userRole = roles.FirstOrDefault();
-					if(userRole!=null && (userRole.Equals("SuperAdmin") || userRole.Equals("Admin") || userRole.Equals("Staff") || userRole.Equals("Parents")))
+					if(userRole!=null && (userRole.Equals("SuperAdmin") || userRole.Equals("Admin") || userRole.Equals("Parents")))
 					{
 						HttpContext.Session.Set("Role", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userRole)));
 					}
@@ -65,9 +65,6 @@ namespace MMCClient.Controllers
 
 						case "Admin":
 							return RedirectToAction("Index", "AdminHome");
-
-						case "Staff":
-							return RedirectToAction("Index", "StaffHome");
 
 						case "Parents":
 							return RedirectToAction("Index", "ParentsHome");
@@ -101,12 +98,29 @@ namespace MMCClient.Controllers
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<ActionResult> Registrator([Bind("Username,Password,FullName,Email,Phone,Address,BirthDay,EducationName")] RegistratorVM register)
+		public async Task<ActionResult> Registrator([Bind("Username,Password,FullName,Email,PhoneNumber,Address,BirthDay,EducationName")] RegistratorVM register)
 		{
+			var resus = await client.GetAsync($"api/User/getByUserName/" + register.Username);
+			var contentus = await resus.Content.ReadAsStringAsync();
+
+			if ((int)resus.StatusCode == 200)
+			{
+				ViewBag.Message = "Username đã tồn tại!";
+				return View("Registrator", register);
+			}
+
+			var rese = await client.GetAsync($"api/User/getByEmail/" + register.Email);
+			var contente = await rese.Content.ReadAsStringAsync();
+
+			if ((int)rese.StatusCode == 200)
+			{
+				ViewBag.Message = "Email đã tồn tại!";
+				return View("Registrator", register);
+			}
 			// create education
 			EducationDTO educationDTO = new EducationDTO()
 			{
-				Id =0,
+				Id = 0,
 				Name = register.EducationName
 			};
 			var body = new StringContent(JsonConvert.SerializeObject(educationDTO), Encoding.UTF8, "application/json");
@@ -128,7 +142,7 @@ namespace MMCClient.Controllers
 					BirthDay = register.BirthDay,
 					ParentFullName = "",
 					ParentPhone = "",
-					Phone = register.Phone,
+                    PhoneNumber = register.PhoneNumber,
 					EducationId = educationDTO.Id
 				};
 				var bodyu = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
@@ -139,7 +153,7 @@ namespace MMCClient.Controllers
 					return RedirectToAction(nameof(Index));
 				}
 			}
-
+			ViewBag.Message = "Tạo mới không thành công!";
 			return View("Registrator", register);
 		}
 	}

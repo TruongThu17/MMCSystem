@@ -16,6 +16,6 @@ namespace Data.Models
         public int? EducationId { get; set; }
         public virtual Education? Education { get; set; }
         public virtual MealType? MealType { get; set; }
-        public virtual ICollection<MealPlan>? MealPlans { get; set; }
+        public virtual ICollection<MealPlanDetail>? MealPlanDetails { get; set; }
     }
 }

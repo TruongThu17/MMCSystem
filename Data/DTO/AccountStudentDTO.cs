@@ -11,7 +11,7 @@ namespace Data.DTO
     public class AccountStudentDTO
     {
         [DisplayName("Username")]
-        public string? Username { get; set; }
+        public string? Username { get; set; } 
 
         [EmailAddress]
         [DisplayName("Email")]
@@ -25,14 +25,14 @@ namespace Data.DTO
         [DisplayName("Địa chỉ")]
         public string? Address { get; set; }
         [DisplayName("Tên trường")]
-        public string EducationName { get; set; }
+        public string? EducationName { get; set; }
         public int? EducationId { get; set; }
         [DisplayName("Trạng thái hoạt động")]
         public bool? Status { get; set; }
-        [DisplayName("Mã học sinh")]
-        public string? StudentCode { get; set; }
         [DisplayName("Tên lớp")]
         public string? ClassName { get; set; }
+        [DisplayName("Tên phụ huynh")]
+        public string? ParentFullName { get; set; }
         public int? ClassId { get; set; }
     }
 }

@@ -30986,3 +30986,12 @@ div.tagsinput span.tag a {
 .footer {
     flex-shrink: 0;
 }
+des-text {
+    max-width: 16.666%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hovered {
+    background-color: #87CEFA !important; /* Màu xanh */
+}

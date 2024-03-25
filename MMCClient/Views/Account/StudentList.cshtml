@@ -21,7 +21,7 @@
                             </form>
                         </div>
                         <div class="col-md-4">
-                            <a class="btn btn-primary btn-md text-white mb-0 ms-2" asp-action="Create" asp-controller="StudentList" style="height: 45px; width:130px; font-size:14px">
+                            <a class="btn btn-primary btn-md text-white mb-0 ms-2" asp-action="CreateStudent" asp-controller="Account" style="height: 45px; width:130px; font-size:14px">
                                 <i class="mdi mdi-account-plus me-2"></i>Tạo mới
                             </a>
                         </div>
@@ -76,7 +76,7 @@
                                         <div class="row">
 
                                             <div class="col-md-6">
-                                                <a class="btn btn-primary text-center text-white mb-0 me-0" style="width:100px; font-size:14px" asp-action="EditStudent" asp-controller="Student" asp-route-username="@item.Username">
+                                                <a class="btn btn-primary text-center text-white mb-0 me-0" style="width:100px; font-size:14px" asp-action="EditStudent" asp-controller="Account" asp-route-username="@item.Username">
                                                     Chỉnh sửa
                                                 </a>
                                             </div>

@@ -12668,3 +12668,12 @@ p {
 .custom-card {
     max-width: 300px; /* Điều chỉnh giá trị tối đa của chiều rộng theo nhu cầu của bạn */
 }
+#notification {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: #b3e5fc;
+    color: white;
+    padding: 15px;
+    z-index: 9999;
+}

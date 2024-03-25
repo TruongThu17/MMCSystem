@@ -23,7 +23,7 @@
                         </div>
                         <div>
                             <label for="image" style="font-weight: bold;">Chọn ảnh (jpg, jpeg, png, gif):</label>
-                            <input class="form-control my-3" type="file" id="ImgFile" name="ImgFile" asp-for="@Model.ImgFile" accept=".jpg, .jpeg, .png, .gif" style="width:600px; height:auto" required onchange="readURL(this)" />
+                            <input class="form-control my-3" type="file" id="ImgFile" name="ImgFile" asp-for="@Model.ImgFile" accept=".jpg, .jpeg, .png, .gif" style="width:600px; height:auto" onchange="readURL(this)" />
                             <img class="intro-img img-fluid mb-3 rounded" id="ImgPreview" style="width:600px; height:auto" src="@Model.Img" alt="..." />
                         </div>
                         <div>

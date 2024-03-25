@@ -46,7 +46,21 @@ namespace MMCSystemAPI.Controllers
             AccountAdminDTO c = _mapper.Map<AccountAdminDTO>(user);
             return Ok(c);
         }
-        [HttpGet("listAccountAdmin")]
+        [HttpGet("getByUserNameStudent/{username}")]
+        public async Task<ActionResult<AccountAdminDTO>> GetStudent(string username)
+        {
+            var user = await _userManager.FindByNameAsync(username);
+            AccountStudentDTO c = _mapper.Map<AccountStudentDTO>(user);
+            return Ok(c);
+        }
+        [HttpGet("getByEmail/{email}")]
+		public async Task<ActionResult<AccountAdminDTO>> GetByEmail(string email)
+		{
+			var user = await _userManager.FindByEmailAsync(email);
+			AccountAdminDTO c = _mapper.Map<AccountAdminDTO>(user);
+			return Ok(c);
+		}
+		[HttpGet("listAccountAdmin")]
         public async Task<ActionResult<IEnumerable<AccountAdminDTO>>> GetAdminAccount()
         {
             var adminRoleName = "Admin"; 
@@ -88,10 +102,14 @@ namespace MMCSystemAPI.Controllers
         [HttpGet("listAccountStudent/{search?}")]
         public async Task<ActionResult<IEnumerable<AccountStudentDTO>>> GetStudentAccount(string? search)
         {
+            var usernameClaim = User.FindFirst(ClaimTypes.Name);
+            var user = await _userManager.FindByNameAsync(usernameClaim.Value);
+
             var studentRoleName = "Student";
             var users = await _userManager.GetUsersInRoleAsync(studentRoleName);
 
             IEnumerable<AccountStudentDTO> StudentList = _mapper.Map<IEnumerable<AccountStudentDTO>>(users);
+            StudentList = StudentList.Where(x => x.EducationId == (int)user.EducationId).ToList();
             foreach (var item in StudentList)
             {
                 if (item.EducationId != null)
@@ -108,32 +126,10 @@ namespace MMCSystemAPI.Controllers
                                                     || (u.Address != null && u.Address.ToLower().Contains(search.ToLower()))
                                                     ).ToList();
             }
+
             return Ok(StudentList);
         }
 
-
-        //[HttpGet("{id}")]
-        //public ActionResult Get(int id)
-        //{
-        //    if (id == null) return BadRequest();
-        //    Customer cus = repository.FindCustomerById(id);
-        //    if (cus == null) return NotFound();
-        //    CustomerVM c = _mapper.Map<CustomerVM>(cus);
-        //    return Ok(c);
-        //}
-
-        //// PUT api/<SupplierController>/5
-        //[HttpPut("{id}")]
-        //public ActionResult Put(int id, [FromBody] CustomerVM customerDTO)
-        //{
-
-        //    var s = repository.FindCustomerById(id);
-        //    if (s == null) return NotFound();
-        //    if (!ModelState.IsValid) return BadRequest(ModelState);
-        //    Customer cus = _mapper.Map<Customer>(customerDTO);
-        //    cus.UserId = s.UserId;
-        //    repository.UpdateCustomer(cus);
-        //    return NoContent();
-        //}
+       
     }
 }

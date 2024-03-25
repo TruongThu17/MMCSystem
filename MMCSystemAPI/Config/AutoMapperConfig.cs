@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Data.DTO;
 using Data.Models;
+using DataAccess;
 
 namespace MMCSystemAPI.Config
 {
@@ -38,8 +39,23 @@ namespace MMCSystemAPI.Config
                 config.CreateMap<MealType, MealTypeDTO>();
                 config.CreateMap<MealTypeDTO, MealType>();
 
+                config.CreateMap<MealPlan, MealPLanDTO>();
+                config.CreateMap<MealPLanDTO, MealPlan>();
+
+                config.CreateMap<MealPlanDetail, MealPlanDetailDTO>();
+                config.CreateMap<MealPlanDetailDTO, MealPlanDetail>();
+
                 config.CreateMap<Dish, DishDTO>();
                 config.CreateMap<DishDTO, Dish>();
+
+                config.CreateMap<Supplier, SupplierDTO>();
+                config.CreateMap<SupplierDTO, Supplier>();
+
+                config.CreateMap<Ingredient, IngredientDTO>();
+                config.CreateMap<IngredientDTO, Ingredient>();
+
+                config.CreateMap<Order, OrderDTO>();
+                config.CreateMap<OrderDTO, Order>();
             });
 
             return mapperConfig.CreateMapper();

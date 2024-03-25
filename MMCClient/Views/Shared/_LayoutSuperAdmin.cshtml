@@ -32,13 +32,13 @@
 
 </head>
 <body class="with-welcome-text">
-
+    <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <partial name="_NavBarSP" />
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:partials/_settings-panel.html -->
-            <partial name="_SettingsSP" />
+           @*  <partial name="_SettingsSP" /> *@
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
             <partial name="_SidebarSP" />
@@ -51,17 +51,15 @@
                     </main>
                 </div>
         <!-- content-wrapper ends -->
-        <!-- partial:partials/_footer.html -->
-        <
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
     </div>
-    footer class="footer">
-    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Super Admin</span>
-        <span class="float-none float-sm-end d-block mt-1 mt-sm-0 text-center">Copyright &copy;MMC System 2024</span>
-    </div>
+    <footer class="footer" style="flex-shrink: 0;">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Super Admin</span>
+            <span class="float-none float-sm-end d-block mt-1 mt-sm-0 text-center">Copyright &copy;MMC System 2024</span>
+        </div>
     </footer>
     <!-- page-body-wrapper ends -->
   </div>

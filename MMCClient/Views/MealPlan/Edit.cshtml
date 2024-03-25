@@ -1,0 +1,332 @@
+﻿@model Data.DTO.MealPLanDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+<style>
+    #tb-search tbody tr:hover {
+        background-color: #b3e5fc; /* Màu xanh */
+        cursor: pointer; /* Con trỏ khi di chuột vào */
+    }
+
+    #notification {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        background-color: #b3e5fc;
+        color: white;
+        padding: 15px;
+        z-index: 9999;
+    }
+</style>
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Chỉnh sửa kế hoạch</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <div class="d-flex">
+                            <div style="width:40%">
+                                <input class="form-control my-3" id="MealPlanID" name="MealPlanID" asp-for="MealPlanID" hidden></input>
+                                <div>
+                                    <label asp-for="MealPlanName" style="font-weight: bold;"></label>
+
+                                    <input class="form-control my-3" id="MealPlanName" name="MealPlanName" asp-for="MealPlanName" required></input>
+
+                                </div>
+                                <div>
+                                    <label asp-for="Description" style="font-weight: bold;"></label>
+                                    <textarea class="form-control my-3" id="Description" name="Description" asp-for="@Model.Description" style="height: 200px;" rows="2" maxlength="200" required></textarea>
+
+                                </div>
+                                <div>
+                                    <label asp-for="DatePlan" style="font-weight: bold;"></label>
+
+                                    <input type="datetime-local" class="form-control my-3" id="DatePlan" name="DatePlan" asp-for="DatePlan" required>
+
+
+                                </div>
+                                <div>
+                                    <label asp-for="ClassTypeId" style="font-weight: bold;"></label>
+                                    <select name="ClassType" asp-items="@ViewBag.ClassTypeSelectList" class="form-control my-3" placeholder="Chọn loại lớp" id="ClassTypeId" required>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label asp-for="MealTypeId" style="font-weight: bold;"></label>
+                                    <select name="MealTypeId" asp-items="@ViewBag.MealTypeSelectList" class="form-control my-3" placeholder="Chọn loại lớp" id="MealTypeId" required>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive  mt-1 mx-3" style="width:60%">
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <label style="font-weight: bold;">Các món ăn có trong kế hoạch</label>
+                                    <div >
+                                        <div class=" d-flex">
+                                            <input class="form-control me-2" type="text" placeholder="Tìm kiếm" aria-label="Search" style="height: 45px; width:170px; font-size:14px" id="search" name="search">
+                                            <a class="btn btn-primary" style="height: 45px; width:150px;  font-size:14px" onclick="searchDish()">Tìm kiếm</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="table-search" style="display: none; width: 60%; height: 200px; overflow: auto; position: absolute; z-index: 3; border: 1px solid #ccc;" class=" card">
+                                    <table class="justify-content-end" id="tb-search">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.DishName)</th>
+                                                <th scope="col">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.Description)</th>
+                                                <th scope="col">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.Nutrition)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <table class="table select-table my-3 " id="table_details">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:20%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.DishName)</th>
+                                            <th style="width: 20%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.Description)</th>
+                                            <th style="width: 20%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Dish.Nutrition)</th>
+                                            <th style="width: 20%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.MealPlanDetails.FirstOrDefault().Quantity)</th>
+                                            <th></th>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.MealPlanDetails)
+                                        {
+                                            <tr id="row-@item.DishId">
+                                                <td>
+                                                    @item.Dish.DishName
+                                                </td>
+                                                <td>
+                                                    @item.Dish.Description
+                                                </td>
+                                                <td>
+                                                    @item.Dish.Nutrition
+                                                </td>
+                                                <td>
+                                                    <input type="number" class="form-control" name="Quantity" id="quantity-@item.DishId" value="@item.Quantity" style="font-size:12px" min="0" />
+
+                                                </td>
+                                                <td>
+                                                    <i class="fa-regular fa-trash-can" onclick="deleteRow(@item.DishId)"></i>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                       
+
+                        <div>
+                            <a class="save_span btn btn-primary btn-xl btn-color my-4">Lưu</a>
+                            <div class="card" id="notification" style="display:none;">Thông báo sẽ được hiển thị ở đây</div>
+                        </div>
+                    </form>
+                    <a asp-controller="MealPlan" asp-action="Index" class="primary mt-3 my-4">Kế hoạch ăn uống cho trẻ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="token" value="@ViewBag.Token" />
+</div>
+<script>
+    $(document).ready(function () {
+        $('#tb-search tbody tr').on({
+            mouseenter: function () {
+                $(this).addClass('hovered');
+            },
+            mouseleave: function () {
+                $(this).removeClass('hovered');
+            }
+        }); 
+        
+    });
+    $(document).click(function (event) {
+        if (!$(event.target).closest('#table-search').length) {
+            $('#table-search').hide();
+        }
+    });
+    $(document).on('click', '.save_span', function () {
+        var token = document.getElementById('token').value;
+        // Thu thập giá trị từ các trường input
+        var MealPlanName = $('#MealPlanName').val().trim();
+        if (MealPlanName === '') {
+            showNotification("Tên kế hoạch không được để trống!", 5000);
+        } 
+        var Description = $('#Description').val().trim();
+        var MealPlanID = $('#MealPlanID').val().trim();
+        var selectedDate;
+        var DatePlan = $('#DatePlan').val().trim();
+        if (DatePlan === '') {
+            showNotification("Thời gian không được để trống!", 5000);
+        } else {
+             selectedDate = new Date(DatePlan);
+            if (isNaN(selectedDate.getTime())) {
+                showNotification("Thời gian không hợp lệ!", 5000);
+            }
+        }
+        var ClassTypeId = $('#ClassTypeId').val().trim();
+        var MealTypeId = $('#MealTypeId').val().trim();
+        // Tạo đối tượng JSON từ các giá trị thu thập được
+        var MealPLanDTO = {
+            mealPlanID: MealPlanID,
+            description: Description,
+            mealPlanName: MealPlanName,
+            datePlan: selectedDate,
+            classTypeId: parseInt(ClassTypeId),
+            mealTypeId: parseInt(MealTypeId)
+        };
+        $.ajax({
+            url: "http://localhost:5000/api/MealPlan/"+MealPlanID,
+            type: "PUT",
+            headers: {
+                "Authorization": "Bearer " + token
+            },
+                contentType: "application/json",
+            data: JSON.stringify(MealPLanDTO),
+            success: function (result, status, xhr) {
+                deleteDetails(MealPlanID);
+                UpdateDetails(MealPlanID);
+                //showNotification("Chỉnh sửa thành công!", 5000);
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr);
+            }
+        });
+    });
+    function deleteDetails(MealPlanID) {
+        var token = document.getElementById('token').value;
+        $.ajax({
+            url: "http://localhost:5000/api/MealPlanDetail/" + MealPlanID,
+            type: "DELETE",
+            headers: {
+                "Authorization": "Bearer " + token
+            },
+            contentType: "application/json",
+            success: function (result, status, xhr) {
+
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr);
+            }
+        });
+    }
+    function UpdateDetails(MealPlanID) {
+        var token = document.getElementById('token').value;
+        var tableBody = document.getElementById("table_details").getElementsByTagName("tbody")[0];
+        var rows = tableBody.getElementsByTagName("tr");
+        for (var i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            var rowId = row.getAttribute("id");
+            var DishId = rowId.split("-")[1];
+            var Quantity = document.getElementById('quantity-'+DishId).value;
+            //alert(Quantity);
+            var MealPlanDetailDTO = {
+                mealPlanID: parseInt(MealPlanID),
+                dishId: parseInt(DishId),
+                quantity: parseFloat(Quantity)
+            };
+            //alert(MealPlanID);
+            $.ajax({
+                url: "http://localhost:5000/api/MealPlanDetail",
+                type: "POST",
+                headers: {
+                    "Authorization": "Bearer " + token
+                },
+                contentType: "application/json",
+                data: JSON.stringify(MealPlanDetailDTO),
+                success: function (result, status, xhr) {
+                    
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr);
+                }
+            });
+        }
+        showNotification("Chỉnh sửa thành công!", 5000);
+    }
+    function deleteRow(rowId) {
+        var row = document.getElementById('row-' + rowId);
+        if (row) {
+            row.remove();
+        }
+    }
+    function searchDish() {
+        var searchValue = document.getElementById('search').value;
+        var token = document.getElementById('token').value;
+        $.ajax({
+            url: "http://localhost:5000/api/Dish/" + searchValue,
+            type: "get",
+            headers: {
+                "Authorization": "Bearer " + token
+            },
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result, status, xhr) {
+                document.getElementById('table-search').style.display = 'block';
+                var tableSearch = $('#tb-search tbody');
+                tableSearch.empty();
+                if (result == null || result.length === 0) {
+                    var emptyRow = $('<tr><td colspan="3">Không có món ăn nào!</td></tr>');
+                    tableSearch.append(emptyRow);
+                } else {
+                    $.each(result, function (index, value) {
+                        var row = $('<tr id="rowsearch-' + value.dishId + '" onclick = AddDetails(' + value.dishId + ')>');
+                        row.append($('<td>').text(value.dishName));
+                        row.append($('<td>').text(value.description));
+                        row.append($('<td>').text(value.nutrition));
+                        tableSearch.append(row);
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr);
+            }
+        });
+        
+    }
+
+    function AddDetails(dishId) {
+        document.getElementById('table-search').style.display = 'none';
+        var existingRow = $('#row-' + dishId);
+        if (existingRow.length > 0) {
+            // Nếu hàng đã tồn tại, tăng giá trị của quantity-dishid lên 1
+            var quantityInput = $('#quantity-' + dishId);
+            var currentQuantity = parseInt(quantityInput.val());
+            quantityInput.val(currentQuantity + 1);
+        } else {
+            // Nếu hàng chưa tồn tại, thêm mới hàng vào bảng
+            var dishName = $('#rowsearch-' + dishId).find('td:eq(0)').text();
+            var description = $('#rowsearch-' + dishId).find('td:eq(1)').text();
+            var nutrition = $('#rowsearch-' + dishId).find('td:eq(2)').text();
+            var newRow = $('<tr id="row-' + dishId + '">');
+            newRow.append($('<td>').text(dishName));
+            newRow.append($('<td>').text(description));
+            newRow.append($('<td>').text(nutrition));
+            newRow.append($('<td>').append('<input type="number" class="form-control" name="Quantity" id="quantity-' + dishId + '" value="1" style="font-size:12px" min="0" />'));
+            newRow.append($('<td>').html('<i class="fa-regular fa-trash-can" onclick="deleteRow(' + dishId + ')"></i>'));
+            $('#table_details tbody').append(newRow);
+        }
+    }
+
+    function showNotification(message, duration) {
+        $('#notification').text(message).fadeIn();
+        notification.style.display = "block";
+        setTimeout(function () {
+            $('#notification').fadeOut();
+        }, duration);
+    }
+</script>

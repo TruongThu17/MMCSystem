@@ -10,7 +10,7 @@ namespace Data.DTO
     public class MealTypeDTO
     {
         [DisplayName("Mã loại bữa ăn")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
         [DisplayName("Loại bữa ăn")]
         public string Name { get; set; }
     }

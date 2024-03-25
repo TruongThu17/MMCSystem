@@ -1,4 +1,5 @@
-﻿using Firebase.Storage;
+﻿using Data.DTO;
+using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
 using MMCClient.Models;
 using Newtonsoft.Json;
@@ -23,7 +24,7 @@ namespace MMCClient.Controllers
 		public async Task<IActionResult> IndexAsync()
 		{
 			HomeSP home = new HomeSP();
-            var resblog = await client.GetAsync($"api/blog/Top4");
+            var resblog = await client.GetAsync($"api/blog");
             var contentblog = await resblog.Content.ReadAsStringAsync();
 
             if (!resblog.IsSuccessStatusCode)
@@ -32,7 +33,21 @@ namespace MMCClient.Controllers
             }
 
             List<Data.Models.Blog> blogs = JsonConvert.DeserializeObject<List<Data.Models.Blog>>(contentblog);
-            home.Blogs = blogs;
+            List<Data.Models.Blog> top5Blogs = blogs.OrderBy(admin => admin.ID).Take(5).ToList();
+            home.Blogs = top5Blogs;
+            home.CountBlog = blogs.Count;
+                var res = await client.GetAsync("api/User/listAccountAdmin");
+                var content = await res.Content.ReadAsStringAsync();
+
+                if (!res.IsSuccessStatusCode)
+                {
+                    return BadRequest();
+                }
+
+            List<AccountAdminDTO> list = JsonConvert.DeserializeObject<List<AccountAdminDTO>>(content);
+            List<AccountAdminDTO> top5Admins = list.OrderBy(admin => admin.Username).Take(8).ToList();
+            home.Accounts = top5Admins;
+            home.CountAcc = list.Count;
             return View(home);
 		}
 	}

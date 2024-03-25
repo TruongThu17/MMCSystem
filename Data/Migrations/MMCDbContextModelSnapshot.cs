@@ -45,7 +45,7 @@ namespace Data.Migrations
                         {
                             ID = 1,
                             Description = "Chào mừng đến với trang web quản lý suất ăn bán trú dành cho trẻ em tiểu học - MMC System!\r\n\r\n## Giới Thiệu\r\n\r\nMMC System là một hệ thống quản lý suất ăn chuyên nghiệp, thiết kế đặc biệt để đáp ứng nhu cầu dinh dưỡng của các em học sinh tiểu học. Chúng tôi cam kết mang đến trải nghiệm an toàn, tiện lợi và đảm bảo chất lượng cho cả học sinh, phụ huynh và nhà trường.\r\n\r\n## Đặc Điểm Nổi Bật\r\n\r\n### 1. **Dinh Dưỡng Đa Dạng**\r\n   Chúng tôi chú trọng đến việc cung cấp các bữa ăn đa dạng, cân đối và phù hợp với lứa tuổi của học sinh tiểu học. Thực đơn được thiết kế theo chuẩn dinh dưỡng, giúp trẻ phát triển toàn diện.\r\n\r\n### 2. **Quản Lý Thuận Tiện**\r\n   MMC System giúp phụ huynh và nhà trường dễ dàng quản lý thông tin về suất ăn, theo dõi chất lượng bữa ăn, và đặt lịch trực tuyến một cách thuận tiện.\r\n\r\n### 3. **An Toàn và Nhanh Chóng**\r\n   Đội ngũ chuyên gia chế biến thực phẩm của chúng tôi tuân thủ nghiêm ngặt các tiêu chuẩn vệ sinh và an toàn thực phẩm, đảm bảo rằng mỗi bữa ăn đều đạt chuẩn chất lượng cao.\r\n\r\n### 4. **Hỗ Trợ Tận Tâm**\r\n   Chúng tôi luôn lắng nghe và hỗ trợ mọi nhu cầu của phụ huynh và nhà trường. Đội ngũ hỗ trợ của chúng tôi sẽ luôn sẵn lòng giải đáp mọi thắc mắc và đảm bảo sự hài lòng của quý vị.\r\n\r\n## Hãy Đăng Ký Ngay!\r\n\r\nHãy đồng hành cùng MMC System để đảm bảo chất lượng dinh dưỡng và sức khỏe cho tương lai của con em chúng ta. Đăng ký ngay để trải nghiệm sự thuận tiện và chất lượng từ dịch vụ của chúng tôi!\r\n\r\nCảm ơn bạn đã ghé thăm MMC System!",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa"
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/about%2F65d281d1-f625-4a1c-ba4d-dea4987aa274.jpg?alt=media"
                         });
                 });
 
@@ -79,74 +79,74 @@ namespace Data.Migrations
                         new
                         {
                             ID = 1,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9075),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 1"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4580),
+                            Description = "Theo thông báo trước đó, ngày 23/10, bếp ăn bán trú của Trường THCS Yên Nghĩa sẽ hoạt động trở lại nhưng thực tế, việc tổ chức bếp ăn bắt đầu từ ngày 24/10.\r\n\r\nMột học sinh khối 8 của trường chia sẻ: \"Bữa ăn trưa đầu tiên của tuần này con thấy ngon miệng. Bữa ăn có nhiều món hơn trước với thịt bò xào là con ăn hết đầu tiên rồi thịt lợn với đậu, canh bí xanh và rau muống. Tuy nhiên, với cơm thì con thấy không được trắng như ở nhà\".\r\n\r\nChị Trần T.Thủy, một phụ huynh của trường chia sẻ: \"Nghe con kể và xem ảnh phụ huynh gửi vào nhóm lớp về bữa trưa ở trường sau khi thay đổi thì tôi thấy suất ăn đa dạng, đầy đặn hơn trước, thực phẩm tươi hơn, đồ ăn không bị đông lạnh nên tôi cũng yên tâm phần nào\".\r\nChị Thủy cho biết, trước kia, chị cứ nghĩ con khó ăn nhưng thực ra cơm ở trường thường bị nguội, món ăn lèo tèo nên mỗi khi ăn bán trú ở trường về con chị hay kêu đói.\r\n\r\n\"Do thiếu lớp nên khối lớp của các con tôi chỉ được ăn ngày lẻ, ngày chẵn về. Vì trường tiểu học đang xây nên nhà trường cho các con khối tiểu học qua học nhờ nên cũng có chút bất tiện cho các con khi đi ăn là phải mang balo theo, ăn xong lại qua một lớp ngủ. Và ngủ ghép lớp khác nữa. Tuy nhiên, tôi động viên con cố gắng khắc phục vì nếu phải thu xếp đón con và nấu ăn buổi trưa thì rất khó khăn cho bố mẹ bởi bố mẹ đều đi cách nhà gần 10 cây số\", chị Thủy cho biết.\r\n\r\nChia sẻ với báo chí, chị Lê Thị Sinh - thành viên ban đại diện phụ huynh của trường cho biết, trong buổi họp chiều 23/10 giữa nhà trường, phụ huynh và đơn vị cung cấp suất ăn, phụ huynh đề xuất thực đơn có thêm thịt bò, tôm và thường xuyên đổi món cho học sinh.\r\n\r\n\"Về phía công ty, họ rất thiện chí trước những đề xuất của phụ huynh. Về phần thực phẩm bị thiếu lần trước, họ hứa đền bù cho mỗi con một chiếc đùi gà rán trong tuần này.\r\n\r\nTừ hôm phát hiện sự việc, chúng tôi theo dõi sát sao và thấy công ty đã có sự thay đổi, biết lắng nghe và rút kinh nghiệm nên cho họ cơ hội đến hết tháng 10. Ban phụ huynh sau đó sẽ lấy ý kiến số đông để quyết định tiếp tục hay đổi nhà cung cấp bữa ăn bán trú\".\r\n\r\nTrước đó, vào ngày 11/10, phụ huynh Trường THCS Yên Nghĩa phản ánh, 1 suất cơm bán trú có mức giá 32.000 đồng, chỉ bao gồm 1 miếng giò nhỏ, 1 ít khoai tây và 3-4 miếng cá chiên giòn, lèo tèo vài ba sợi giá. Hôm khác, thực đơn vẫn chỉ là một ít khoai tây, 3-4 miếng cá chiên giòn nhỏ và thay miếng giò bằng một miếng thịt nhỏ. Phụ huynh cho rằng chất lượng bữa ăn như vậy quá ít không đảm bảo dinh dưỡng cho học sinh đang trong tuổi ăn tuổi lớn và không đảm bảo sức khỏe để học tập.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2F3857f727-add4-4c6e-b083-afe314575ae3.jpg?alt=media",
+                            Tilte = "Chất lượng suất ăn bán trú của Trường THCS Yên Nghĩa sau mở lại thế nào?"
                         },
                         new
                         {
                             ID = 2,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9087),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 2"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4592),
+                            Description = "SKĐS - Phụ huynh Vân Hà chia sẻ: “Nhiều sự cố về bữa ăn bán trú tại trường đã xảy ra, tôi mong sao con mình không nằm trong số đó. Mong các vị hiệu trưởng bằng lương tâm và trách nhiệm, hãy đặt an toàn sức khỏe của học sinh là ưu tiên hàng đầu”.\r\nTừ nhiều năm nay, chất lượng bữa ăn bán trú của học sinh luôn là vấn đề nóng không chỉ của phụ huynh mà cả xã hội quan tâm. Hiện nay, việc tổ chức bữa ăn bán trú cho học sinh là thỏa thuận giữa nhà trường và phụ huynh.\r\n\r\nVề hình thức bếp ăn bán trú phổ biến là: tổ chức nấu ăn tại bếp, nhà trường tự thuê người phụ trách; hợp đồng với công ty cung cấp suất ăn, người của công ty đến nấu trực tiếp tại trường; hợp đồng suất ăn với công ty, đến giờ ăn công ty vận chuyển suất ăn đến trường học… Việc lựa chọn phương thức tổ chức bữa ăn bán trú tại các trường học như thế nào do Hiệu trưởng quyết định; UBND quận chịu trách nhiệm ở góc độ quản lý Nhà nước thông qua các đợt kiểm tra, đánh giá, kịp thời chấn chỉnh (nếu phát hiện sai sót).\r\n\r\nNhiều sự cố về bữa ăn bán trú đã xảy ra\r\nCụ thể, việc hàng loạt học sinh Trường Tiểu học Thành Công B (quận Ba Đình) bị đau bụng, nôn ói nghi ngờ rối loạn tiêu hóa và không loại trừ nguyên nhân do bữa ăn bán trú ở trường gây nên. Ngày 18/10, Hiệu trưởng nhà trường gửi thư ngỏ xin lỗi phụ huynh, mong phụ huynh thông cảm.\r\n\r\nTại Trường THCS Yên Nghĩa (quận Hà Đông), sau khi một nhóm phụ huynh đột xuất kiểm tra bữa ăn bán trú của học sinh tại trường, họ ngỡ ngàng khi nhìn suất ăn của các con mình giá 32.000 đồng nhưng chỉ có 1 miếng giò nhỏ, 1 ít khoai tây, vài miếng cá chiên giòn và lèo tèo vài ba sợi giá.\r\nHay vụ việc xảy ra tại Trường tiểu học Kim Giang (Thanh Xuân, Hà Nội) hồi tháng 3 năm nay khiến 72 học sinh phải nhập viện với các biểu hiện ngộ độc. Nguyên nhân được cho là do vi khuẩn tụ cầu vàng nhiễm vào thịt gà có trong suất ăn. Rất may không có em nào tử vong.\r\n\r\nMột vụ việc gây xôn xao xư luận khác đó là câu chuyện bữa ăn 800.000 đồng nhưng hết sức đạm bạc, nghi bị cắt xén của các vận động viên đội tuyển bóng bàn trẻ. Sau vụ lùm xùm, Bộ VH-TT&DL đã vào cuộc và huấn luyện viên đã bị cho thôi chức.\r\n\r\nPhụ huynh hãy đấu tranh nếu phát hiện điều bất ổn\r\nMặc dù không phải là phụ huynh của một trong các trường kể trên, nhưng nhìn suất ăn bán trú của học sinh chỉ có vài món lèo tèo đó, chị Phạm Thị Hồng Thái (quận Đống Đa, Hà Nội) không khỏi băn khoăn khi cho rằng với một bữa có giá 32.000 đồng, bếp ăn của nhà trường hoàn toàn có thể lên thực đơn với các món đa dạng và đảm bảo dinh dưỡng cho học sinh.\r\n\r\nChị Thái cho rằng, để học trò phải ăn những suất ăn như vậy, hiệu trưởng là người rất đáng trách. \"Khi ăn ở trường có thể các con không dám bỏ thừa, không thể khen chê, không quyền đòi hỏi. Vì vậy, nếu phát hiện điều bất ổn, phụ huynh hãy đấu tranh để trường thay đổi, đừng sợ con em mình bị trù dập. Bên cạnh đó, các bậc phụ huynh cũng nên thay phiên nhau đến trường giám sát bữa ăn thay vì chỉ hỏi con ăn gì, có ngon hay không\".\r\n\r\nLà một phụ huynh có hai con đang ăn bán trú tại trường và cũng là người từng cùng Ban đại diện cha mẹ học sinh tới trường giám sát bữa ăn bán trú của con, chị Vân Hà (quận Thanh Xuân) cho rằng, bữa ăn bán trú tại trường được coi là giải pháp tốt cho những phụ huynh bận rộn. Do đó, các bậc cha mẹ mong muốn nhà bếp cung cấp bữa ăn đầy đủ dinh dưỡng, đảm bảo vệ sinh cho con mình.\r\n\r\n\"Về nguyên tắc, phụ huynh nào cũng được quyền tham gia kiểm tra, giám sát bữa ăn của học sinh. Phụ huynh có thể vào trường lúc con đang ăn trưa để biết khẩu phần ăn của con có những gì. Song tôi chưa được vào nhà bếp để quan sát quy trình nấu ăn, kiểm tra thực phẩm nên không biết nguồn gốc thực phẩm có an toàn, có đảm bảo đủ về chất lượng và số lượng hay không. Tôi nghĩ giám sát cũng chỉ một vài lần thôi, bởi phụ huynh không đủ điều kiện để thực hiện. Quan trọng nhất vẫn là lương tâm, trách nhiệm của hiệu trưởng và nhà bếp.\r\n\r\nRất nhiều vụ ngộ độc thực phẩm khi con ăn bán trú tại trường đã xảy ra, tôi mong sao con mình không nằm trong số đó. Mong các vị hiệu trưởng bằng lương tâm và trách nhiệm, hãy thật sự yêu thương học trò, hãy đặt an toàn sức khỏe của học sinh là ưu tiên hàng đầu\".\r\n\r\nKhi sự cố xảy ra, trách nhiệm thuộc về ai?\r\nChia sẻ với PV báo Sức khỏe&Đời sống, một hiệu trưởng trường tiểu học đã nghỉ hưu cho biết, bên cạnh nhiệm vụ nâng cao chất lượng dạy và học, chăm lo phát triển cơ sở vật chất, nhân sự… thì ban giám hiệu nhà trường phải thêm một gánh nặng rất lớn đó là chăm lo bữa ăn bán trú cho học sinh.\r\n\r\nViệc chú trọng bữa ăn bán trú được xem là một trong những ưu tiên hàng đầu trong việc chăm lo sức khỏe học sinh trong thời gian ở trường. Mặc dù khi một sự cố xảy ra xung quanh bữa ăn bán trú là nằm ngoài ý muốn nhưng trách nhiệm tiên quyết thuộc về nhà trường mà đứng đầu là hiệu trưởng. Vì thế, khi có sự cố xảy ra, nhà trường không thể đột ngột thông báo dừng tổ chức bữa ăn bán trú vì như vậy sẽ gây khó cho phụ huynh. Mặt khác, nhà trường cũng không nên có tư tưởng giao khoán cho doanh nghiệp cung cấp dịch vụ nấu ăn hay các dịch vụ cung cấp bữa ăn sẵn với ý nghĩ khi có sự cố sẽ dễ dàng quy trách nhiệm cho họ.\r\n\"Theo tôi, nhà trường cần nêu rõ những điều khoản ràng buộc liên quan tới bảo đảm VSATTP khi ký kế hợp đồng, mua bảo hiểm đề phòng rủi ro xảy ra, nêu rõ trách nhiệm của các bên như thế nào khi bữa ăn bán trú gặp sự cố… Với các quy định về ATTP đã ghi rõ trong nhiều văn bản nhưng địa phương nên tạo điều kiện giúp các nhà trường có cơ sở pháp lý để hợp đồng giám sát quản lý, kiểm soát bữa ăn với đơn vị cung cấp suất ăn cho học sinh. Khi xảy ra sự cố cần nghiêm khắc xử lý sai phạm với các hình phạt có tác dụng răn đe.\r\n\r\nViệc phụ huynh được phép kiểm tra đột xuất bữa ăn bán trú ở trường thì họ cũng chỉ biết tin vào cảm quan và nhãn mác được dán trên bao bì sản phẩm. Không thể nhìn, sờ, ngửi mà phát hiện được thực phẩm có an toàn hay không. Do vậy, theo tôi, sự an toàn về chất lượng bữa ăn bán trú của học sinh vẫn hoàn toàn phụ thuộc vào lương tâm và trách nhiệm của nhiều đơn vị, đặc biệt là của ban giám hiệu nhà trường và đơn vị cung cấp bữa ăn bán trú, trong đó có các đơn vị cung ứng thực phẩm\".\r\n\r\nChia sẻ thêm với PV báo Sức khỏe và Đời sống về vấn đề khi xảy ra sự cố về ngộ độc thực phẩm trong trường học thì trách nhiệm thuộc về ai,  TS.BS. Trương Hồng Sơn - Phó Tổng thư ký Tổng hội Y học Việt Nam, Viện trưởng Viện Y học ứng dụng Việt Nam cho rằng, do hiệu trưởng nhà trường có trách nhiệm kiểm soát quy trình tổ chức, đảm bảo bữa ăn cho học sinh nên khi có sự cố liên quan đến chất lượng bữa ăn của học sinh tại trường, hiệu trưởng nhà trường phải chịu trách nhiệm cao nhất và là người chịu trách nhiệm với vai trò người đứng đầu. \r\n\r\nSau đó, nếu xác định có độc tố trong thực phẩm và đó chính là nguyên nhân dẫn tới vụ ngộ độc tập thể, lỗi sẽ thuộc về đơn vị cung cấp thực phẩm. Khi đó, các cá nhân liên quan tới hoạt động nuôi trồng và kiểm định chất lượng thực phẩm (của cả phía công ty cung cấp thực phẩm/suất ăn và của nhà trường) sẽ phải chịu trách nhiệm. Trường hợp ngộ độc do độc tố sinh ra trong quá trình chế biến thức ăn, cần xem xét trách nhiệm của người đầu bếp/người trực tiếp chế biến thực phẩm.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2F81f4d568-b054-4322-9c4a-928b38799ffe.jpg?alt=media",
+                            Tilte = "Tổ chức bữa ăn bán trú: ‘Quan trọng nhất vẫn là lương tâm, trách nhiệm của hiệu trưởng và nhà bếp’"
                         },
                         new
                         {
                             ID = 3,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9088),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 3"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4593),
+                            Description = "Để tăng cường quản lý, nâng cao chất lượng bữa ăn bán trú của học sinh tại các trường học, bên cạnh việc tăng cường kiểm tra định kỳ và đột xuất các cơ sở cung cấp suất ăn, nhà bếp tập thể... thì TP.Thủ Đức, TP.HCM có thêm giải pháp yêu cầu tất cả các hiệu trưởng các trường học gửi hình ảnh suất ăn và cả hình ảnh buổi ăn về Phòng GD-ĐT.\r\n\r\nViệc cung cấp các hình ảnh này sẽ giúp Phòng GD-ĐT nắm rõ hơn về chất lượng bữa ăn bán trú được thực hiện tại các đơn vị. Đồng thời, việc lưu giữ các hình ảnh này hàng ngày cũng là một kênh để đối chiếu, so sánh với các thông tin về suất ăn bán trú được phản ánh.\r\nSáng nay, 10.11, trao đổi với phóng viên Báo Thanh Niên, ông Nguyễn Thái Vĩnh Nguyên, Trưởng phòng GD-ĐT TP.Thủ Đức, TP.HCM, cho biết: \"Các trường đều thống nhất và nghiêm túc gửi hình ảnh suất ăn và hình ảnh buổi ăn đến Phòng GD-ĐT. Các đơn vị cũng gửi hình ảnh bữa ăn cho ban đại diện cha mẹ học sinh\".\r\n\r\n\"Việc quản lý thông tin hình ảnh suất ăn và hình ảnh buổi ăn bán trú được phân công cho lãnh đạo, chuyên viên các bậc học; lãnh đạo và chuyên viên phụ trách công tác bán trú, an toàn thực phẩm. Khối lượng công việc cho các bên sẽ nhiều hơn trước nhưng cách làm này sẽ góp phần để các bên liên quan ý thức hơn về trách nhiệm đối với việc cung cấp, phục vụ ăn uống cho các em học sinh\", ông Nguyễn Thái Vĩnh Nguyên nhấn mạnh.\r\nÔng Nguyên dẫn chứng nhiều hình ảnh về suất ăn bán trú được gửi tới từ lãnh đạo các trường học trên địa bàn. Chẳng hạn, Trường tiểu học Đinh Tiên Hoàng ngày 7.11.2023 có món gà phi lê chiên sốt bơ tỏi, canh cải thảo nấu thịt heo xay, rau củ xào, tráng miệng thanh long. Trường THCS An Phú gửi tới các hình ảnh cho thấy học sinh trong giờ ăn trưa. \r\n\r\nMột số trường học khác cũng gửi hình ảnh các suất cơm trưa với cơm trắng, thịt nấu củ cải, mướp xào, canh rau ngót, bánh bông lan…\r\n\r\nTP.Thủ Đức, TP.HCM có trên 160 đơn vị trường học. 6 trường học tạm dừng phục vụ bữa ăn bán trú trong tuần trước, đến nay đã thực hiện ăn bán trú trở lại khi tìm được nhà cung cấp suất ăn mới. Trước đây, hiệu trưởng gửi hình ảnh suất ăn bán trú hàng ngày về Phòng GD-ĐT qua nhóm Zalo. Hiện nay, để tiện lợi và khoa học, dễ lưu trữ cho việc gửi hình ảnh suất ăn bán trú, Phòng GD-ĐT TP.Thủ Đức tạo link mang tên \"Ăn trưa bán trú\" để lãnh đạo các đơn vị có thể nhanh chóng, thuận tiện hơn trong quá trình gửi hình ảnh.\r\n\r\nTP.Thủ Đức, TP.HCM đang trong tháng 11 - tháng cao điểm kiểm tra đột xuất các cơ sở cung cấp suất ăn bán trú, các nhà bếp tập thể, căn tin, dịch vụ ăn uống trong trường học. Ngành giáo dục đào tạo cùng với các cơ quan liên quan tăng cường kiểm tra, chấn chỉnh, đảm bảo an toàn thực phẩm, nâng cao chất lượng bữa ăn bán trú của học sinh.\r\n\r\nCông khai thực đơn, lắng nghe ý kiến của học sinh\r\nKhông chỉ tại TP.Thủ Đức, hiện nay các trường học ở các quận, huyện, TP.Thủ Đức của TP.HCM đều công khai thực đơn nhà trường trên trang web trường học. Nhiều trường học cũng cập nhật hình ảnh thực tế của suất ăn bán trú của học sinh từng ngày trên fanpage của nhà trường để phụ huynh được biết hôm nay các con ăn ở trường với những món gì, các phần cơm, đồ mặn, đồ xào, tráng miệng… có đầy đặn, phong phú hay không.\r\nNhư tại Trường mầm non Vàng Anh, Q.5, nhà trường cho biết để cân đối tiền ăn 35.000 đồng/trẻ/ngày, bao gồm bữa trưa và bữa xế cho trẻ nhỏ mà vẫn cân bằng dinh dưỡng, nhà trường thực hiện xây dựng thực đơn theo phần mềm tính toán dinh dưỡng cho trẻ em được Phòng Giáo dục mầm non, Sở GD-ĐT TP.HCM hướng dẫn. Hằng ngày, thực đơn, khẩu phần, giá thành, thành phần dinh dưỡng chất đạm, béo, đường, chất xơ… được nhập lên hệ thống, Phòng GD-ĐT, Sở GD-ĐT có thể nhìn thấy ngay báo cáo của nhà trường, nếu có phản hồi, góp ý cũng có thể thực hiện được trên hệ thống này.\r\n\r\nTại Trường tiểu học Nguyễn Thái Sơn, Q.3; Trường tiểu học Nguyễn Bỉnh Khiêm, Q.1; Trường tiểu học Đinh Tiên Hoàng, Q.1… đều công khai thực đơn bán trú trên trang web nhà trường. Mỗi ngày, thầy cô phụ trách bán trú, ban giám hiệu quan sát giờ ăn bán trú của học sinh, lắng nghe những ý kiến phản hồi về suất ăn, với những góp ý chính đáng, nhà trường và nhà bếp sẽ cân đối, điều chỉnh để học sinh ăn ngon miệng hơn và luôn ăn hết suất ăn của mình.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2Febbf50c8-1702-4781-8047-c75f38bf0083.jpg?alt=media",
+                            Tilte = "Ngồi nhà, phụ huynh vẫn thấy hình ảnh con ăn bán trú gồm những món gì"
                         },
                         new
                         {
                             ID = 4,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9090),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 4"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4594),
+                            Description = "Hiện nay vấn đề vệ sinh an toàn thực phẩm đang là mối quan tâm lớn nhất của toàn xã hội, đặc biệt, đối với bếp ăn trường Tiểu học bởi chất lượng từng bữa ăn sẽ ảnh hưởng trực tiếp đến sức khỏe và sự phát triển của trẻ nhỏ.\r\nVì vậy, bên cạnh việc chú trọng chất lượng dạy và học, Ban Giám hiệu trường Tiểu học Lý Thái Tổ đặc biệt quan tâm đến công tác vệ sinh an toàn thực phẩm và chế biến thức ăn. Từ việc lựa chọn nhà cung cấp uy tín đến việc giám sát sơ chế và đảm bảo an toàn vệ sinh thực phẩm cho học sinh ăn bán trú tại nhà ăn đều được nhà trường thực hiện nghiêm túc, chặt chẽ.\r\nBên cạnh đó, hệ thống thiết bị trong nhà bếp được trang bị đồng bộ và đầy đủ với tủ và kho bảo quản thực phẩm, bồn rửa thực phẩm rau củ quả, thịt sống, dụng cụ chế biến, nấu ăn… đảm bảo an toàn, vệ sinh.\r\n\r\nĐặc biệt, bếp ăn hiện đại được bố trí theo nguyên tắc 1 chiều, giảm thiểu nhiễm chéo giữa thực phẩm chín và sống. Khu vực kho nguyên liệu, kho thành phẩm, khu vực sơ chế, chế biến, đóng gói thực phẩm, khu vệ sinh, khu thay đồ bảo hộ lao động và các khu vực phụ trợ liên quan được thiết kế xây dựng tách biệt.\r\n\r\nLà người đứng đầu nhà trường, cô Hiệu trưởng Huỳnh Thị Hương là người luôn quan tâm sâu sát đến công tác tổ chức bếp ăn bán trú với yêu cầu bữa ăn trưa ở trường được coi là bữa ăn chính và phải được đảm bảo các yếu tố về dinh dưỡng và thực phẩm lành mạnh, tốt nhất cho sức khỏe của học sinh.\r\nTrong cuộc họp cha mẹ học sinh đầu năm học, Ban giám hiệu nhà trường đã tuyên truyền, vận động cha mẹ học sinh phối hợp cùng với nhà trường trong việc theo dõi vấn đề an toàn thực phẩm, chăm sóc bán trú trong nhà trường đồng thời bằng việc cử đại diện tham gia vào quá trình giao nhận và chế biến thực phẩm.\r\n\r\nMột trong những nguyên tắc để thực hiện điều đó là nhà trường yêu cầu nhà cung cấp sử dụng nguồn thực phẩm tươi sống, không sử dụng các thực phẩm đông lạnh và có đầy đủ chứng nhận thực phẩm an toàn.\r\n\r\nĐể tăng cường việc giám sát và thực hiện các nội dung chăm sóc bán trú, cô Hiệu trưởng yêu cầu tất cả các bộ phận của nhà trường nâng cao nhận thức, ý thức trách nhiệm về vị trí, vai trò của mình trong công tác chăm sóc bán trú cho học sinh, đặc biệt là vai trò giám sát của phụ huynh học sinh.\r\n\r\nNhờ làm tốt công tác bán trú cho nên số học sinh ăn bán trú ngày một tăng, hiện nay số học sinh ăn bán trú là 1380/1432 học sinh. Công tác quản lí, chăm sóc bán trú của nhà trường không chỉ nhận được sự đồng tình, ủng hộ của phụ huynh và học sinh mà còn được cấp trên đánh giá cao. Các đoàn kiểm tra liên ngành của quận Cầu Giấy đến kiểm tra đột xuất hay định kỳ đều chứng nhận bếp ăn an toàn, đảm bảo vệ sinh.Không ngừng nâng cao chất lượng bữa ăn bán trú cho học sinh\r\ndate17/03/2020 view2156\r\n\r\nHiện nay vấn đề vệ sinh an toàn thực phẩm đang là mối quan tâm lớn nhất của toàn xã hội, đặc biệt, đối với bếp ăn trường Tiểu học bởi chất lượng từng bữa ăn sẽ ảnh hưởng trực tiếp đến sức khỏe và sự phát triển của trẻ nhỏ.\r\n\r\n\r\n\r\n\r\nChất lượng bữa ăn bán trú ảnh hưởng trực tiếp đến sự phát triển của trẻ nhỏ\r\nVì vậy, bên cạnh việc chú trọng chất lượng dạy và học, Ban Giám hiệu trường Tiểu học Lý Thái Tổ đặc biệt quan tâm đến công tác vệ sinh an toàn thực phẩm và chế biến thức ăn. Từ việc lựa chọn nhà cung cấp uy tín đến việc giám sát sơ chế và đảm bảo an toàn vệ sinh thực phẩm cho học sinh ăn bán trú tại nhà ăn đều được nhà trường thực hiện nghiêm túc, chặt chẽ.\r\n\r\n\r\n\r\nBan giám hiệu nhà trường trực tiếp đến vùng sản xuất nguyên liệu cung cấp thực phẩm cho nhà trường tham quan, kiểm tra\r\n\r\n\r\nRau xanh được sản xuất theo tiêu chuẩn Vietgap\r\n\r\n\r\nBan giám hiệu nhà trường trực tiếp đến vùng sản xuất nguyên liệu cung cấp thực phẩm cho nhà trường tham quan, kiểm tra\r\n\r\n\r\nRau xanh được sản xuất theo tiêu chuẩn Vietgap\r\nVới hệ thống nhà ăn có quy mô lớn cung cấp bữa ăn trưa, quà chiều cho khoảng 1400 học sinh và hơn 100 giáo viên, bếp ăn trường Tiểu học Lý Thái Tổ hiện có đội ngũ nhân viên được cấp chứng chỉ nghiệp vụ và khám sức khỏe định kỳ.\r\n\r\n\r\n\r\nNhà trường đầu tư hệ thống nhà ăn đảm bảo an toàn, vệ sinh\r\nBên cạnh đó, hệ thống thiết bị trong nhà bếp được trang bị đồng bộ và đầy đủ với tủ và kho bảo quản thực phẩm, bồn rửa thực phẩm rau củ quả, thịt sống, dụng cụ chế biến, nấu ăn… đảm bảo an toàn, vệ sinh.\r\n\r\n\r\n\r\nCác đồng chí lãnh đạo Thành ủy Hà Nội thăm bếp ăn phục vụ công tác bán trú của nhà trường\r\nĐặc biệt, bếp ăn hiện đại được bố trí theo nguyên tắc 1 chiều, giảm thiểu nhiễm chéo giữa thực phẩm chín và sống. Khu vực kho nguyên liệu, kho thành phẩm, khu vực sơ chế, chế biến, đóng gói thực phẩm, khu vệ sinh, khu thay đồ bảo hộ lao động và các khu vực phụ trợ liên quan được thiết kế xây dựng tách biệt.\r\n\r\nLà người đứng đầu nhà trường, cô Hiệu trưởng Huỳnh Thị Hương là người luôn quan tâm sâu sát đến công tác tổ chức bếp ăn bán trú với yêu cầu bữa ăn trưa ở trường được coi là bữa ăn chính và phải được đảm bảo các yếu tố về dinh dưỡng và thực phẩm lành mạnh, tốt nhất cho sức khỏe của học sinh.\r\n\r\n\r\n\r\nCô Hiệu trưởng Huỳnh Thị Hương mong muốn các Ban đại diện cha mẹ học sinh tham gia tích cực hơn vào quá trình giám sát vấn đề an toàn thực phẩm, chăm sóc bán trú cho học sinh\r\nTrong cuộc họp cha mẹ học sinh đầu năm học, Ban giám hiệu nhà trường đã tuyên truyền, vận động cha mẹ học sinh phối hợp cùng với nhà trường trong việc theo dõi vấn đề an toàn thực phẩm, chăm sóc bán trú trong nhà trường đồng thời bằng việc cử đại diện tham gia vào quá trình giao nhận và chế biến thực phẩm.\r\n\r\nMột trong những nguyên tắc để thực hiện điều đó là nhà trường yêu cầu nhà cung cấp sử dụng nguồn thực phẩm tươi sống, không sử dụng các thực phẩm đông lạnh và có đầy đủ chứng nhận thực phẩm an toàn.\r\n\r\n\r\n\r\nThực phẩm tươi, ngon, đảm bảo vệ sinh với đầy đủ nhãn mác chứng nhận của nhà sản xuất\r\nĐể tăng cường việc giám sát và thực hiện các nội dung chăm sóc bán trú, cô Hiệu trưởng yêu cầu tất cả các bộ phận của nhà trường nâng cao nhận thức, ý thức trách nhiệm về vị trí, vai trò của mình trong công tác chăm sóc bán trú cho học sinh, đặc biệt là vai trò giám sát của phụ huynh học sinh.\r\n\r\n\r\n\r\nTổ trực kiểm tra thực phẩm với sự tham gia của đại diện phụ huynh lớp 2A3\r\nĐể đảm bảo công tác bán trú được thực hiện nghiêm túc, BGH đã phân công một đồng chí Phó hiệu trưởng phụ trách bán trú kết hợp với cán bộ y tế, 01 khối trưởng và đại diện cha mẹ học sinh từ 6h30″  hàng ngày xuống bếp ăn kiểm tra chặt chẽ việc tiếp nhận, chế biến thực phẩm và sổ lưu 3 bước…\r\n\r\n\r\n\r\nTổ trực kiểm tra thực phẩm với sự tham gia của đại diện phụ huynh lớp 2A3\r\n\r\n\r\nNguyên liệu chế biến luôn được bếp trưởng kiểm tra kỹ càng đảm bảo tươi, ngon, có nguồn gốc rõ ràng\r\nĐể đảm bảo đủ dinh dưỡng với những bữa ăn ngon, hợp khẩu vị, nhà trường đã xây dựng thực đơn theo tuần, theo tháng và theo mùa với sự cố vấn của chuyên gia dinh dưỡng với cân định lượng theo quy định nhằm đảm bảo đủ Calo và dinh dưỡng cho các con học sinh.\r\n\r\n\r\n\r\nBữa ăn của học sinh trường Tiểu học Lý Thái Tổ luôn đầy đủ dưỡng chất, đảm bảo vệ sinh, an toàn thực phẩm\r\n\r\n\r\nBữa ăn của học sinh trường Tiểu học Lý Thái Tổ luôn đầy đủ dưỡng chất, đảm bảo vệ sinh, an toàn thực phẩm\r\n \r\n\r\n\r\n\r\nÔng Hoàng Hải, Chủ tịch Hội cha mẹ học sinh của nhà trường trực tiếp kiểm tra thực phẩm tại bếp ăn\r\nNgoài ra, nhân viên nhà bếp thường xuyên thực hiện ăn mặc trang phục, đeo khẩu trang và găng tay trong khi chế biến thức ăn. Chế biến thức ăn theo quy trình bếp ăn một chiều đảm bảo vệ sinh, an toàn thực phẩm.\r\n\r\n\r\n\r\nNhân viên nhà bếp luôn được trang bị đầy đủ thiết bị làm việc đảm bảo vệ sinh \r\n \r\n\r\n\r\n\r\nNhân viên nhà bếp luôn được trang bị đầy đủ thiết bị làm việc đảm bảo vệ sinh \r\nThức ăn nóng, thơm ngon, sạch sẽ được các nhân viên bếp chia cho các con học sinh ăn theo khu vực lớp. Với các con học sinh, giờ ăn tập thể đã trở thành một hoạt động hết sức vui vẻ, nhộn nhịp khi hầu hết các con ăn hết suất ăn của mình một cách hào hứng và nhanh chóng.\r\n\r\n\r\n\r\nGiờ ăn tập thể luôn tạo cảm giác hào hứng cho các con\r\n\r\n\r\nCơm ngon quá!\r\n\r\n\r\n\r\n\r\nNhờ làm tốt công tác bán trú cho nên số học sinh ăn bán trú ngày một tăng, hiện nay số học sinh ăn bán trú là 1380/1432 học sinh. Công tác quản lí, chăm sóc bán trú của nhà trường không chỉ nhận được sự đồng tình, ủng hộ của phụ huynh và học sinh mà còn được cấp trên đánh giá cao. Các đoàn kiểm tra liên ngành của quận Cầu Giấy đến kiểm tra đột xuất hay định kỳ đều chứng nhận bếp ăn an toàn, đảm bảo vệ sinh.\r\n\r\nSau mỗi ngày con đi học về, cha mẹ thường lắng nghe con cái kể về những bữa ăn trưa ở trường. Và nhiều phụ huynh học sinh trường Tiểu học Lý Thái tổ chia sẻ rằng các con rất hay yêu cầu bố mẹ nấu lại những món ăn đó ở nhà vào những ngày nghỉ. Đó là niềm vui không chỉ của các bác, các cô nhà bếp, phụ trách bán trú mà còn là minh chứng cho quyết tâm của tập thể cán bộ, giáo viên, nhân viên của nhà trường luôn nỗ lực không ngừng trong việc nâng cao chất lượng từng bữa ăn, giấc ngủ, góp phần vì sự phát triển toàn diện của mỗi học sinh thân yêu.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2Fbc7dcf89-3808-4f28-bd1b-f2ab43532673.jpg?alt=media",
+                            Tilte = "Không ngừng nâng cao chất lượng bữa ăn bán trú cho học sinh"
                         },
                         new
                         {
                             ID = 5,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9091),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 5"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4595),
+                            Description = "Năm học 2022 - 2023 là năm học thứ 3 của thầy và trò trường Tiểu học Vạn Bảo. Thành lập và đi vào hoạt động được 3 năm, phụ huynh và học sinh nhà trường được thụ hưởng cơ sở vật chất khang trang, hiện đại, thoáng mát với đầy đủ các phòng học chức năng, cảnh quan hài hòa, sạch, xanh của một ngôi trường thân thiện.\r\n\r\nChia sẻ với phóng viên, cô Trần Thị Hương - Hiệu trưởng nhà trường cho biết: Năm học 2022 - 2023, trường đón 1212 học sinh, trong đó có hơn 200 học sinh lớp 1, chia thành 6 lớp.\r\nNgay từ những ngày đầu tiên của năm học mới, nhà trường đã chú trọng vào công tác giám sát an toàn thực phẩm ở bếp ăn bán trú cho học sinh.“Từ việc lựa chọn công ty cung cấp suất ăn bán trú, lên thực đơn, kiểm tra thực phẩm đầu vào đến quy trình sơ chế, chế biến thức ăn, chia khay… đều được Ban Giám hiệu nhà trường, đại diện Công đoàn, đại diện phụ huynh học sinh kiểm tra với tinh thần trách nhiệm cao nhất nhằm đảm bảo bữa ăn dinh dưỡng, an toàn cho học sinh”, cô Trần Thị Hương nhấn mạnh.\r\nĐặc biệt, với cơ sở vật chất khang trang, hiện đại, trường Tiểu học Vạn Bảo cũng là ngôi trường hiếm hoi trên địa bàn quận Hà Đông có nhà ăn tập thể. Đúng 11 giờ trưa, học sinh từ các lớp học tuần tự xếp hàng rửa tay và xuống nhà ăn để ăn trưa. Các suất cơm đã được nhân viên bếp ăn chia sẵn vào từng khay, để vào các tủ inox cửa kín chia theo từng đơn vị lớp học.\r\nVới 30.000 đồng/học sinh cho suất ăn bán trú ở trường học (bao gồm bữa chính trưa và bữa nhẹ buổi chiều), bữa ăn bán trú cho học sinh trường Tiểu học Vạn Bảo được sự đón nhận nhiệt tình, hào hứng của các em học sinh, sự tin tưởng, yên tâm của phụ huynh học sinh.\r\n\r\nSự thành công của mô hình bán trú ở trường Tiểu học Vạn Bảo không chỉ nằm ở lời ngợi khen mà phụ huynh dành cho nhà trường mà còn thể hiện ở số lượng học sinh ăn bán trú tăng dần theo các năm. Đó cũng là nền tảng để trường có thêm điều kiện nâng cao hơn chất lượng học tập của học sinh khi thời gian nghỉ ngơi của các em được tăng lên.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2Ffc986b18-95b1-4f23-865e-ae3a41a5f6e7.jpg?alt=media",
+                            Tilte = "Bữa ăn bán trú đủ chất, an toàn cho học sinh đầu năm học mới"
                         },
                         new
                         {
                             ID = 6,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9092),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 6"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4596),
+                            Description = "Ba mẹ đang tìm hiểu về hình thức học bán trú và và băn khoăn không biết học bán trú là gì? Học bán trú không chỉ là một hình thức giáo dục thay thế, mà còn là một cách để học sinh khám phá và phát triển năng lực của mình ở một môi trường học tập đặc biệt. Trong bài viết này, Kiddihub sẽ giải thích chi tiết về học bán trú, từ khái niệm cơ bản cho đến những lợi ích mà nó mang lại.\r\n\r\nHọc bán trú là gì?\r\nHọc bán trú là như thế nào? Học bán trú là một hình thức giáo dục trong đó học sinh sống và học tập tại một trường hoặc cơ sở giáo dục, thường là xa nhà, trong một khoảng thời gian cố định. Học sinh ở lại trường và thường có chỗ ở trong ký túc xá, nơi cung cấp chỗ ăn và các hoạt động học tập ngoài giờ lớp.\r\n\r\nHọc bán trú cung cấp cho học sinh một môi trường học tập tập trung và cấu trúc hơn. Trẻ có thể tận dụng thời gian và tài nguyên hơn để nghiên cứu, rèn luyện kỹ năng và tham gia vào các hoạt động ngoại khóa. Hơn nữa, trường học bán trú thường tạo điều kiện cho học sinh phát triển kỹ năng xã hội, học cách làm việc nhóm và hình thành những mối quan hệ gắn kết với bạn bè cùng giáo viên.\r\nNhững ưu điểm của việc cho con học bán trú\r\nSau khi khám phá định nghĩa về học bán trú là gì hãy cùng tìm hiểu về ưu điểm của hình thức học này nhé!\r\n\r\nMôi trường học tập tập trung: Học bán trú tạo ra một môi trường học tập tập trung, giúp học sinh dễ dàng tập trung vào việc học và nghiên cứu. Không có những xao nhãng từ môi trường gia đình hay các hoạt động khác, học sinh có thể tận dụng thời gian và tài nguyên tốt hơn để tiến bộ trong học tập.\r\n\r\nRèn luyện độc lập và tự quản: Học bán trú khuyến khích học sinh phát triển kỹ năng tự quản và độc lập. Trẻ sẽ phải tự quản lịch học, quản lý thời gian và chịu trách nhiệm với việc hoàn thành công việc học tập của mình. Điều này giúp học sinh phát triển tính tự chủ và tự tin trong quản lý cuộc sống.\r\n\r\nMở rộng mối quan hệ và kỹ năng xã hội: Học bán trú cung cấp cơ hội cho học sinh gặp gỡ và tạo mối quan hệ với bạn bè từ nhiều nơi khác nhau. Họ có thể học cách làm việc nhóm, giao tiếp hiệu quả và xây dựng mạng lưới xã hội đa dạng. Nhiều trường học bán trú hè, điều này giúp họ phát triển kỹ năng xã hội quan trọng và sẵn sàng đối mặt với môi trường xã hội đa dạng hơn sau này.\r\n\r\nTrải nghiệm văn hóa và đa dạng: Học bán trú thường có sự tham gia của học sinh đến từ nhiều vùng miền thậm chí là quốc gia khác nhau. Điều này tạo cơ hội cho học sinh khám phá và hiểu rõ về các nền văn hóa, tập quán và ngôn ngữ khác nhau. Họ có thể trở nên toàn diện và có nhận thức rộng hơn về thế giới xung quanh.\r\n\r\n",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2F2879d825-0115-4475-8c97-dc1d9f0957f4.jpg?alt=media",
+                            Tilte = "Học bán trú là gì? Thông đầy đủ về hình thức học tập này"
                         },
                         new
                         {
                             ID = 7,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9093),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 7"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4597),
+                            Description = "Những năm gần đây, do sự phát triển của đời sống xã hội cũng như để phù hợp với nhịp sống công nghiệp, nhu cầu cho con học bán trú của phụ huynh rất cao, đặc biệt là học sinh mầm non và học sinh tiểu học .\r\n\r\nSong, “cầu” thì cao mà việc “cung “ ở không ít nơi lại chưa thực sự đảm bảo.\r\n\r\nTrước hết, nói về cơ sở vật chất dùng cho việc dạy và học, để đảm bảo một phòng học đủ chuẩn chỉ học thôi đã khó vì quĩ đất xây dựng ngày càng hạn hẹp. Nhất là đối với thành phố hoặc nơi tập trung các khu công nghiệp.\r\n\r\nViệc một căn phòng vừa là giảng đường vừa để sinh hoạt ăn ngủ nên rất khó đảm bảo những yêu cầu tối thiểu. Tại các trường mầm non, sau giờ học, đến giờ ăn, các cô đành lau chùi vội vã rồi trải thảm hoặc dùng luôn thảm cũ cho các con ngủ.\r\n\r\nVới học sinh tiểu học, việc này có khá hơn, nghĩa là các lớp đều được trang bị bàn học đa năng, học hành, ăn uống xong là ngả bàn ra ngủ.\r\n\r\nThứ hai, về chất lượng bữa ăn của học sinh. Trước đây, nhà trường chủ động mua thực phẩm về rồi thuê người nấu, trực tiếp giám sát và chịu hoàn toàn trách nhiệm.\r\n\r\nThế nhưng gần đây, dưới sự “chỉ thầu” của trên, phần đa các trường mua cơm do các công ty kinh doanh lĩnh vực này đảm nhiệm.\r\n\r\nTại sao lai dùng từ “chỉ thầu”? Lý do là bởi gần đây, các công ty kinh doanh lĩnh vực này mọc lên nhan nhản. Họ, bằng cách này hay cách khác, sẵn sàng nhảy vào Ủy ban Quận hay Thành phố hoặc các phòng giáo dục để tiếp thi mời chào, cạnh tranh. Họ dùng mọi chiêu thức, kể cả “lo lót” cốt sao được “trúng thầu”.\r\n\r\nĐể thành công trong việc trúng thầu, họ phải lo lót đủ các cấp từ nhỏ đến to chưa kể tiền lo cho các đoàn kiểm tra bất thần kéo đến và tất nhiên, giá thành và chất lượng bữa ăn của học sinh đều phụ thuộc vào những “bước đệm“ này.\r\n\r\nHiện nay, một suất cơm bán trú của học sinh tiểu học dao động từ 16-20 ngàn đồng. Tiền thì ít ỏi là vây nhưng mỗi suất cơm phải gánh các khoản như tiền lãi, tiền công, tiền lo lót và cả phải gánh thêm cho những suất ăn không tên.\r\n\r\nĐó là có lúc, có nơi phải gánh suất ăn cho cô giáo (một số người thường có thói quen… “ăn ké” nhưng nhiều người thường đem thức ăn từ nhà đi) và cho một số học sinh “nghèo” mà ai đó tự dưng muốn “từ thiện” nhưng lại không chịu bỏ tiền túi mình ra.\r\n\r\nMột trường mà có đến vài chục suất cơm từ thiện theo kiểu “áo rách đùm áo lành” thì liệu rằng giá cơm từ 16-20 ngàn đồng sẽ còn giá trị thực là bao nhiêu?\r\n\r\nChưa hết, vì phải chi phí nhiều nên “nhà thầu” tính đến chuyện “rút lõi” nên chất lượng của bữa ăn rất kém. Có thể không đến mức cá thối, thịt ôi nhưng việc họ lựa chọn thực phẩm giá rẻ, không nguồn gốc là điều “tất văn nhiên”.\r\n\r\nThứ ba là khâu chế biến. Bếp thì không đủ điều kiện, đầu bếp và phục vụ chỉ là những người không chuyên được thuê với giá rẻ và càng ít người thì chi phí càng thấp.\r\n\r\nThế nên cơm nấu bếp điện được dỡ ra chia hàng loạt từ vài trăm đến cả ngàn suất. Thức ăn nấu cả nồi to để đảm bảo kịp giờ. Với cả ngàn suất ăn mà chỉ hơn chục người nấu nên bắt buộc họ phải làm từ sớm nên các suất cơm thường nguội ngơ nguội ngắt...\r\n\r\nCuối cùng, cái học sinh được là bữa ăn kém chất lượng. May gặp thày cô nào có tâm thì trò còn ăn hết. Thày cô lơ đãng thì cái suất cơm nguội kia rồi cũng bỏ,\r\n\r\nCòn nhiều và nhiều nữa nhưng bất an mà phu huynh khó có thể tin tưởng khi gửi con ở lại bán trú. Song, do điều kiện mà họ đành tặc lưỡi chấp nhận.\r\n\r\nMong rằng chính quyền địa phương cũng như ngành giáo dục hãy thật sự vì tương lai con em chúng ta, đừng vì cách này hay cách khác mà rút lõi bữa ăn của các cháu.\r\n\r\nHãy nuôi con khỏe trước khi dạy con ngoan. Đừng để các con suy dinh dưỡng trước khi trang bị hành trang kiến thức.\r\n\r\nĐọc những tâm sự của người ttrong cuộc, người viết bài này không khỏi thốt lên: Ôi! Bữa cơm bán trú sao lắm… “tủi hờn”!",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2Fe7fb79c9-a82c-46a0-bae8-b82d77f7636c.jpg?alt=media",
+                            Tilte = "Bữa cơm bán trú “tủi hờn” qua cái nhìn trong cuộc"
                         },
                         new
                         {
                             ID = 8,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9094),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 8"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4598),
+                            Description = "Bước vào năm học mới 2021 – 2022, bên cạnh việc hoàn thành các nhiệm vụ chuyên môn, nâng cao chất lượng giảng dạy, các trường tiểu học trên địa bàn Hải Phòng tập trung xây dựng phương án, triển khai tổ chức ăn bán trú theo nhu cầu của phụ huynh.\r\n\r\nViệc tổ chức ăn bán trú đáp ứng đầy đủ các yếu tố như nguồn thực phẩm sạch, bữa ăn đảm bảo vệ sinh an toàn thực phẩm và dinh dưỡng phù hợp với sự phát triển thể chất của học sinh.\r\n\r\nHiện nay, các trường tiểu học trên địa bàn Hải Phòng đa số bố trí bếp ăn trong trường, tuy nhiên một số trường lựa chọn hợp tác cùng các đơn vị cung cấp suất ăn do điều kiện cơ sở vật chất hạn chế.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2F71d94302-17a7-4a56-a4df-fb4d9956c2c2.jpg?alt=media",
+                            Tilte = "Quy trình lựa chọn đơn vị cung cấp suất ăn bán trú ra sao để đảm bảo an toàn?"
                         },
                         new
                         {
                             ID = 9,
-                            Date = new DateTime(2024, 3, 22, 1, 24, 27, 23, DateTimeKind.Local).AddTicks(9095),
-                            Description = "Tự động hóa việc quản lý suất ăn bán trú cho trẻ em tiểu học với MMC System\r\n\r\nMMC System là một nền tảng quản lý suất ăn bán trú được thiết kế để giúp các trường tiểu học dễ dàng tổ chức và theo dõi thực đơn, đặt hàng, và ghi nhận thông tin liên quan đến việc cung cấp suất ăn cho học sinh một cách hiệu quả.\r\n\r\n### 1. Tính Tiện Ích và Linh Hoạt\r\n\r\nMMC System mang lại trải nghiệm quản lý linh hoạt và tiện ích cho những người đảm nhận việc quản lý suất ăn bán trú. Với giao diện người dùng thân thiện, bạn có thể dễ dàng xác định các thực đơn, theo dõi số lượng suất ăn, và quản lý thông tin học sinh một cách hiệu quả.\r\n\r\n### 2. Quản Lý Thực Đơn Hiệu Quả\r\n\r\nMMC System cho phép bạn tạo và quản lý các thực đơn dựa trên các yếu tố như chế độ ăn, loại thực phẩm, và các yêu cầu dinh dưỡng. Điều này giúp đảm bảo rằng học sinh nhận được bữa ăn cân đối và phù hợp với nhu cầu dinh dưỡng của họ.\r\n\r\n### 3. Đặt Hàng và Theo Dõi Chi Tiết\r\n\r\nKhông còn phải lo lắng về việc đặt hàng và theo dõi số lượng suất ăn cần chuẩn bị. MMC System cung cấp chức năng đặt hàng tự động dựa trên số lượng học sinh và thực đơn đã chọn. Bạn có thể dễ dàng theo dõi và điều chỉnh đơn đặt hàng của mình thông qua giao diện đơn giản và thuận tiện.\r\n\r\n### 4. Thông Tin Học Sinh Đầy Đủ\r\n\r\nMỗi học sinh đều có một hồ sơ chi tiết trong hệ thống, nơi bạn có thể xem xét thông tin về thực đơn ưa thích, dị ứng thực phẩm, và bất kỳ yêu cầu dinh dưỡng nào khác. Điều này giúp đảm bảo rằng mọi bữa ăn đều đáp ứng đúng nhu cầu cụ thể của từng học sinh.\r\n\r\n### 5. Bảo Mật và Dữ Liệu An Toàn\r\n\r\nMMC System cam kết bảo vệ an toàn thông tin cá nhân và dữ liệu về dinh dưỡng. Với các biện pháp bảo mật hàng đầu, bạn có thể yên tâm rằng dữ liệu của bạn được bảo vệ chặt chẽ.\r\n\r\nKhám phá MMC System ngay hôm nay để trải nghiệm sự tiện lợi và linh hoạt trong việc quản lý suất ăn bán trú, giúp tăng cường chất lượng cuộc sống học đường và đảm bảo sức khỏe của học sinh.",
-                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/images%2Fintro.jpg?alt=media&token=4b9098af-363d-4162-91af-1eeb6e709aaa",
-                            Tilte = "Blog 9"
+                            Date = new DateTime(2024, 3, 25, 6, 25, 17, 943, DateTimeKind.Local).AddTicks(4599),
+                            Description = "Xác định tầm quan trọng của công tác an toàn thực phẩm (ATTP) trong trường học, Ban giám hiệu Trường Tiểu học Thọ Sơn sát sao trong việc lựa chọn nhà cung cấp thực phẩm cũng như quy trình chế biến. Cô giáo Lê Thị Hồng Yến - Hiệu trưởng nhà trường cho biết: \"Việc đảm bảo ATTP luôn được chúng tôi thực hiện đúng theo quy định. Trường đã lựa chọn những nhà cung cấp thực phẩm uy tín, địa chỉ rõ ràng và có chứng nhận cơ sở đủ điều kiện ATTP để ký hợp đồng cam kết trách nhiệm đầy đủ. Đặc biệt, trường phối hợp cùng phụ huynh học sinh thường xuyên giám sát nguồn thực phẩm đầu vào, quy trình chế biến, chất lượng bữa ăn,… đảm bảo các suất ăn của học sinh đủ chất, đủ lượng, an toàn, thực đơn cũng được thay đổi đa dạng theo mùa để đảm bảo dinh dưỡng tốt nhất cho học sinh. Nhờ đó, việc tổ chức ăn bán trú tại trường luôn được các bậc phụ huynh tin tưởng và ủng hộ.\r\n\r\nTrường Mầm non Nông Trang cũng là trường thực hiện tốt công tác ăn bán trú cho học sinh. Nhà trường có sáu nhân viên nuôi dưỡng, 100% nhân viên đều có kiến thức về vệ sinh ATTP theo quy định. Hằng năm nhân viên cấp dưỡng được tham gia các lớp tập huấn kiến thức ATTP, khám sức khỏe định kỳ. Cô giáo Nguyễn Bạch Yến - Hiệu trưởng nhà trường chia sẻ: Đối với bậc mầm non thì song song với nhiệm vụ giáo dục, công tác chăm sóc, nuôi dưỡng trẻ có vai trò rất quan trọng, trong đó việc đảm bảo vệ sinh ATTP bếp ăn luôn là vấn đề được nhà trường đặt lên hàng đầu. Hằng năm, vào đầu năm học, Ban giám hiệu nhà trường phối hợp với Ban đại diện cha mẹ học sinh tiến hành khảo sát toàn bộ đầu mối thực phẩm để lựa chọn nguồn thực phẩm đảm bảo chất lượng, an toàn. Ngoài ra, nhà trường và Ban đại diện cha mẹ học sinh luôn giám sát chặt chẽ quá trình tổ chức bán trú, nhờ đó đảm bảo các suất ăn của học sinh đủ chất, đủ lượng, an toàn. Chất lượng nuôi dưỡng trẻ ngày càng tăng lên, tỉ lệ bé khỏe cuối năm đều tăng so với đầu năm, đạt trên 96%.\r\n\r\nĐể nâng cao chất lượng chăm sóc, nuôi dưỡng trẻ, Phòng Giáo dục và Đào tạo (GD&ĐT) thành phố Việt Trì chỉ đạo sát sao các trường trong công tác vệ sinh, tổ chức bán trú. Các trường học có bếp ăn bán trú tăng cường công tác y tế, vệ sinh môi trường trường học để phòng, chống, ngăn chặn các bệnh lây truyền; huy động đội ngũ nhà giáo, cán bộ quản lý giáo dục, học sinh tham gia vệ sinh khuôn viên sân trường, khai thông cống rãnh, thu gom rác thải, vệ sinh khử khuẩn lớp học.",
+                            Img = "https://firebasestorage.googleapis.com/v0/b/mmcsytem.appspot.com/o/blog%2Fb5875b1a-cee0-49e4-9f16-0d778dbf494a.jpg?alt=media",
+                            Tilte = "Bảo đảm chất lượng bữa ăn bán trú cho học sinh"
                         });
                 });
 
@@ -758,6 +758,194 @@ namespace Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Data.Models.Ingredient", b =>
+                {
+                    b.Property<int>("IngredientId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IngredientId"), 1L, 1);
+
+                    b.Property<DateTime>("DateImport")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("EducationId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IngredientName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int?>("SupplierId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Unit")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("UnitImport")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("UnitInStock")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("IngredientId");
+
+                    b.HasIndex("EducationId");
+
+                    b.HasIndex("SupplierId");
+
+                    b.ToTable("Ingredient", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            IngredientId = 1,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Rau cải",
+                            Price = 5000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 10m,
+                            UnitInStock = 10m
+                        },
+                        new
+                        {
+                            IngredientId = 2,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Rau bắp cải",
+                            Price = 10000m,
+                            SupplierId = 1,
+                            Unit = "kg",
+                            UnitImport = 10m,
+                            UnitInStock = 10m
+                        },
+                        new
+                        {
+                            IngredientId = 3,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Đậu phụ",
+                            Price = 5000m,
+                            SupplierId = 1,
+                            Unit = "Miếng",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        },
+                        new
+                        {
+                            IngredientId = 4,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt lợn",
+                            Price = 100000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 20m,
+                            UnitInStock = 20m
+                        },
+                        new
+                        {
+                            IngredientId = 5,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt bò",
+                            Price = 200000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        },
+                        new
+                        {
+                            IngredientId = 6,
+                            DateImport = new DateTime(2024, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt gà",
+                            Price = 100000m,
+                            SupplierId = 2,
+                            Unit = "Kg",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        },
+                        new
+                        {
+                            IngredientId = 7,
+                            DateImport = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Rau cải",
+                            Price = 5000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 10m,
+                            UnitInStock = 10m
+                        },
+                        new
+                        {
+                            IngredientId = 8,
+                            DateImport = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Rau bắp cải",
+                            Price = 10000m,
+                            SupplierId = 1,
+                            Unit = "kg",
+                            UnitImport = 10m,
+                            UnitInStock = 10m
+                        },
+                        new
+                        {
+                            IngredientId = 9,
+                            DateImport = new DateTime(2024, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Đậu phụ",
+                            Price = 5000m,
+                            SupplierId = 1,
+                            Unit = "Miếng",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        },
+                        new
+                        {
+                            IngredientId = 10,
+                            DateImport = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt lợn",
+                            Price = 100000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 20m,
+                            UnitInStock = 20m
+                        },
+                        new
+                        {
+                            IngredientId = 11,
+                            DateImport = new DateTime(2024, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt bò",
+                            Price = 200000m,
+                            SupplierId = 1,
+                            Unit = "Kg",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        },
+                        new
+                        {
+                            IngredientId = 12,
+                            DateImport = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            IngredientName = "Thịt gà",
+                            Price = 100000m,
+                            SupplierId = 2,
+                            Unit = "Kg",
+                            UnitImport = 30m,
+                            UnitInStock = 30m
+                        });
+                });
+
             modelBuilder.Entity("Data.Models.MealPlan", b =>
                 {
                     b.Property<int>("MealPlanID")
@@ -769,8 +957,14 @@ namespace Data.Migrations
                     b.Property<int>("ClassTypeId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("DatePlan")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("EducationId")
+                        .HasColumnType("int");
 
                     b.Property<string>("MealPlanName")
                         .HasColumnType("nvarchar(max)");
@@ -783,6 +977,358 @@ namespace Data.Migrations
                     b.HasIndex("MealTypeId");
 
                     b.ToTable("MealPlan", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            MealPlanID = 1,
+                            ClassTypeId = 1,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em ở độ tuổi lớp 1 cần có một chế độ ăn uống vào buổi sáng cân đối và giàu dinh dưỡng thúc đẩy tăng trưởng chiều cao.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 1",
+                            MealTypeId = 1
+                        },
+                        new
+                        {
+                            MealPlanID = 2,
+                            ClassTypeId = 1,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em ở độ tuổi lớp 1 cần có một chế độ ăn uống vào buổi trưa hợp lý cân đối và giàu dinh dưỡng.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 1",
+                            MealTypeId = 2
+                        },
+                        new
+                        {
+                            MealPlanID = 3,
+                            ClassTypeId = 1,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Thức ăn tráng miệng đầy chất sơ cho trẻ",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 1",
+                            MealTypeId = 3
+                        },
+                        new
+                        {
+                            MealPlanID = 4,
+                            ClassTypeId = 2,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 2 cần có bữa sáng cung cấp đủ dinh dưỡng để hỗ trợ sự phát triển và học tập.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 2",
+                            MealTypeId = 1
+                        },
+                        new
+                        {
+                            MealPlanID = 5,
+                            ClassTypeId = 2,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 2 cần có bữa trưa cung cấp đủ dinh dưỡng để hỗ trợ sự phát triển và học tập.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 2",
+                            MealTypeId = 2
+                        },
+                        new
+                        {
+                            MealPlanID = 6,
+                            ClassTypeId = 2,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Thức ăn tráng miệng đầy chất sơ cho trẻ",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 2",
+                            MealTypeId = 3
+                        },
+                        new
+                        {
+                            MealPlanID = 7,
+                            ClassTypeId = 3,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 3 cần có bữa tối cung cấp đủ năng lượng và dinh dưỡng để hỗ trợ sự phát triển và hoạt động học tập.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 3",
+                            MealTypeId = 1
+                        },
+                        new
+                        {
+                            MealPlanID = 8,
+                            ClassTypeId = 3,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 3 cần có bữa tối cung cấp đủ năng lượng và dinh dưỡng để hỗ trợ sự phát triển và hoạt động học tập.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 3",
+                            MealTypeId = 2
+                        },
+                        new
+                        {
+                            MealPlanID = 9,
+                            ClassTypeId = 3,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Thức ăn tráng miệng đầy chất sơ cho trẻ",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 3",
+                            MealTypeId = 3
+                        },
+                        new
+                        {
+                            MealPlanID = 10,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 4 đang trong giai đoạn phát triển nhanh chóng, cần có bữa sáng cung cấp đủ dinh dưỡng và năng lượng.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 4",
+                            MealTypeId = 1
+                        },
+                        new
+                        {
+                            MealPlanID = 11,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 4 đang trong giai đoạn phát triển nhanh chóng, cần có bữa trưa cung cấp đủ dinh dưỡng và năng lượng.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 4",
+                            MealTypeId = 2
+                        },
+                        new
+                        {
+                            MealPlanID = 12,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Thức ăn tráng miệng đầy chất sơ cho trẻ",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 4",
+                            MealTypeId = 3
+                        },
+                        new
+                        {
+                            MealPlanID = 13,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 5 cần có bữa sáng cung cấp chế độ ăn uống cân đối và giàu dinh dưỡng để duy trì sức khỏe và năng lượng suốt cả ngày.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 5",
+                            MealTypeId = 1
+                        },
+                        new
+                        {
+                            MealPlanID = 14,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Trẻ em lớp 5 cần có ở bữa trưa cung cấp chế độ ăn uống cân đối và giàu dinh dưỡng để duy trì sức khỏe và năng lượng suốt cả ngày.",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 5",
+                            MealTypeId = 2
+                        },
+                        new
+                        {
+                            MealPlanID = 15,
+                            ClassTypeId = 4,
+                            DatePlan = new DateTime(2024, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Thức ăn tráng miệng đầy chất sơ cho trẻ",
+                            EducationId = 1,
+                            MealPlanName = "Kế hoạch ăn uống cho trẻ em lớp 5",
+                            MealTypeId = 3
+                        });
+                });
+
+            modelBuilder.Entity("Data.Models.MealPlanDetail", b =>
+                {
+                    b.Property<int>("MealPlanID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DishId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal?>("Quantity")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("MealPlanID", "DishId");
+
+                    b.HasIndex("DishId");
+
+                    b.ToTable("MealPlanDetail", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            MealPlanID = 1,
+                            DishId = 1,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 4,
+                            DishId = 1,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 7,
+                            DishId = 1,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 10,
+                            DishId = 1,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 13,
+                            DishId = 1,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 2,
+                            DishId = 9,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 2,
+                            DishId = 10,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 2,
+                            DishId = 13,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 2,
+                            DishId = 28,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 3,
+                            DishId = 34,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 5,
+                            DishId = 9,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 5,
+                            DishId = 10,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 5,
+                            DishId = 13,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 5,
+                            DishId = 28,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 6,
+                            DishId = 34,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 8,
+                            DishId = 9,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 8,
+                            DishId = 10,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 8,
+                            DishId = 13,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 8,
+                            DishId = 28,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 9,
+                            DishId = 34,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 11,
+                            DishId = 9,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 11,
+                            DishId = 10,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 11,
+                            DishId = 13,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 11,
+                            DishId = 28,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 12,
+                            DishId = 34,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 14,
+                            DishId = 9,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 14,
+                            DishId = 10,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 14,
+                            DishId = 13,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 14,
+                            DishId = 28,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            MealPlanID = 15,
+                            DishId = 34,
+                            Quantity = 1m
+                        });
                 });
 
             modelBuilder.Entity("Data.Models.MealType", b =>
@@ -824,6 +1370,329 @@ namespace Data.Migrations
                             Id = 3,
                             EducationId = 1,
                             Name = "Tráng miệng"
+                        });
+                });
+
+            modelBuilder.Entity("Data.Models.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
+
+                    b.Property<int>("ClassId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EducationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MealPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Note")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderId");
+
+                    b.HasIndex("ClassId");
+
+                    b.HasIndex("EducationId");
+
+                    b.HasIndex("MealPlanId");
+
+                    b.ToTable("Order", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            OrderId = 1,
+                            ClassId = 1,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 1,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 2,
+                            ClassId = 2,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 1,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 3,
+                            ClassId = 3,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 1,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 4,
+                            ClassId = 4,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 2,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 5,
+                            ClassId = 5,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 2,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 6,
+                            ClassId = 6,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 2,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 7,
+                            ClassId = 7,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 3,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 8,
+                            ClassId = 8,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 3,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 9,
+                            ClassId = 9,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 3,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 10,
+                            ClassId = 10,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 4,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 11,
+                            ClassId = 11,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 4,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 12,
+                            ClassId = 12,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 4,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 13,
+                            ClassId = 6,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 5,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 14,
+                            ClassId = 14,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 5,
+                            Note = "",
+                            Quantity = 30
+                        },
+                        new
+                        {
+                            OrderId = 15,
+                            ClassId = 15,
+                            Date = new DateTime(2024, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EducationId = 1,
+                            MealPlanId = 5,
+                            Note = "",
+                            Quantity = 30
+                        });
+                });
+
+            modelBuilder.Entity("Data.Models.Supplier", b =>
+                {
+                    b.Property<int>("SupplierId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SupplierId"), 1L, 1);
+
+                    b.Property<int?>("EducationId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SupplierName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SupplierId");
+
+                    b.HasIndex("EducationId");
+
+                    b.ToTable("Supplier", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            SupplierId = 1,
+                            EducationId = 1,
+                            Email = "info@thucphamsach.com",
+                            Phone = "0987654321",
+                            SupplierName = "Công ty Thực phẩm Sạch"
+                        },
+                        new
+                        {
+                            SupplierId = 2,
+                            EducationId = 1,
+                            Email = "nguyenlieuxanh@gmail.com",
+                            Phone = "0912345678",
+                            SupplierName = "Nhà cung cấp Nguyên liệu Xanh"
+                        },
+                        new
+                        {
+                            SupplierId = 3,
+                            EducationId = 1,
+                            Email = "info@thucphamhuuco.com",
+                            Phone = "0909090909",
+                            SupplierName = "Công ty Thực phẩm Hữu cơ"
+                        },
+                        new
+                        {
+                            SupplierId = 4,
+                            EducationId = 1,
+                            Email = "info@thucphamhaisan.com",
+                            Phone = "0977123456",
+                            SupplierName = "Công ty Thực phẩm Hải sản tươi"
+                        },
+                        new
+                        {
+                            SupplierId = 5,
+                            EducationId = 1,
+                            Email = "rausachorganic@gmail.com",
+                            Phone = "0967123456",
+                            SupplierName = "Nhà cung cấp Rau sạch Organic"
+                        },
+                        new
+                        {
+                            SupplierId = 6,
+                            EducationId = 1,
+                            Email = "info@thucphamchay.com",
+                            Phone = "0968123456",
+                            SupplierName = "Công ty Thực phẩm Chay"
+                        },
+                        new
+                        {
+                            SupplierId = 7,
+                            EducationId = 1,
+                            Email = "thitbosach@gmail.com",
+                            Phone = "0969123456",
+                            SupplierName = "Nhà cung cấp Thịt bò sạch"
+                        },
+                        new
+                        {
+                            SupplierId = 8,
+                            EducationId = 1,
+                            Email = "info@thucphamtraicay.com",
+                            Phone = "0970123456",
+                            SupplierName = "Công ty Thực phẩm Trái cây tươi"
+                        },
+                        new
+                        {
+                            SupplierId = 9,
+                            EducationId = 1,
+                            Email = "info@thucphamnuocgiakhat.com",
+                            Phone = "0981123456",
+                            SupplierName = "Công ty Thực phẩm Nước giải khát"
+                        },
+                        new
+                        {
+                            SupplierId = 10,
+                            EducationId = 1,
+                            Email = "hatgiomgorganic@gmail.com",
+                            Phone = "0964123456",
+                            SupplierName = "Nhà cung cấp Hạt giống Organic"
+                        },
+                        new
+                        {
+                            SupplierId = 11,
+                            EducationId = 1,
+                            Email = "thucphamdonglanh@gmail.com",
+                            Phone = "0965123456",
+                            SupplierName = "Cửa hàng Thực phẩm Đông lạnh"
+                        },
+                        new
+                        {
+                            SupplierId = 12,
+                            EducationId = 1,
+                            Email = "thucphamdinhdưỡng@gmail.com",
+                            Phone = "0966123456",
+                            SupplierName = "Nhà cung cấp Thực phẩm Dinh dưỡng"
+                        },
+                        new
+                        {
+                            SupplierId = 13,
+                            EducationId = 1,
+                            Email = "info@thucphamcaocap.com",
+                            Phone = "0962123456",
+                            SupplierName = "Công ty Thực phẩm Cao cấp"
                         });
                 });
 
@@ -928,15 +1797,15 @@ namespace Data.Migrations
                         {
                             Id = new Guid("9d9d014c-af65-447a-a8c0-6475358bfff9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5488908b-13b2-40f6-89ae-fc5fa918453a",
+                            ConcurrencyStamp = "3e6a3d7d-ed52-4a4a-91f8-836be904b041",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEC+zTi1mAlDvks0P7eqtpwWG5lWD89pXDQOj2gWzWnco2Dk1oIamraPnC4Q9RdpUfA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBsAzfGD7TpAVcplhSzI8ugtsi1hWymMLdW12CslTA4ozt6CumwK9BMx+xpvQRvRZg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "c0c1a8a3-8ff7-4cae-a9f2-44eaf8860c8d",
+                            SecurityStamp = "99a72555-b048-4835-81de-492bbe7c7db6",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "SuperAdmin"
@@ -945,16 +1814,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("55d0cc53-0678-4604-b3fc-68bca03a3d44"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "03de8476-0540-4796-b9c4-b0374a567f68",
+                            ConcurrencyStamp = "d22fa4dc-2245-48b6-97ef-a8c5ef36b5c7",
                             EducationId = 1,
                             Email = "DongDa@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "DONGDA@GMAIL.COM",
                             NormalizedUserName = "DONGDA",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOWcyEBdR0DbFIEHk4VMm/+kJXtJrFgaEVjLsWsMiy5/jdzABdc3AbXIq3lBv2kcXQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELwIfXw+i5sytVHN61Nq8p82LW69V1sQIuoPwqsHPdOD2NqtDc7vIhxXvB6Jb755Iw==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "de90c26d-6b63-4d6c-9754-967728a64532",
+                            SecurityStamp = "c06fb495-7eeb-43c7-b39f-37c3a3ca16ae",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "DongDa"
@@ -963,16 +1832,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("b8ddc2e0-8b14-4c37-869e-7ca5bad4671a"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1f664ced-42e6-4a5d-9270-fd168ec5c414",
+                            ConcurrencyStamp = "22e2b51b-7907-4736-9d71-fd57dc3d88c3",
                             EducationId = 2,
                             Email = "NguyenDu@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "NGUYENDU@GMAIL.COM",
                             NormalizedUserName = "NGUYENDU",
-                            PasswordHash = "AQAAAAEAACcQAAAAEENJ3BG4vq3bMpIGlHlYLaTRYPcS5O4yA8qEWlU9QVWI1xAZd/MW2XVL2Zt6DYAecw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEErWa9UnMLcyrrB8r8wKmbilW87oEwnzXKkprQncZT/wxIzdK/pWHpPr9s5cB7iWEA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "56f9e797-8077-49f1-8c9b-70bacf40a0a7",
+                            SecurityStamp = "3e3e4833-555f-4903-94bd-29f0166832b6",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "NguyenDu"
@@ -981,16 +1850,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("c3a4a2eb-1703-4fc5-8511-f68acdb3a1d9"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e81a6619-b8d0-4cdd-834f-984f6666f374",
+                            ConcurrencyStamp = "6b9f1dfa-a828-4b7c-9d48-54fa8b15cb99",
                             EducationId = 3,
                             Email = "PhanChuTrinh@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "PHANCHUTRINH@GMAIL.COM",
                             NormalizedUserName = "PHANCHUTRINH",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAjlUuQSA/HOpOB8Lg8ZEWO2FRY5TaLwUeOt1NwxKlDh4sKGtAtxvIcco0wQa4qtXw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAKd1atDKXsYyKrlLUPqw6wyUjtKuF95QkD7mP2wrCq6U00xlzo16RLZePKx6voXtw==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "4e019189-2d95-4f79-813c-a5f7a4a69d55",
+                            SecurityStamp = "162f45c9-3a52-4987-a2ee-30e6ac83fdcb",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "PhanChuTrinh"
@@ -999,16 +1868,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("e7d19c1e-a674-4d77-978a-47bbacd6910e"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "17e6fd2a-83d6-466b-821d-77b21a9dd2d6",
+                            ConcurrencyStamp = "18036779-5c73-4b8f-aa5f-01f949bd459d",
                             EducationId = 4,
                             Email = "TranHungDao@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "TRANHUNGDAO@GMAIL.COM",
                             NormalizedUserName = "TRANHUNGDAO",
-                            PasswordHash = "AQAAAAEAACcQAAAAEC0izS9qb4OBq4ZiCWuAAtSD45p6y7elbjRWBUc+ltQZUkYBos0zXqt0MYocDUDKnQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAoA1S5xaly/eXbegovp/iqxQfZjNxHAXqBWaqMPmzt61RCz/+rFglX0lnP/A2je7g==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "caf07b3b-4f17-49f4-904c-dc8d480db169",
+                            SecurityStamp = "62aecce0-a6e2-41ee-8c89-3ec18f19d456",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "TranHungDao"
@@ -1017,16 +1886,16 @@ namespace Data.Migrations
                         {
                             Id = new Guid("b551fd08-76d9-4040-b0fa-fb2e7aacbe7d"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8f7820ff-27a0-46e3-8100-2b28e5a8944d",
+                            ConcurrencyStamp = "e6356558-bae9-4104-8e54-9fab0228c1e4",
                             EducationId = 5,
                             Email = "LeLoi@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "LELOI@GMAIL.COM",
                             NormalizedUserName = "LELOI",
-                            PasswordHash = "AQAAAAEAACcQAAAAEG8ayzycewQy4xgZDB3R8to6gna2yLioA/BNtZCRZiqlOJNnVp2WYug+dwckGLf2bg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEONqC8+Hmf2N+8jMUq7gLUJg+VDlae3m8Odv2Gty8kC24D0yJHoSd/bj7TUtiq/nCA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "c10c96c1-545c-41e7-b11a-2082b6882ba2",
+                            SecurityStamp = "beffe991-0468-4041-9956-01b7aaded2ef",
                             Status = true,
                             TwoFactorEnabled = true,
                             UserName = "LeLoi"
@@ -1037,21 +1906,20 @@ namespace Data.Migrations
                             AccessFailedCount = 0,
                             BirthDay = new DateTime(2018, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ClassId = 1,
-                            ConcurrencyStamp = "ff8a6d18-1768-4e3a-bbf2-6a4c17aba5d9",
+                            ConcurrencyStamp = "91d8b21a-6761-4895-8b53-70dc858f3469",
                             EducationId = 1,
                             Email = "Lamnt@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Nguyễn Thành Lâm",
                             LockoutEnabled = false,
                             NormalizedEmail = "LAMNT@GMAIL.COM",
-                            NormalizedUserName = "LAMNT",
+                            NormalizedUserName = "LamntDongDa10001",
                             ParentFullName = "Nguyễn Văn A",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHciQsAgvsUH0yD1QFY+zqsIAN+gBdd/1vRit2jWSv/KRckgZBtnkV7QSM9VfqYDFQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDZbGWz065wgM14Fcyxn6yblLr3jn6vz2a7NP0jC55YNe4t/cmgS67/7CGYUR62pEA==",
                             PhoneNumber = "0912345678",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "27e17922-d2d8-4e1f-ab8e-bdc532faceaa",
+                            SecurityStamp = "69e8fd8a-94f7-4fea-92eb-46257d261f3b",
                             Status = true,
-                            StudentCode = "DongDa10001",
                             TwoFactorEnabled = true,
                             UserName = "LamntDongDa10001"
                         },
@@ -1061,23 +1929,114 @@ namespace Data.Migrations
                             AccessFailedCount = 0,
                             BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ClassId = 1,
-                            ConcurrencyStamp = "e95bf500-b0d0-46fb-94e8-00778015d88b",
+                            ConcurrencyStamp = "55fa0f48-b90b-49a5-b874-4c5fda49a41d",
                             EducationId = 1,
                             Email = "Ductv@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Trần Văn Đức",
                             LockoutEnabled = false,
                             NormalizedEmail = "DUCTV@GMAIL.COM",
-                            NormalizedUserName = "DUCTV",
+                            NormalizedUserName = "DuctvDongDa10002",
                             ParentFullName = "Nguyễn Văn A",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPDlnfwIlsbvySBSpxCT3oUJ3nu5+6Li1op3+re1UGenRFUhf92ZW0cc26DLzPNPTA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGnxUO5CxKioBgToKEUFfeEZrBs15VuacjqyvnrAlj50Nq1YPbLh/XdDjdYxhVd5uQ==",
                             PhoneNumber = "0912345679",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "39a56082-084a-4574-a757-27497c58a037",
+                            SecurityStamp = "68f82b2b-33a1-4a50-aa0d-d1ad304b7673",
                             Status = true,
-                            StudentCode = "DongDa10002",
                             TwoFactorEnabled = true,
                             UserName = "DuctvDongDa10002"
+                        },
+                        new
+                        {
+                            Id = new Guid("59b4cc83-a2e2-4153-ba43-1d399cfc6b0a"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "1783acd1-fc24-498a-94e2-d64acc797ace",
+                            EducationId = 1,
+                            Email = "HuynhVu@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Vũ Văn Huynh",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "HuynhVu@GMAIL.COM",
+                            NormalizedUserName = "HuynhVu",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEySHqryt0GDI8GhE1R248hSsrtC150r5bTWK7C1UQD5iiimU4Mmc1tlKDWdq/UZkg==",
+                            PhoneNumber = "0912345679",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "b686a652-319d-4e7e-9c72-d5f0ce4c8c3f",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "HuynhVu"
+                        },
+                        new
+                        {
+                            Id = new Guid("895de26a-d181-423e-9ce0-8efddfa5562a"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "f91f51af-aa00-482e-b54e-cebc3b267e49",
+                            EducationId = 1,
+                            Email = "PhiNguyen@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Nguyễn Quốc Phi",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "PhiNguyen@GMAIL.COM",
+                            NormalizedUserName = "PhiNguyen",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPDfuOdGygil3q1dSeQfHOyTdFmWwA3PAcYlv8uPgWw8IkSsz1mclAb4Bs0Jz1DBqw==",
+                            PhoneNumber = "0912345679",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "17571926-7d84-4a3a-9bc7-c63d496dd2e3",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "PhiNguyen"
+                        },
+                        new
+                        {
+                            Id = new Guid("1b2b8425-274b-4444-93c6-44536e2aaf2d"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "5472c530-cffc-475c-b09c-ecff90cc5321",
+                            EducationId = 1,
+                            Email = "MaiVu@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Vũ Thị Mai",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MaiVu@GMAIL.COM",
+                            NormalizedUserName = "MaiVu",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAELnavnO9ofZtkQ4j6zjmOpvJneSBNp+u+anMGlwBtAqr7tyuJG/PxYpx37EHli1grQ==",
+                            PhoneNumber = "0912345679",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "8a98ade5-c301-4d2c-8ddc-b56bf9192cb2",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "MaiVu"
+                        },
+                        new
+                        {
+                            Id = new Guid("1e7f04a2-e884-469d-ba8d-421d45ee1b79"),
+                            AccessFailedCount = 0,
+                            BirthDay = new DateTime(2018, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ClassId = 1,
+                            ConcurrencyStamp = "b0a7d259-c75c-4509-8d75-fa343a7bd425",
+                            EducationId = 1,
+                            Email = "QuynhVu@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Vũ Thị Quỳnh",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "QuynhVu@GMAIL.COM",
+                            NormalizedUserName = "QuynhVu",
+                            ParentFullName = "Nguyễn Văn A",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIE2BGSxtILlEEB/veY1q/RG++pEFmApIuXeAb7P8Er1Nbf1yk8TKzlklDJhf7wfNw==",
+                            PhoneNumber = "0912345679",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "cbcad1dd-fc78-44a9-8948-55b448665109",
+                            Status = true,
+                            TwoFactorEnabled = true,
+                            UserName = "QuynhVu"
                         });
                 });
 
@@ -1112,21 +2071,21 @@ namespace Data.Migrations
                         new
                         {
                             Id = new Guid("6335deda-9f1c-43d4-908f-58073ff07896"),
-                            ConcurrencyStamp = "a9e36a2e-8c00-4115-9278-37f6e4a21add",
+                            ConcurrencyStamp = "e3cfa36b-c712-4331-b08d-df1ffac7ef4c",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("30a990c6-33c7-4884-9dcb-718ce356eb0d"),
-                            ConcurrencyStamp = "4e0bef16-a068-450b-a638-db7ce22082b1",
+                            ConcurrencyStamp = "9ca85219-8181-4282-b667-4eca7586bd11",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca"),
-                            ConcurrencyStamp = "23d157fd-3df7-4702-873d-58e35ce812ab",
+                            ConcurrencyStamp = "f1dfa591-3110-4c63-b5e7-55df1bf53c8c",
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         });
@@ -1255,6 +2214,26 @@ namespace Data.Migrations
                         {
                             UserId = new Guid("0ee3e5a7-89ed-4bd2-8729-c66311b30033"),
                             RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
+                        },
+                        new
+                        {
+                            UserId = new Guid("1e7f04a2-e884-469d-ba8d-421d45ee1b79"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
+                        },
+                        new
+                        {
+                            UserId = new Guid("1b2b8425-274b-4444-93c6-44536e2aaf2d"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
+                        },
+                        new
+                        {
+                            UserId = new Guid("895de26a-d181-423e-9ce0-8efddfa5562a"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
+                        },
+                        new
+                        {
+                            UserId = new Guid("59b4cc83-a2e2-4153-ba43-1d399cfc6b0a"),
+                            RoleId = new Guid("b8fd818f-63f1-49ee-bec5-f7b66cafbfca")
                         });
                 });
 
@@ -1314,9 +2293,31 @@ namespace Data.Migrations
                     b.Navigation("MealType");
                 });
 
+            modelBuilder.Entity("Data.Models.Ingredient", b =>
+                {
+                    b.HasOne("Data.Models.Education", "Education")
+                        .WithMany("Ingredients")
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Data.Models.Supplier", "Supplier")
+                        .WithMany("Ingredients")
+                        .HasForeignKey("SupplierId");
+
+                    b.Navigation("Education");
+
+                    b.Navigation("Supplier");
+                });
+
             modelBuilder.Entity("Data.Models.MealPlan", b =>
                 {
                     b.HasOne("Data.Models.ClassType", "ClassType")
+                        .WithMany("MealPlans")
+                        .HasForeignKey("MealTypeId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Data.Models.Education", "Education")
                         .WithMany("MealPlans")
                         .HasForeignKey("MealTypeId")
                         .OnDelete(DeleteBehavior.NoAction)
@@ -1330,13 +2331,71 @@ namespace Data.Migrations
 
                     b.Navigation("ClassType");
 
+                    b.Navigation("Education");
+
                     b.Navigation("MealType");
+                });
+
+            modelBuilder.Entity("Data.Models.MealPlanDetail", b =>
+                {
+                    b.HasOne("Data.Models.Dish", "Dish")
+                        .WithMany("MealPlanDetails")
+                        .HasForeignKey("DishId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Data.Models.MealPlan", "MealPlan")
+                        .WithMany("MealPlanDetails")
+                        .HasForeignKey("MealPlanID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Dish");
+
+                    b.Navigation("MealPlan");
                 });
 
             modelBuilder.Entity("Data.Models.MealType", b =>
                 {
                     b.HasOne("Data.Models.Education", "Education")
                         .WithMany("MealTypes")
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("Education");
+                });
+
+            modelBuilder.Entity("Data.Models.Order", b =>
+                {
+                    b.HasOne("Data.Models.Class", "Class")
+                        .WithMany("Orders")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Data.Models.Education", "Education")
+                        .WithMany("Orders")
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Data.Models.MealPlan", "MealPlan")
+                        .WithMany("Orders")
+                        .HasForeignKey("MealPlanId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Class");
+
+                    b.Navigation("Education");
+
+                    b.Navigation("MealPlan");
+                });
+
+            modelBuilder.Entity("Data.Models.Supplier", b =>
+                {
+                    b.HasOne("Data.Models.Education", "Education")
+                        .WithMany("Suppliers")
                         .HasForeignKey("EducationId")
                         .OnDelete(DeleteBehavior.NoAction);
 
@@ -1413,6 +2472,8 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Data.Models.Class", b =>
                 {
+                    b.Navigation("Orders");
+
                     b.Navigation("Users");
                 });
 
@@ -1423,15 +2484,35 @@ namespace Data.Migrations
                     b.Navigation("MealPlans");
                 });
 
+            modelBuilder.Entity("Data.Models.Dish", b =>
+                {
+                    b.Navigation("MealPlanDetails");
+                });
+
             modelBuilder.Entity("Data.Models.Education", b =>
                 {
                     b.Navigation("Classes");
 
                     b.Navigation("Dishs");
 
+                    b.Navigation("Ingredients");
+
+                    b.Navigation("MealPlans");
+
                     b.Navigation("MealTypes");
 
+                    b.Navigation("Orders");
+
+                    b.Navigation("Suppliers");
+
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("Data.Models.MealPlan", b =>
+                {
+                    b.Navigation("MealPlanDetails");
+
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("Data.Models.MealType", b =>
@@ -1439,6 +2520,11 @@ namespace Data.Migrations
                     b.Navigation("Dishs");
 
                     b.Navigation("MealPlans");
+                });
+
+            modelBuilder.Entity("Data.Models.Supplier", b =>
+                {
+                    b.Navigation("Ingredients");
                 });
 #pragma warning restore 612, 618
         }

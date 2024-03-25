@@ -1,0 +1,35 @@
+﻿@model Data.DTO.MealTypeDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Tạo loại món ăn mới</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <input type="text" asp-for="@Model.Id" id="Id" name="Id" hidden />
+                        <div>
+                            <label asp-for="Name" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Name" name="Name" asp-for="Name" required></input>
+
+                        </div>
+
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <a asp-controller="MealType" asp-action="Index" class="primary mt-3">Danh sách các loại món ăn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

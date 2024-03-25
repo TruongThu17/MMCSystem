@@ -1,0 +1,46 @@
+﻿@model Data.DTO.SupplierDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Tạo đối tác mới</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <input type="text" asp-for="SupplierId" id="SupplierId" name="SupplierId" hidden />
+                        <div>
+                            <label asp-for="SupplierName" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="SupplierName" name="SupplierName" asp-for="SupplierName" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Email" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" type="email" id="Email" name="Email" asp-for="Email" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Phone" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Phone" name="Phone" asp-for="Phone" required></input>
+
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <a asp-controller="Supplier" asp-action="Index" class="primary mt-3">Danh sách đối tác</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

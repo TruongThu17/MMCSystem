@@ -19,6 +19,7 @@ namespace Data.Configuration
             builder.Property(x => x.MealPlanName).IsRequired(false);
             builder.HasOne(x => x.MealType).WithMany(x => x.MealPlans).HasForeignKey(x => x.MealTypeId).OnDelete(DeleteBehavior.NoAction);
             builder.HasOne(x => x.ClassType).WithMany(x => x.MealPlans).HasForeignKey(x => x.MealTypeId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x => x.Education).WithMany(x => x.MealPlans).HasForeignKey(x => x.MealTypeId).OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

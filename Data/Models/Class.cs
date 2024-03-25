@@ -15,5 +15,6 @@ namespace Data.Models
         public virtual Education? Education { get; set; }
         public virtual ClassType? ClassType { get; set; }
         public virtual ICollection<User>? Users { get; set; }
+        public virtual ICollection<Order>? Orders { get; set; }
     }
 }

@@ -45,6 +45,10 @@ namespace Data.Context
             builder.ApplyConfiguration(new BlogConfiguration());
             builder.ApplyConfiguration(new EducationConfiguration());
             builder.ApplyConfiguration(new DishConfiguration());
+            builder.ApplyConfiguration(new MealTypeDetailsConfiguration());
+            builder.ApplyConfiguration(new SupplierConfiguration());
+            builder.ApplyConfiguration(new IngredientConfiguration());
+            builder.ApplyConfiguration(new OrderConfiguration());
 
             new EducationSeeder(builder).Seed();
             new ClassTypeSeeder(builder).Seed();
@@ -54,6 +58,11 @@ namespace Data.Context
             new BlogSeeder(builder).Seed();
             new MealTypeSeeder(builder).Seed();
             new DishSeeder(builder).Seed();
+            new MealPlanSeeder(builder).Seed();
+            new MealPlanDetailsSeeder(builder).Seed();
+            new SupplierSeeder(builder).Seed();
+            new IngredientSeeder(builder).Seed();
+            new OrderSeeder(builder).Seed();
             base.OnModelCreating(builder);
         }
         #region
@@ -62,10 +71,14 @@ namespace Data.Context
         public virtual DbSet<ClassType> ClassTypes { get; set; }
         public virtual DbSet<MealType> MealTypes { get; set; }
         public virtual DbSet<MealPlan> MealPlans { get; set; }
+        public virtual DbSet<MealPlanDetail> MealPlanDetails { get; set; }
         public virtual DbSet<About> Abouts { get; set; }
         public virtual DbSet<Blog> Blogs { get; set; }
         public virtual DbSet<Education> Educations { get; set; }
         public virtual DbSet<Dish> Dishs { get; set; }
+        public virtual DbSet<Supplier> Suppliers { get; set; }
+        public virtual DbSet<Ingredient> Ingredients { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
         #endregion
     }
 }

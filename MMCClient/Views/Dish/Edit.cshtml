@@ -1,0 +1,51 @@
+﻿@model Data.DTO.DishDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Tạo thông tin món ăn</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <input type="text" asp-for="@Model.DishId" id="DishId" name="DishId" hidden />
+                        <div>
+                            <label for="DishName" style="font-weight: bold;">Tên món ăn</label>
+
+                            <input class="form-control my-3" id="DishName" name="DishName" asp-for="@Model.DishName" required></input>
+
+                        </div>
+                        <div>
+                            <label for="Description" style="font-weight: bold;">Mô tả</label>
+
+                            <input class="form-control my-3" id="Description" name="Description" asp-for="@Model.Description" required></input>
+
+                        </div>
+                        <div>
+                            <label for="Nutrition" style="font-weight: bold;">Dinh dưỡng</label>
+
+                            <input class="form-control my-3" id="Nutrition" name="Nutrition" asp-for="@Model.Nutrition" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="MealTypeId" style="font-weight: bold;"></label>
+                            <select name="MealTypeId" asp-items="@ViewBag.MealTypeSelectList" asp-for="MealTypeId" class="form-control my-3" placeholder="Chọn loại món ăn" id="MealTypeId" required>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <a asp-controller="Dish" asp-action="Index" class="primary mt-3">Danh sách món ăn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

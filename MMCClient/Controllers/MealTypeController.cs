@@ -1,6 +1,8 @@
 ﻿using Data.DTO;
+using Data.Models;
 using Firebase.Storage;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MMCClient.Models;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -54,6 +56,81 @@ namespace MMCClient.Controllers
             page.CountPage = totalPageCount;
             page.CountItem = MealTypeDTOs.Count();
             return View(page);
+        }
+        public async Task<IActionResult> CreateAsync()
+        {
+            MealTypeDTO c = new MealTypeDTO();
+            return View(c);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Create([Bind("Name")] MealTypeDTO MealTypeDTO)
+        {
+
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var body = new StringContent(JsonConvert.SerializeObject(MealTypeDTO), Encoding.UTF8, "application/json");
+            var response = await client.PostAsync($"api/MealType", body);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return StatusCode(500);
+            }
+        }
+        public async Task<IActionResult> EditAsync(int id)
+        {
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var resd = await client.GetAsync("api/MealType/" + id);
+            var contentd = await resd.Content.ReadAsStringAsync();
+
+            if (!resd.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+            MealTypeDTO c = JsonConvert.DeserializeObject<MealTypeDTO>(contentd);
+            return View(c);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Edit([Bind("Id,Name")] MealTypeDTO MealTypeDTO)
+        {
+
+            var tokenBytes = HttpContext.Session.Get("Token");
+            if (tokenBytes == null || tokenBytes.Length == 0)
+            {
+                return RedirectToAction("Index", "Authen");
+            }
+            var token = Encoding.UTF8.GetString(HttpContext.Session.Get("Token"));
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var body = new StringContent(JsonConvert.SerializeObject(MealTypeDTO), Encoding.UTF8, "application/json");
+            var response = await client.PutAsync($"api/MealType/{MealTypeDTO.Id}" , body);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return StatusCode(500);
+            }
         }
     }
 }

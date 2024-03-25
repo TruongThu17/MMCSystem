@@ -224,5 +224,18 @@ namespace MMCClient.Controllers
                 return StatusCode(500);
             }
         }
+        public async Task<IActionResult> Details(int id)
+        {
+            var res = await client.GetAsync($"api/blog/blogDTO/" + id);
+            var content = await res.Content.ReadAsStringAsync();
+
+            if (!res.IsSuccessStatusCode)
+            {
+                return BadRequest();
+            }
+
+            BlogDTO blog = JsonConvert.DeserializeObject<BlogDTO>(content);
+            return View(blog);
+        }
     }
 }

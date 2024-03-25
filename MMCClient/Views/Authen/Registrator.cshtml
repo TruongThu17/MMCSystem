@@ -2,6 +2,18 @@
 @{
 	Layout = "_FullLayout";
 }
+<style>
+
+	#notification {
+		position: fixed;
+		bottom: 20px;
+		right: 10px;
+		background-color: #b3e5fc;
+		color: white;
+		padding: 15px;
+		z-index: 9999;
+	}
+</style>
 <div class="container">
 	<div class="row justify-content-center">
 		<div class="col-md-6 text-center mb-5">
@@ -16,7 +28,7 @@
 					<div class="form-group d-flex">
 		
 						<label asp-for="FullName" style="width:150px" class="control-label mt-2"></label>
-						<input id="fullname" type="fullname"  class="form-control" placeholder="Nhập họ và tên" asp-for="FullName" required>
+						<input id="fullname" type="fullname" class="form-control" placeholder="Nhập họ và tên" asp-for="FullName" required>
 					</div>
 					<div class="form-group d-flex">
 						<label asp-for="Username" style="width:150px" class="control-label mt-2"></label>
@@ -33,8 +45,8 @@
 						<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 					</div>
 					<div class="form-group d-flex">
-						<label asp-for="Phone" style="width:150px" class="control-label mt-2"></label>
-						<input id="phone" type="phone" class="form-control" placeholder="Nhập số điện thoại" asp-for="Phone" required>
+						<label asp-for="PhoneNumber" style="width:150px" class="control-label mt-2"></label>
+						<input id="PhoneNumber" type="PhoneNumber" class="form-control" placeholder="Nhập số điện thoại" asp-for="PhoneNumber" required>
 
 					</div>
 					<div class="form-group d-flex">
@@ -54,6 +66,7 @@
 					</div>
 					<div class="form-group d-flex">
 						<button class=" px-3 button-mmc" type="submit">Đăng ký</button>
+						
 					</div>
 				</form>
 				<p class="w-100 text-center">Đã có tài khoản </p>
@@ -64,3 +77,17 @@
 		</div>
 	</div>
 </div>
+<div class="card" id="notification" style="display:none;">@ViewBag.Message</div>
+<script>
+	 $(document).ready(function () {
+		if ($("#notification").length) {
+			showNotification(5000);
+		}
+    });
+	function showNotification(duration) {
+		notification.style.display = "block";
+		setTimeout(function () {
+			$('#notification').fadeOut();
+		}, duration);
+	}
+</script>

@@ -1,0 +1,55 @@
+﻿@model Data.DTO.OrderDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Tạo order suất ăn</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <div>
+                            <label asp-for="Quantity" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Quantity" name="Quantity" type="number" asp-for="Quantity" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Date" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Date" name="Date" asp-for="Date" type="datetime-local" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Note" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Note" name="Note" asp-for="Note" type="text" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="MealPlanId" style="font-weight: bold;"></label>
+                            <select name="MealPlanId" asp-items="@ViewBag.MealPLanSelectList" class="form-control my-3" placeholder="Chọn loại suất ăn" id="MealPlanId" required>
+                            </select>
+                        </div>
+                        <div>
+                            <label asp-for="ClassId" style="font-weight: bold;"></label>
+                            <select name="ClassId" asp-items="@ViewBag.ClassDTOSelectList" class="form-control my-3" placeholder="Chọn lớp" id="ClassId" required>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <a asp-controller="MealType" asp-action="Index" class="primary mt-3">Danh sách các loại món ăn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,107 @@
+﻿@model PageSz<Data.DTO.MealPLanDTO>;
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h4 class="card-title card-title-dash">Danh sách các kế hoạch ăn uống cho trẻ</h4>
+                        <p class="card-subtitle card-subtitle-dash">Bạn đang có @Model.CountItem kế hoạch</p>
+                    </div>
+
+                    <div class="row justify-content-end">
+                        <div class="col-md-7 ms-auto">
+                            <form method="get" asp-action="Index" class="d-flex">
+                                <input class="form-control me-2" type="text" placeholder="Tìm kiếm" aria-label="Search" style="height: 45px; width:250px; font-size:14px" name="search" value="@Model.searchString">
+                                <button class="btn btn-primary" style="height: 45px; width:170px;  font-size:14px" type="submit">Tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-primary btn-md text-white mb-0 ms-2" asp-action="Create" asp-controller="MealPlan" style="height: 45px; width:130px; font-size:14px">
+                                <i class="mdi mdi-account-plus me-2"></i>Tạo mới
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="table-responsive  mt-1">
+                    <table class="table select-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 16.666%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.list.FirstOrDefault().MealPlanName)</th>
+                                <th style="width: 16.666%;" class="des-text" id="des-text">@Html.DisplayNameFor(model => model.list.FirstOrDefault().Description)</th>
+                                <th style="width: 16.666%;">@Html.DisplayNameFor(model => model.list.FirstOrDefault().ClassTypeId)</th>
+                                <th style="width: 16.666%;">@Html.DisplayNameFor(model => model.list.FirstOrDefault().DatePlan)</th>
+                                <th style="width: 16.666%;">@Html.DisplayNameFor(model => model.list.FirstOrDefault().MealTypeId)</th>
+                                <th ></th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.list)
+                            {
+                                <tr>
+                                    <td>
+                                        <a class=" text-center mb-0 me-0" asp-action="Edit" asp-controller="MealPlan" asp-route-id="@item.MealPlanID">
+                                            @item.MealPlanName
+                                        </a>
+                                        
+                                    </td>
+                                    <td>
+                                        @item.Description
+                                    </td>
+                                    <td>
+                                        @item.ClassType.ClassTypeName
+                                    </td>
+                                    <td>
+                                        @item.DatePlan
+                                    </td>
+                                    <td>
+                                        @item.MealType.Name
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+                <nav aria-label="Page navigation example">
+                    @if (Model.CountPage != 1)
+                    {
+                        <ul class="pagination justify-content-end">
+                            @if (Model.PageNumber > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link mmc-color" href="@Url.Action("Index", new { pageNumber = Model.PageNumber - 1, search = Model.searchString })">Trước</a>
+                                </li>
+                            }
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    @for (int i = 1; i <= Model.CountPage; i++)
+                                    {
+                                        <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                            <a class="page-link mmc-color" href="@Url.Action("Index", new { pageNumber = i, search = Model.searchString })">@i</a>
+                                        </li>
+                                    }
+                                </ul>
+                            </nav>
+                            @if (Model.PageNumber < Model.CountPage)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link mmc-color" href="@Url.Action("Index", new { pageNumber = Model.PageNumber + 1, search = Model.searchString })">Sau</a>
+                                </li>
+                            }
+                        </ul>
+                    }
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>

@@ -40,36 +40,40 @@ namespace MMCSystemAPI.Controllers
             return Ok(ctDTO);
         }
 
-        //[HttpGet("{id}")]
-        //public ActionResult Get(int id)
-        //{
-        //    if (id == null) return BadRequest();
-        //    ClassType ClassType = repository.FindClassTypeById(id);
-        //    if (ClassType == null) return NotFound();
-        //    ClassTypeDTO ClassTypeDTO = _mapper.Map<ClassTypeDTO>(ClassType);
-        //    return Ok(ClassTypeDTO);
-        //}
-        //[HttpPost]
-        //public ActionResult Post([FromBody] ClassTypeDTO ClassTypeDTO)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        ClassType ClassType = _mapper.Map<ClassType>(ClassTypeDTO);
-        //        repository.CreateClassType(ClassType);
-        //        ClassTypeDTO.ClassTypeId = ClassType.ClassTypeId;
-        //        return Created(Request.GetDisplayUrl(), ClassTypeDTO);
-        //    }
-        //    return BadRequest(ModelState);
-        //}
-        //[HttpPut("{id}")]
-        //public ActionResult Put(int id, [FromBody] ClassTypeDTO ClassTypeDTO)
-        //{
-        //    var s = repository.FindClassTypeById(id);
-        //    if (s == null) return NotFound();
-        //    if (!ModelState.IsValid) return BadRequest(ModelState);
-        //    ClassTypeDTO.ClassTypeId = s.ClassTypeId;
-        //    repository.UpdateClassType(s);
-        //    return NoContent();
-        //}
+        [HttpGet("{id}")]
+        public ActionResult Get(int id)
+        {
+            if (id == null) return BadRequest();
+            MealType MealType = repository.FindMealTypeById(id);
+            if (MealType == null) return NotFound();
+            MealTypeDTO MealTypeDTO = _mapper.Map<MealTypeDTO>(MealType);
+            return Ok(MealTypeDTO);
+        }
+        [HttpPost]
+        public async Task<ActionResult> PostAsync([FromBody] MealTypeDTO MealTypeDTO)
+        {
+            if (ModelState.IsValid)
+            {
+                var usernameClaim = User.FindFirst(ClaimTypes.Name);
+
+                var user = await _userManager.FindByNameAsync(usernameClaim.Value);
+                MealType MealType = _mapper.Map<MealType>(MealTypeDTO);
+                MealType.EducationId = (int)user.EducationId;
+                repository.CreateMealType(MealType);
+                MealTypeDTO.Id = MealTypeDTO.Id;
+                return Created(Request.GetDisplayUrl(), MealTypeDTO);
+            }
+            return BadRequest(ModelState);
+        }
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] MealTypeDTO MealTypeDTO)
+        {
+            var s = repository.FindMealTypeById(id);
+            if (s == null) return NotFound();
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            s.Name = MealTypeDTO.Name;
+            repository.UpdateMealType(s);
+            return NoContent();
+        }
     }
 }

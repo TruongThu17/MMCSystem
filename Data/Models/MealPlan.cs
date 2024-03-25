@@ -13,9 +13,13 @@ namespace Data.Models
         public string? MealPlanName { get; set; }
         public int ClassTypeId { get; set; }
         public int MealTypeId { get; set; }
+        public int? EducationId { get; set; }
+        public DateTime? DatePlan { get; set; }
+        public virtual Education? Education { get; set; }
         public virtual MealType? MealType { get; set; }
-        public virtual ICollection<MealPlan>? MealPlans { get; set; }
+        public virtual ICollection<MealPlanDetail>? MealPlanDetails { get; set; }
         public virtual ClassType? ClassType { get; set; }
+        public virtual ICollection<Order>? Orders { get; set; }
 
     }
 }

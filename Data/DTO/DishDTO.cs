@@ -12,7 +12,7 @@ namespace Data.DTO
     {
         [DisplayName("Mã món")]
         public int DishId { get; set; }
-        [DisplayName("Tên món")]
+        [DisplayName("Tên món")] 
         public string DishName { get; set; }
         [DisplayName("Mô tả")]
         public string? Description { get; set; }

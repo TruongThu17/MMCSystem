@@ -23,7 +23,7 @@ namespace Data.DTO
         [DisplayName("Ngày sinh")]
         public DateTime? BirthDay { get; set; }
         [DisplayName("Số điện thoại")]
-        public string? Phone { get; set; }
+        public string? PhoneNumber { get; set; }
         [DisplayName("Địa chỉ")]
         public string? Address { get; set; }
         [DisplayName("Tên trường")]

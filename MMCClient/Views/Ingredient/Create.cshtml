@@ -1,0 +1,68 @@
+﻿@model Data.DTO.IngredientDTO;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Nhập hàng mới</h4>
+                        <p class="card-subtitle card-subtitle-dash"></p>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <form method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+                        <div>
+                            <label asp-for="IngredientName" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="IngredientName" name="IngredientName" asp-for="IngredientName" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Price" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Price" name="Price" asp-for="Price" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="UnitInStock" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="UnitInStock" name="UnitInStock" asp-for="UnitInStock" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="UnitImport" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="UnitImport" name="UnitImport" asp-for="UnitImport" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="Unit" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" id="Unit" name="Unit" asp-for="Unit" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="DateImport" style="font-weight: bold;"></label>
+
+                            <input class="form-control my-3" type="datetime-local" id="DateImport" name="DateImport" asp-for="DateImport" required></input>
+
+                        </div>
+                        <div>
+                            <label asp-for="SupplierId" style="font-weight: bold;"></label>
+                            <select name="SupplierId" asp-items="@ViewBag.SupplierSelectList" asp-for="SupplierId" class="form-control my-3" placeholder="Chọn đối tác" id="SupplierId" required>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-xl btn-color" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                    <a asp-controller="Ingredient" asp-action="Index" class="primary mt-3">Danh sách nhập hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
